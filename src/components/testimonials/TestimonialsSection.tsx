@@ -128,10 +128,10 @@ export const TestimonialsSection: React.FC = () => {
                       />
                     )}
                     <div>
-                      <div style={{ fontSize: '0.875rem', fontWeight: 700, color: '#FFFFFF' }}>
+                      <div style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--text-heading-secondary)' }}>
                         {t.parentName}
                       </div>
-                      <div style={{ fontSize: '0.75rem', color: '#818CF8' }}>
+                      <div style={{ fontSize: '0.75rem', color: 'var(--color-link)' }}>
                         Child: {t.childName} • {t.grade}
                       </div>
                       <div style={{ fontSize: '0.725rem', color: 'var(--text-muted)' }}>

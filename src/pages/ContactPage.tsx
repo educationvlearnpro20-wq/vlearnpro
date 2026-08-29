@@ -77,7 +77,7 @@ export const ContactPage: React.FC = () => {
           }}>
             {/* Direct Contact Channels Column */}
             <div>
-              <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '1rem' }}>
+              <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-heading-primary)', marginBottom: '1rem' }}>
                 Global Operational Hubs
               </h2>
 
@@ -94,8 +94,8 @@ export const ContactPage: React.FC = () => {
                   objectFit: 'cover',
                   borderRadius: 'var(--radius-lg)',
                   marginBottom: '1.75rem',
-                  border: '1px solid rgba(255, 255, 255, 0.15)',
-                  boxShadow: '0 15px 30px rgba(0, 0, 0, 0.4)'
+                  border: '1px solid var(--border-subtle)',
+                  boxShadow: 'var(--shadow-sm)'
                 }}
               />
 
@@ -103,18 +103,18 @@ export const ContactPage: React.FC = () => {
                 <div className="card-solid" style={{ padding: '1.25rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.35rem' }}>
                     <span style={{ fontSize: '1.25rem' }}>💬</span>
-                    <strong style={{ color: '#FFFFFF', fontSize: '0.95rem' }}>Direct WhatsApp & Admissions Hotline</strong>
+                    <strong style={{ color: 'var(--text-heading-secondary)', fontSize: '0.95rem' }}>Direct WhatsApp & Admissions Hotline</strong>
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>WhatsApp / Phone: +91 8126144847</div>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-primary)' }}>WhatsApp / Phone: +91 8126144847</div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Response Time: &lt; 5 Minutes (7 Days a Week)</div>
                 </div>
 
                 <div className="card-solid" style={{ padding: '1.25rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.35rem' }}>
                     <span style={{ fontSize: '1.25rem' }}>✉️</span>
-                    <strong style={{ color: '#FFFFFF', fontSize: '0.95rem' }}>Official Admissions Email</strong>
+                    <strong style={{ color: 'var(--text-heading-secondary)', fontSize: '0.95rem' }}>Official Admissions Email</strong>
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Email: educationvlearnpro20@gmail.com</div>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-primary)' }}>Email: educationvlearnpro20@gmail.com</div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Parent Support & Tutor Placement Inquiries</div>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export const ContactPage: React.FC = () => {
 
             {/* General Inquiry Form */}
             <div className="card-glass" style={{ padding: '2.25rem' }}>
-              <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--text-heading-primary)', marginBottom: '0.5rem' }}>
                 Send an Admissions Inquiry
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
@@ -185,10 +185,10 @@ export const ContactPage: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-heading-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -209,10 +209,10 @@ export const ContactPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -232,10 +232,10 @@ export const ContactPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -256,10 +256,10 @@ export const ContactPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -278,10 +278,10 @@ export const ContactPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -301,10 +301,10 @@ export const ContactPage: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-heading-primary)',
                         fontSize: '0.875rem',
                         outline: 'none',
                         resize: 'none'

@@ -159,7 +159,7 @@ export const FreeDemoPage: React.FC = () => {
                     Demo Class Reserved!
                   </h3>
                   <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-                    Thank you, <strong style={{ color: 'var(--text-primary)' }}>{form.parentName || 'Parent'}</strong>. Our Lead Coordinator is pairing <strong style={{ color: '#818CF8' }}>{form.studentName || 'your child'}</strong> with a top educator for <strong style={{ color: 'var(--text-primary)' }}>{form.subject} ({form.board})</strong>.
+                    Thank you, <strong style={{ color: 'var(--text-primary)' }}>{form.parentName || 'Parent'}</strong>. Our Lead Coordinator is pairing <strong style={{ color: 'var(--color-link)' }}>{form.studentName || 'your child'}</strong> with a top educator for <strong style={{ color: 'var(--text-primary)' }}>{form.subject} ({form.board})</strong>.
                   </p>
                   <button
                     type="button"

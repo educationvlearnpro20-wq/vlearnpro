@@ -65,10 +65,10 @@ export const CareersPage: React.FC = () => {
                 <span className="badge badge-indigo" style={{ marginBottom: '0.5rem' }}>
                   FACULTY APPLICATION
                 </span>
-                <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#FFFFFF', margin: 0 }}>
+                <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-heading-primary)', margin: 0 }}>
                   Apply to Become a VLearnPro Educator
                 </h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginTop: '0.35rem' }}>
+                <p style={{ fontSize: '0.875rem', color: 'var(--text-primary)', marginTop: '0.35rem' }}>
                   Top 1.8% acceptance rate • Competitive global hourly rates • Flexible timezone scheduling
                 </p>
               </div>
@@ -79,8 +79,8 @@ export const CareersPage: React.FC = () => {
                     width: '54px',
                     height: '54px',
                     borderRadius: '50%',
-                    background: 'rgba(5, 150, 105, 0.2)',
-                    color: '#10B981',
+                    background: 'var(--brand-emerald-light)',
+                    color: 'var(--color-success)',
                     display: 'inline-flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -88,17 +88,17 @@ export const CareersPage: React.FC = () => {
                   }}>
                     <CheckCircle2 size={32} />
                   </div>
-                  <h4 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                  <h4 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-heading-primary)', marginBottom: '0.5rem' }}>
                     Application Submitted!
                   </h4>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-                    Thank you, <strong style={{ color: '#FFFFFF' }}>{form.name}</strong>. Our Faculty Review Board will evaluate your credentials and contact you within 48 hours for Stage 1 screening.
+                  <p style={{ fontSize: '0.875rem', color: 'var(--text-primary)', marginBottom: '1.5rem' }}>
+                    Thank you, <strong style={{ color: 'var(--text-heading-primary)' }}>{form.name}</strong>. Our Faculty Review Board will evaluate your credentials and contact you within 48 hours for Stage 1 screening.
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                    <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                       Full Name & Academic Title *
                     </label>
                     <input
@@ -106,14 +106,14 @@ export const CareersPage: React.FC = () => {
                       required
                       value={form.name}
                       onChange={e => setForm({ ...form, name: e.target.value })}
-                      placeholder="e.g. Dr. Eleanor Campbell"
+                      placeholder="e.g. Prof. Sarah Jenkins"
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-heading-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -122,7 +122,7 @@ export const CareersPage: React.FC = () => {
 
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                         Email Address *
                       </label>
                       <input
@@ -134,10 +134,10 @@ export const CareersPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -145,7 +145,7 @@ export const CareersPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                         Phone / WhatsApp *
                       </label>
                       <input
@@ -157,10 +157,10 @@ export const CareersPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -170,7 +170,7 @@ export const CareersPage: React.FC = () => {
 
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                         Highest Qualification & University
                       </label>
                       <input
@@ -181,10 +181,10 @@ export const CareersPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -192,7 +192,7 @@ export const CareersPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                         Teaching Experience
                       </label>
                       <select
@@ -201,10 +201,10 @@ export const CareersPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: '#162032',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-heading-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -218,7 +218,7 @@ export const CareersPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                    <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                       Subjects & Curricula You Can Teach *
                     </label>
                     <input
@@ -230,10 +230,10 @@ export const CareersPage: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-heading-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}

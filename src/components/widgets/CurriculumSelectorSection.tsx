@@ -93,10 +93,10 @@ export const CurriculumSelectorSection: React.FC = () => {
 
                   <div style={{
                     padding: '0.75rem 1rem',
-                    background: 'rgba(255, 255, 255, 0.03)',
+                    background: 'var(--brand-primary-light)',
                     borderRadius: 'var(--radius-sm)',
                     fontSize: '0.8rem',
-                    color: '#818CF8',
+                    color: 'var(--color-link)',
                     fontWeight: 600,
                     marginBottom: '1.25rem'
                   }}>

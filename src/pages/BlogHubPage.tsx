@@ -62,11 +62,11 @@ export const BlogHubPage: React.FC = () => {
                     </span>
                   </div>
 
-                  <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem', lineHeight: 1.4 }}>
+                  <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.75rem', lineHeight: 1.4 }}>
                     {post.title}
                   </h2>
 
-                  <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--text-primary)', lineHeight: 1.6, marginBottom: '1.5rem' }}>
                     {post.excerpt}
                   </p>
                 </div>
@@ -74,7 +74,7 @@ export const BlogHubPage: React.FC = () => {
                 <div>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem', marginBottom: '1.25rem' }}>
                     {post.tags.map((t, i) => (
-                      <span key={i} style={{ fontSize: '0.72rem', padding: '0.15rem 0.5rem', background: 'rgba(255, 255, 255, 0.05)', borderRadius: 'var(--radius-xs)', color: '#818CF8' }}>
+                      <span key={i} style={{ fontSize: '0.72rem', padding: '0.15rem 0.5rem', background: 'var(--brand-primary-light)', borderRadius: 'var(--radius-xs)', color: 'var(--color-link)' }}>
                         #{t}
                       </span>
                     ))}
@@ -84,7 +84,7 @@ export const BlogHubPage: React.FC = () => {
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                       By {post.author.name} • {post.publishDate}
                     </div>
-                    <span style={{ color: '#818CF8', fontSize: '0.85rem', fontWeight: 600 }}>
+                    <span style={{ color: 'var(--color-link)', fontSize: '0.85rem', fontWeight: 600 }}>
                       Read Guide →
                     </span>
                   </div>

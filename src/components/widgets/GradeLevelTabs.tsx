@@ -169,7 +169,7 @@ export const GradeLevelTabs: React.FC = () => {
                   border: '1px solid rgba(255, 255, 255, 0.15)'
                 }}
               />
-              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '1rem' }}>
+              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '1rem' }}>
                 Featured Subjects in this Stage
               </h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -178,7 +178,7 @@ export const GradeLevelTabs: React.FC = () => {
                     key={i}
                     style={{
                       padding: '0.85rem 1rem',
-                      background: 'rgba(255, 255, 255, 0.04)',
+                      background: '#FFFFFF',
                       border: '1px solid var(--border-subtle)',
                       borderRadius: 'var(--radius-sm)',
                       display: 'flex',
@@ -186,11 +186,11 @@ export const GradeLevelTabs: React.FC = () => {
                       justifyContent: 'space-between',
                       fontSize: '0.9rem',
                       fontWeight: 600,
-                      color: '#FFFFFF'
+                      color: 'var(--text-primary)'
                     }}
                   >
                     <span>{sub}</span>
-                    <span style={{ fontSize: '0.75rem', color: '#818CF8' }}>1-on-1 Live →</span>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--color-link)' }}>1-on-1 Live →</span>
                   </div>
                 ))}
               </div>

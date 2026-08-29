@@ -45,16 +45,16 @@ export const LanguageLandingPage: React.FC<LanguageLandingPageProps> = ({ langua
           />
 
           <div style={{ maxWidth: '860px' }}>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'rgba(79, 70, 229, 0.15)', border: '1px solid rgba(79, 70, 229, 0.3)', borderRadius: 'var(--radius-full)', color: '#818CF8', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'var(--brand-primary-light)', border: '1px solid var(--border-medium)', borderRadius: 'var(--radius-full)', color: 'var(--brand-primary)', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
               <span>{lang.flag}</span>
               <span>{lang.levels} • 1-on-1 Certified Native Mentors</span>
             </div>
 
-            <h1 style={{ marginBottom: '1rem' }}>
+            <h1 style={{ marginBottom: '1rem', color: 'var(--text-heading-primary)' }}>
               {lang.name}
             </h1>
 
-            <p style={{ fontSize: '1.25rem', color: '#E2E8F0', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-heading-secondary)', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
               Native Language: <strong>{lang.nativeName}</strong>
             </p>
 
@@ -221,7 +221,7 @@ export const LanguageLandingPage: React.FC<LanguageLandingPageProps> = ({ langua
           <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.75rem' }}>
             Begin Your Child’s {lang.name.split(' ')[0]} Journey Today
           </h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.75rem', fontSize: '1rem' }}>
+          <p style={{ color: 'rgba(255, 255, 255, 0.9)', marginBottom: '1.75rem', fontSize: '1rem' }}>
             Book a complimentary 45-minute 1-on-1 trial class with a certified native speaker.
           </p>
           <button

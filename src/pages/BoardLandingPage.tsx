@@ -50,16 +50,16 @@ export const BoardLandingPage: React.FC<BoardLandingPageProps> = ({ boardId }) =
           />
 
           <div style={{ maxWidth: '860px' }}>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'rgba(79, 70, 229, 0.15)', border: '1px solid rgba(79, 70, 229, 0.3)', borderRadius: 'var(--radius-full)', color: '#818CF8', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'var(--brand-primary-light)', border: '1px solid var(--border-medium)', borderRadius: 'var(--radius-full)', color: 'var(--brand-primary)', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
               <Award size={14} />
               <span>{board.grades} • {board.badge}</span>
             </div>
 
-            <h1 style={{ marginBottom: '1rem' }}>
+            <h1 style={{ marginBottom: '1rem', color: 'var(--text-heading-primary)' }}>
               {board.name}
             </h1>
 
-            <p style={{ fontSize: '1.25rem', color: '#E2E8F0', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-heading-secondary)', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
               {board.tagline}
             </p>
 
@@ -152,16 +152,16 @@ export const BoardLandingPage: React.FC<BoardLandingPageProps> = ({ boardId }) =
                   width: '38px',
                   height: '38px',
                   borderRadius: 'var(--radius-sm)',
-                  background: 'rgba(79, 70, 229, 0.15)',
+                  background: 'var(--brand-primary-light)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: '#818CF8',
+                  color: 'var(--brand-primary)',
                   marginBottom: '1rem'
                 }}>
                   <CheckCircle2 size={20} />
                 </div>
-                <h3 style={{ fontSize: '1.15rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.5rem' }}>
                   {feat.title}
                 </h3>
                 <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
@@ -173,7 +173,7 @@ export const BoardLandingPage: React.FC<BoardLandingPageProps> = ({ boardId }) =
 
           {/* Curriculum Structure Stages */}
           <div>
-            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#FFFFFF', textAlign: 'center', marginBottom: '2rem' }}>
+            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-heading-primary)', textAlign: 'center', marginBottom: '2rem' }}>
               {board.shortName} Grade-by-Grade Curriculum Structure
             </h3>
 
@@ -188,21 +188,21 @@ export const BoardLandingPage: React.FC<BoardLandingPageProps> = ({ boardId }) =
                     <span className="badge badge-indigo" style={{ marginBottom: '0.75rem' }}>
                       {stg.grades}
                     </span>
-                    <h4 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                    <h4 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.5rem' }}>
                       {stg.stage}
                     </h4>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '1rem' }}>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-primary)', lineHeight: 1.5, marginBottom: '1rem' }}>
                       {stg.focus}
                     </p>
                   </div>
 
                   <div>
-                    <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#818CF8', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
+                    <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-link)', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                       Key Subjects:
                     </div>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
                       {stg.keySubjects.map((sub, i) => (
-                        <span key={i} style={{ padding: '0.2rem 0.5rem', background: 'rgba(255, 255, 255, 0.05)', borderRadius: 'var(--radius-xs)', fontSize: '0.75rem', color: '#E2E8F0' }}>
+                        <span key={i} style={{ padding: '0.2rem 0.5rem', background: 'var(--brand-primary-light)', borderRadius: 'var(--radius-xs)', fontSize: '0.75rem', color: 'var(--text-primary)' }}>
                           {sub}
                         </span>
                       ))}
@@ -255,7 +255,7 @@ export const BoardLandingPage: React.FC<BoardLandingPageProps> = ({ boardId }) =
           <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.75rem' }}>
             Ready to Master {board.shortName} with Confidence?
           </h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.75rem', fontSize: '1rem' }}>
+          <p style={{ color: 'rgba(255, 255, 255, 0.9)', marginBottom: '1.75rem', fontSize: '1rem' }}>
             Book a complimentary 45-minute diagnostic session with our certified {board.shortName} faculty.
           </p>
           <button

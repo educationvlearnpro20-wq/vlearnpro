@@ -42,7 +42,7 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ slug }) => {
               </h1>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-                <span>By <strong style={{ color: '#FFFFFF' }}>{post.author.name}</strong> ({post.author.role})</span>
+                <span>By <strong style={{ color: 'var(--text-heading-secondary)' }}>{post.author.name}</strong> ({post.author.role})</span>
                 <span>•</span>
                 <span>Published {post.publishDate}</span>
               </div>
@@ -52,7 +52,7 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ slug }) => {
             <div style={{
               fontSize: '1.05rem',
               lineHeight: 1.75,
-              color: '#CBD5E1',
+              color: 'var(--text-primary)',
               display: 'flex',
               flexDirection: 'column',
               gap: '1.5rem',
@@ -61,13 +61,13 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ slug }) => {
               {post.content.map((paragraph, idx) => {
                 if (paragraph.startsWith('### ')) {
                   return (
-                    <h2 key={idx} style={{ fontSize: '1.4rem', fontWeight: 700, color: '#FFFFFF', marginTop: '1rem', marginBottom: '0.25rem' }}>
+                    <h2 key={idx} style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginTop: '1rem', marginBottom: '0.25rem' }}>
                       {paragraph.replace('### ', '')}
                     </h2>
                   );
                 }
                 return (
-                  <p key={idx} style={{ color: '#CBD5E1', fontSize: '1.025rem' }}>
+                  <p key={idx} style={{ color: 'var(--text-primary)', fontSize: '1.025rem' }}>
                     {paragraph}
                   </p>
                 );
@@ -77,13 +77,14 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ slug }) => {
             {/* Lead Magnet CTA inside Article */}
             <div style={{
               padding: '2rem',
-              background: 'linear-gradient(135deg, rgba(79, 70, 229, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%)',
-              border: '1px solid rgba(255, 255, 255, 0.15)',
+              background: 'var(--bg-card)',
+              border: '1px solid var(--border-subtle)',
               borderRadius: 'var(--radius-lg)',
+              boxShadow: 'var(--shadow-sm)',
               marginBottom: '3rem',
               textAlign: 'center'
             }}>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-heading-primary)', marginBottom: '0.5rem' }}>
                 Get Expert 1-on-1 Guidance for Your Child
               </h3>
               <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginBottom: '1.25rem' }}>
@@ -105,7 +106,7 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ slug }) => {
               <button
                 type="button"
                 onClick={() => navigateTo({ type: 'blog' })}
-                style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: '#818CF8', cursor: 'pointer', fontSize: '0.875rem' }}
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-link)', cursor: 'pointer', fontSize: '0.875rem' }}
               >
                 <ArrowLeft size={16} />
                 <span>Back to All Guides</span>

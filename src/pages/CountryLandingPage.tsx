@@ -63,16 +63,16 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
             alignItems: 'center'
           }}>
             <div>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'rgba(5, 150, 105, 0.15)', border: '1px solid rgba(5, 150, 105, 0.3)', borderRadius: 'var(--radius-full)', color: '#6EE7B7', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'var(--brand-emerald-light)', border: '1px solid var(--border-medium)', borderRadius: 'var(--radius-full)', color: 'var(--color-success)', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
                 <span>{country.flag}</span>
                 <span>LOCALIZED FOR {country.name.toUpperCase()} • {country.timezone}</span>
               </div>
 
-              <h1 style={{ marginBottom: '1rem' }}>
+              <h1 style={{ marginBottom: '1rem', color: 'var(--text-heading-primary)' }}>
                 Online Tuition Classes in {country.name}
               </h1>
 
-              <p style={{ fontSize: '1.25rem', color: '#E2E8F0', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
+              <p style={{ fontSize: '1.25rem', color: 'var(--text-heading-secondary)', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
                 {country.tagline}
               </p>
 
@@ -184,11 +184,11 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
                 <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#EF4444', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                   Local Problem #{idx + 1}
                 </div>
-                <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem', lineHeight: 1.4 }}>
+                <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.75rem', lineHeight: 1.4 }}>
                   {item.pain}
                 </h4>
                 <div style={{ borderTop: '1px solid var(--border-subtle)', paddingTop: '0.75rem' }}>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#10B981', textTransform: 'uppercase', marginBottom: '0.35rem' }}>
+                  <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-success)', textTransform: 'uppercase', marginBottom: '0.35rem' }}>
                     VLearnPro Solution
                   </div>
                   <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
@@ -202,24 +202,25 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
           {/* Featured Student Success Story in this Country */}
           <div style={{
             padding: '2.5rem',
-            background: 'linear-gradient(135deg, rgba(79, 70, 229, 0.15) 0%, rgba(5, 150, 105, 0.12) 100%)',
-            border: '1px solid rgba(255, 255, 255, 0.15)',
-            borderRadius: 'var(--radius-xl)'
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border-subtle)',
+            borderRadius: 'var(--radius-xl)',
+            boxShadow: 'var(--shadow-md)'
           }}>
             <div style={{ display: 'flex', gap: '0.35rem', marginBottom: '1rem' }}>
               {[...Array(5)].map((_, i) => (
-                <Star key={i} size={16} fill="#F59E0B" color="#F59E0B" />
+                <Star key={i} size={16} fill="var(--color-warning)" color="var(--color-warning)" />
               ))}
             </div>
-            <p style={{ fontSize: '1.15rem', color: '#FFFFFF', fontStyle: 'italic', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+            <p style={{ fontSize: '1.15rem', color: 'var(--text-heading-primary)', fontStyle: 'italic', lineHeight: 1.6, marginBottom: '1.5rem' }}>
               "{country.studentQuote.quote}"
             </p>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
               <div>
-                <div style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF' }}>
+                <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-heading-primary)' }}>
                   {country.studentQuote.student}
                 </div>
-                <div style={{ fontSize: '0.85rem', color: '#818CF8' }}>
+                <div style={{ fontSize: '0.85rem', color: 'var(--color-link)' }}>
                   {country.studentQuote.school} • {country.studentQuote.city}
                 </div>
               </div>

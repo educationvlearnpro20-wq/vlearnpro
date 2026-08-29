@@ -69,16 +69,16 @@ export const SubjectLandingPage: React.FC<SubjectLandingPageProps> = ({ subjectI
             alignItems: 'center'
           }}>
             <div>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'rgba(79, 70, 229, 0.15)', border: '1px solid rgba(79, 70, 229, 0.3)', borderRadius: 'var(--radius-full)', color: '#818CF8', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '0.35rem 0.85rem', background: 'var(--brand-primary-light)', border: '1px solid var(--border-medium)', borderRadius: 'var(--radius-full)', color: 'var(--brand-primary)', fontSize: '0.8rem', fontWeight: 600, marginBottom: '1rem' }}>
                 <Zap size={14} />
                 <span>{subject.grades} • 1-on-1 Personalized Live Classes</span>
               </div>
 
-              <h1 style={{ marginBottom: '1rem' }}>
+              <h1 style={{ marginBottom: '1rem', color: 'var(--text-heading-primary)' }}>
                 {subject.name}
               </h1>
 
-              <p style={{ fontSize: '1.25rem', color: '#E2E8F0', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
+              <p style={{ fontSize: '1.25rem', color: 'var(--text-heading-secondary)', fontWeight: 500, marginBottom: '1.25rem', lineHeight: 1.5 }}>
                 {subject.tagline}
               </p>
 
@@ -279,7 +279,7 @@ export const SubjectLandingPage: React.FC<SubjectLandingPageProps> = ({ subjectI
           <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.75rem' }}>
             Transform Your Child’s {subject.name.replace('Online', '')} Scores Today
           </h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.75rem', fontSize: '1rem' }}>
+          <p style={{ color: 'rgba(255, 255, 255, 0.9)', marginBottom: '1.75rem', fontSize: '1rem' }}>
             Book a complimentary 45-minute diagnostic session with our certified {subject.name.split(' ')[1] || 'subject'} educators.
           </p>
           <button

@@ -88,25 +88,25 @@ export const BoardsHubPage: React.FC = () => {
                       <span className="badge badge-indigo">
                         {b.grades}
                       </span>
-                      <span style={{ fontSize: '0.75rem', color: '#10B981', fontWeight: 600 }}>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--color-success)', fontWeight: 600 }}>
                         {b.badge}
                       </span>
                     </div>
 
-                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.5rem' }}>
                       {b.name}
                     </h2>
 
-                    <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
+                    <p style={{ fontSize: '0.875rem', color: 'var(--text-primary)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
                       {b.description}
                     </p>
 
                     <div style={{
                       padding: '0.75rem 1rem',
-                      background: 'rgba(255, 255, 255, 0.03)',
+                      background: 'var(--brand-primary-light)',
                       borderRadius: 'var(--radius-sm)',
                       fontSize: '0.8rem',
-                      color: '#818CF8',
+                      color: 'var(--color-link)',
                       fontWeight: 600,
                       marginBottom: '1.5rem'
                     }}>

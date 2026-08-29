@@ -61,10 +61,10 @@ export const TutorVettingSection: React.FC = () => {
                 position: 'relative'
               }}
             >
-              <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#818CF8', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-link)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                 {stage.step}
               </span>
-              <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#FFFFFF', margin: '0.35rem 0 0.5rem 0' }}>
+              <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-heading-secondary)', margin: '0.35rem 0 0.5rem 0' }}>
                 {stage.title}
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>

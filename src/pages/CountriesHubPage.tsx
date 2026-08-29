@@ -90,10 +90,10 @@ export const CountriesHubPage: React.FC = () => {
                       </span>
                     </div>
 
-                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.25rem' }}>
+                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.25rem' }}>
                       {c.name}
                     </h2>
-                    <p style={{ fontSize: '0.825rem', color: '#818CF8', fontWeight: 600, marginBottom: '0.75rem' }}>
+                    <p style={{ fontSize: '0.825rem', color: 'var(--color-link)', fontWeight: 600, marginBottom: '0.75rem' }}>
                       Timezone: {c.timezone}
                     </p>
 

@@ -90,7 +90,7 @@ export const PricingPage: React.FC = () => {
                   )}
 
                   <div>
-                    <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
+                    <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--text-heading-secondary)', marginBottom: '0.35rem' }}>
                       {plan.name}
                     </h3>
                     <p style={{ fontSize: '0.825rem', color: 'var(--text-secondary)', marginBottom: '1.25rem', lineHeight: 1.5 }}>

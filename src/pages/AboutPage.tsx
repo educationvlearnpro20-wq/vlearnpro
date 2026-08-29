@@ -104,7 +104,7 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <div>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#818CF8', fontFamily: 'var(--font-heading)' }}>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--color-link)', fontFamily: 'var(--font-heading)' }}>
                 1.8%
               </div>
               <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
@@ -113,7 +113,7 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <div>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#FCD34D', fontFamily: 'var(--font-heading)' }}>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--color-warning)', fontFamily: 'var(--font-heading)' }}>
                 98.4%
               </div>
               <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
@@ -122,7 +122,7 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <div>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#FFFFFF', fontFamily: 'var(--font-heading)' }}>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text-heading-primary)', fontFamily: 'var(--font-heading)' }}>
                 8 Hubs
               </div>
               <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
@@ -153,10 +153,10 @@ export const AboutPage: React.FC = () => {
                   className="card-glass"
                   style={{ padding: '2rem' }}
                 >
-                  <h3 style={{ fontSize: '1.15rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem' }}>
+                  <h3 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.75rem' }}>
                     {v.title}
                   </h3>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--text-primary)', lineHeight: 1.6 }}>
                     {v.desc}
                   </p>
                 </div>
@@ -183,7 +183,7 @@ export const AboutPage: React.FC = () => {
           <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '1rem' }}>
             Experience the VLearnPro Difference
           </h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.05rem' }}>
+          <p style={{ color: 'rgba(255, 255, 255, 0.9)', marginBottom: '2rem', fontSize: '1.05rem' }}>
             Book a complimentary 45-minute 1-on-1 diagnostic lesson for your child today.
           </p>
           <button
