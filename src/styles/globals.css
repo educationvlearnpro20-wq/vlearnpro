@@ -201,35 +201,34 @@ svg {
   color: var(--text-secondary);
 }
 
-/* Card Tokens - Clean Light Luxury Cards */
 .card-glass {
   background: #FFFFFF;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(203, 213, 225, 0.7);
   border-radius: var(--radius-lg);
-  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 8px 25px -4px rgba(15, 23, 42, 0.06);
   transition: all var(--transition-normal);
 }
 
 .card-glass:hover {
   background: #FFFFFF;
-  border-color: rgba(79, 70, 229, 0.25);
+  border-color: #2563EB;
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px -4px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 16px 36px -6px rgba(37, 99, 235, 0.15);
 }
 
 .card-solid {
   background: #FFFFFF;
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(203, 213, 225, 0.7);
   border-radius: var(--radius-lg);
-  box-shadow: 0 4px 12px -2px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 4px 14px -2px rgba(15, 23, 42, 0.06);
   transition: all var(--transition-normal);
 }
 
 .card-solid:hover {
-  border-color: rgba(79, 70, 229, 0.25);
-  box-shadow: 0 10px 25px -4px rgba(15, 23, 42, 0.1);
+  border-color: #2563EB;
+  box-shadow: 0 12px 30px -4px rgba(37, 99, 235, 0.12);
 }
 
 /* Luxury Button System */
@@ -245,7 +244,6 @@ svg {
   transition: all var(--transition-normal);
   text-align: center;
   min-height: 44px;
-  /* Accessible 44px tap target minimum */
 }
 
 @media (max-width: 639px) {
@@ -257,15 +255,15 @@ svg {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #4F46E5 0%, #4338CA 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   color: #FFFFFF;
-  box-shadow: 0 4px 16px 0 rgba(79, 70, 229, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 16px 0 rgba(37, 99, 235, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #4338CA 0%, #3730A3 100%);
-  box-shadow: 0 6px 22px rgba(79, 70, 229, 0.55);
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+  box-shadow: 0 6px 22px rgba(37, 99, 235, 0.5);
   transform: translateY(-1px);
 }
 

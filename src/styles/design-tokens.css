@@ -1,13 +1,13 @@
 :root {
-  /* Premium Clean Soft Palette for #EFF2F6 Light Aesthetic */
+  /* High-Impact Visually Stunning Palette for #EFF2F6 Background */
   --bg-primary: #eff2f6;
   --bg-secondary: #ffffff;
-  --bg-tertiary: #f1f5f9;
+  --bg-tertiary: #e2e8f0;
   --bg-card: #ffffff;
-  --bg-card-hover: #f8fafc;
+  --bg-card-hover: #ffffff;
   --bg-elevated: #ffffff;
 
-  /* Text Colors (High Contrast AAA for Light #EFF2F6 Background) */
+  /* Text Colors (High Contrast Ink Navy on Light Ice Background) */
   --text-primary: #0f172a;
   --text-secondary: #334155;
   --text-muted: #64748b;
@@ -15,19 +15,19 @@
   --text-inverse-secondary: #e2e8f0;
   --text-inverse-muted: #94a3b8;
 
-  /* Accent & Primary Interactive - Royal Indigo & Sapphire */
-  --brand-primary: #4f46e5;
-  --brand-primary-hover: #4338ca;
-  --brand-primary-light: rgba(79, 70, 229, 0.08);
-  --brand-primary-glow: rgba(79, 70, 229, 0.2);
+  /* Accent & Primary Interactive - Electric Sapphire & Deep Royal Blue */
+  --brand-primary: #2563eb;
+  --brand-primary-hover: #1d4ed8;
+  --brand-primary-light: rgba(37, 99, 235, 0.08);
+  --brand-primary-glow: rgba(37, 99, 235, 0.25);
 
-  /* Secondary Accent - Emerald Conversion & Trust */
+  /* Secondary Accent - High-Impact Emerald Green */
   --brand-emerald: #059669;
   --brand-emerald-hover: #047857;
   --brand-emerald-light: rgba(5, 150, 105, 0.08);
-  --brand-emerald-glow: rgba(5, 150, 105, 0.2);
+  --brand-emerald-glow: rgba(5, 150, 105, 0.25);
 
-  /* Distinction & Badges - Distinction Gold */
+  /* Badges & Rating - Rich Amber Gold */
   --brand-amber: #d97706;
   --brand-amber-light: rgba(217, 119, 6, 0.1);
   --brand-amber-glow: rgba(217, 119, 6, 0.2);
@@ -38,19 +38,19 @@
   --brand-rose: #e11d48;
   --brand-rose-light: rgba(225, 29, 72, 0.1);
 
-  /* Border Tokens */
-  --border-subtle: rgba(15, 23, 42, 0.08);
-  --border-medium: rgba(15, 23, 42, 0.15);
-  --border-strong: rgba(15, 23, 42, 0.25);
-  --border-focus: #4f46e5;
+  /* Crisp Border Tokens */
+  --border-subtle: rgba(203, 213, 225, 0.7);
+  --border-medium: rgba(148, 163, 184, 0.4);
+  --border-strong: rgba(100, 116, 139, 0.5);
+  --border-focus: #2563eb;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
-  --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
-  --shadow-lg: 0 12px 30px -4px rgba(15, 23, 42, 0.12), 0 4px 10px -4px rgba(15, 23, 42, 0.06);
-  --shadow-xl: 0 20px 45px -10px rgba(15, 23, 42, 0.16);
-  --shadow-glow-indigo: 0 0 30px -5px rgba(79, 70, 229, 0.2);
-  --shadow-glow-emerald: 0 0 30px -5px rgba(5, 150, 105, 0.2);
+  /* Soft Floating Elevation Shadows */
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.12), 0 4px 12px -4px rgba(15, 23, 42, 0.06);
+  --shadow-xl: 0 24px 50px -12px rgba(15, 23, 42, 0.16);
+  --shadow-glow-indigo: 0 0 35px -5px rgba(37, 99, 235, 0.25);
+  --shadow-glow-emerald: 0 0 35px -5px rgba(5, 150, 105, 0.25);
 
   /* Typography Stack */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
