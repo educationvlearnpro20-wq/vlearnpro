@@ -52,18 +52,21 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" />
     </noscript>
 
-    <!-- Structured Data JSON-LD (EducationalOrganization + WebSite + BreadcrumbList) -->
+    <!-- Structured Data JSON-LD (EducationalOrganization + LocalBusiness + WebSite) -->
     <script type="application/ld+json">
     [
       {
         "@context": "https://schema.org",
-        "@type": "EducationalOrganization",
+        "@type": ["EducationalOrganization", "LocalBusiness", "TutoringService"],
         "name": "VLearnPro Education",
+        "alternateName": "VlearnPro Educational Consultancy",
         "url": "https://vlearnproeducation.com",
-        "logo": "https://vlearnproeducation.com/logo-icon.svg",
-        "description": "Premier online education institute providing live 1-on-1 online tuition classes for school students Grades 1 to 12 across UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman & India.",
+        "logo": "https://vlearnproeducation.com/vlearnpro-logo.jpg",
+        "image": "https://vlearnproeducation.com/vlearnpro-logo.jpg",
+        "description": "Premier online education institute & consultancy providing 1-on-1 online tuition classes for school students Grades 1 to 12 across UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman & India.",
         "telephone": "+91-8126144847",
         "email": "educationvlearnpro20@gmail.com",
+        "priceRange": "$$",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Near Union Bank, Jamia Nagar, Okhla",
@@ -71,6 +74,11 @@
           "addressRegion": "Delhi",
           "postalCode": "110025",
           "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.5606",
+          "longitude": "77.2818"
         },
         "areaServed": [
           "United Arab Emirates", "Saudi Arabia", "Qatar", 
