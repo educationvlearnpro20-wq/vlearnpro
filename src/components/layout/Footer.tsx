@@ -15,11 +15,11 @@ export const Footer: React.FC = () => {
 
   return (
     <footer style={{
-      background: '#070B14',
-      borderTop: '1px solid rgba(255, 255, 255, 0.08)',
-      paddingTop: '5rem',
+      background: '#F8FAFC',
+      borderTop: '1px solid var(--border-medium)',
+      paddingTop: '4.5rem',
       paddingBottom: '3rem',
-      color: 'var(--text-secondary)',
+      color: 'var(--text-primary)',
       fontSize: '0.875rem',
       position: 'relative',
       zIndex: 10
@@ -27,25 +27,25 @@ export const Footer: React.FC = () => {
       <div className="container">
         {/* Top Newsletter & Instant Booking Callout */}
         <div style={{
-          background: 'linear-gradient(135deg, rgba(79, 70, 229, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%)',
-          border: '1px solid rgba(255, 255, 255, 0.12)',
+          background: 'linear-gradient(135deg, #0B1F3A 0%, #1E293B 100%)',
           borderRadius: 'var(--radius-xl)',
           padding: '2.5rem 2rem',
-          marginBottom: '4.5rem',
+          marginBottom: '4rem',
           display: 'flex',
           flexWrap: 'wrap',
           alignItems: 'center',
           justifyContent: 'space-between',
-          gap: '2rem'
+          gap: '2rem',
+          boxShadow: 'var(--shadow-md)'
         }}>
           <div style={{ maxWidth: '580px' }}>
-            <span className="badge badge-indigo" style={{ marginBottom: '0.75rem' }}>
+            <span className="badge badge-amber" style={{ marginBottom: '0.75rem' }}>
               GLOBAL 1-ON-1 ONLINE TUITION
             </span>
             <h3 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#FFFFFF', margin: '0 0 0.5rem 0' }}>
               Transform Your Child’s Grades & Academic Confidence
             </h3>
-            <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.95rem' }}>
+            <p style={{ color: '#CBD5E1', margin: 0, fontSize: '0.95rem', lineHeight: 1.55 }}>
               Join 18,500+ happy parents in USA, UK, UAE, Singapore, Europe, Canada, Australia and India. Book a 100% free, zero-obligation trial session today.
             </p>
           </div>
@@ -65,9 +65,9 @@ export const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-secondary btn-lg"
-              style={{ gap: '0.5rem' }}
+              style={{ gap: '0.5rem', background: '#FFFFFF', color: '#0F172A', border: 'none' }}
             >
-              <MessageSquare size={18} style={{ color: '#10B981' }} />
+              <MessageSquare size={18} style={{ color: '#16A34A' }} />
               <span>WhatsApp Us</span>
             </a>
           </div>
@@ -87,7 +87,7 @@ export const Footer: React.FC = () => {
                 width: '36px',
                 height: '36px',
                 borderRadius: 'var(--radius-sm)',
-                background: 'linear-gradient(135deg, #4F46E5 0%, #06B6D4 100%)',
+                background: 'linear-gradient(135deg, #2563EB 0%, #0284C7 100%)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -95,7 +95,7 @@ export const Footer: React.FC = () => {
               }}>
                 <BookOpen size={18} />
               </div>
-              <span style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--text-heading-primary)' }}>
+              <span style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-heading-primary)' }}>
                 VLearn<span style={{ color: 'var(--color-link)' }}>Pro</span>
               </span>
             </div>
@@ -111,7 +111,7 @@ export const Footer: React.FC = () => {
               <span>COPPA & GDPR-K Child Safety Certified</span>
             </div>
 
-            {/* Official Social Media Channels (Entity Backlinks) */}
+            {/* Official Social Media Channels */}
             <div style={{ marginTop: '1.25rem' }}>
               <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'block', marginBottom: '0.6rem' }}>
                 OFFICIAL SOCIAL CHANNELS
@@ -126,12 +126,13 @@ export const Footer: React.FC = () => {
                     width: '36px',
                     height: '36px',
                     borderRadius: '50%',
-                    background: 'rgba(255, 255, 255, 0.08)',
-                    border: '1px solid rgba(255, 255, 255, 0.15)',
+                    background: '#FFFFFF',
+                    border: '1px solid var(--border-medium)',
                     display: 'inline-flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    color: '#60A5FA',
+                    color: '#2563EB',
+                    boxShadow: 'var(--shadow-xs)',
                     transition: 'all 0.2s ease'
                   }}
                   onMouseEnter={(e) => {
@@ -139,8 +140,8 @@ export const Footer: React.FC = () => {
                     e.currentTarget.style.color = '#FFFFFF';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
-                    e.currentTarget.style.color = '#60A5FA';
+                    e.currentTarget.style.background = '#FFFFFF';
+                    e.currentTarget.style.color = '#2563EB';
                   }}
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -157,12 +158,13 @@ export const Footer: React.FC = () => {
                     width: '36px',
                     height: '36px',
                     borderRadius: '50%',
-                    background: 'rgba(255, 255, 255, 0.08)',
-                    border: '1px solid rgba(255, 255, 255, 0.15)',
+                    background: '#FFFFFF',
+                    border: '1px solid var(--border-medium)',
                     display: 'inline-flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    color: '#F472B6',
+                    color: '#E1306C',
+                    boxShadow: 'var(--shadow-xs)',
                     transition: 'all 0.2s ease'
                   }}
                   onMouseEnter={(e) => {
@@ -170,8 +172,8 @@ export const Footer: React.FC = () => {
                     e.currentTarget.style.color = '#FFFFFF';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
-                    e.currentTarget.style.color = '#F472B6';
+                    e.currentTarget.style.background = '#FFFFFF';
+                    e.currentTarget.style.color = '#E1306C';
                   }}
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -184,7 +186,7 @@ export const Footer: React.FC = () => {
 
           {/* Supported Boards Column */}
           <div>
-            <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-heading-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
+            <h4 style={{ fontSize: '0.925rem', fontWeight: 800, color: 'var(--text-heading-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
               Curricula & Boards
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.85rem' }}>
@@ -192,9 +194,9 @@ export const Footer: React.FC = () => {
                 <li key={id}>
                   <button
                     onClick={() => navigateTo({ type: 'board', id: id as BoardId })}
-                    style={{ color: 'var(--text-secondary)', cursor: 'pointer', textAlign: 'left' }}
+                    style={{ color: 'var(--text-primary)', cursor: 'pointer', textAlign: 'left', fontWeight: 500, transition: 'color 0.15s ease' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'}
-                    onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                   >
                     {BOARDS_DATA[id as BoardId].name}
                   </button>
@@ -205,7 +207,7 @@ export const Footer: React.FC = () => {
 
           {/* Core Subjects Column */}
           <div>
-            <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-heading-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
+            <h4 style={{ fontSize: '0.925rem', fontWeight: 800, color: 'var(--text-heading-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
               Subject Specializations
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.85rem' }}>
@@ -213,9 +215,9 @@ export const Footer: React.FC = () => {
                 <li key={id}>
                   <button
                     onClick={() => navigateTo({ type: 'subject', id: id as SubjectId })}
-                    style={{ color: 'var(--text-secondary)', cursor: 'pointer', textAlign: 'left' }}
+                    style={{ color: 'var(--text-primary)', cursor: 'pointer', textAlign: 'left', fontWeight: 500, transition: 'color 0.15s ease' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'}
-                    onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                   >
                     {SUBJECTS_DATA[id as SubjectId].name}
                   </button>
@@ -224,7 +226,7 @@ export const Footer: React.FC = () => {
               <li>
                 <button
                   onClick={() => navigateTo({ type: 'subjects-hub' })}
-                  style={{ color: 'var(--color-link)', fontWeight: 600, cursor: 'pointer' }}
+                  style={{ color: 'var(--color-link)', fontWeight: 700, cursor: 'pointer' }}
                 >
                   View All 11 Subjects →
                 </button>
@@ -234,7 +236,7 @@ export const Footer: React.FC = () => {
 
           {/* Languages & World Tracks */}
           <div>
-            <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-heading-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
+            <h4 style={{ fontSize: '0.925rem', fontWeight: 800, color: 'var(--text-heading-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
               World Languages
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
@@ -242,9 +244,9 @@ export const Footer: React.FC = () => {
                 <li key={id}>
                   <button
                     onClick={() => navigateTo({ type: 'language', id: id as LanguageId })}
-                    style={{ color: 'var(--text-secondary)', cursor: 'pointer', textAlign: 'left' }}
+                    style={{ color: 'var(--text-primary)', cursor: 'pointer', textAlign: 'left', fontWeight: 500, transition: 'color 0.15s ease' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'}
-                    onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}
+                    onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                   >
                     {LANGUAGES_DATA[id as LanguageId].name}
                   </button>
@@ -252,37 +254,37 @@ export const Footer: React.FC = () => {
               ))}
             </ul>
 
-            <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-heading-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem' }}>
+            <h4 style={{ fontSize: '0.925rem', fontWeight: 800, color: 'var(--text-heading-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem' }}>
               Important Hubs
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.45rem', fontSize: '0.85rem' }}>
               <li>
-                <button onClick={() => navigateTo({ type: 'exam-prep' })} style={{ color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <button onClick={() => navigateTo({ type: 'exam-prep' })} style={{ color: 'var(--text-primary)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}>
                   Board Exam Preparation
                 </button>
               </li>
               <li>
-                <button onClick={() => navigateTo({ type: 'free-demo' })} style={{ color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <button onClick={() => navigateTo({ type: 'free-demo' })} style={{ color: 'var(--text-primary)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}>
                   Book Free Demo Class
                 </button>
               </li>
               <li>
-                <button onClick={() => navigateTo({ type: 'pricing' })} style={{ color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <button onClick={() => navigateTo({ type: 'pricing' })} style={{ color: 'var(--text-primary)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}>
                   Transparent Pricing & Calculator
                 </button>
               </li>
               <li>
-                <button onClick={() => navigateTo({ type: 'about' })} style={{ color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <button onClick={() => navigateTo({ type: 'about' })} style={{ color: 'var(--text-primary)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}>
                   About Our Vetting & Mission
                 </button>
               </li>
               <li>
-                <button onClick={() => navigateTo({ type: 'careers' })} style={{ color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <button onClick={() => navigateTo({ type: 'careers' })} style={{ color: 'var(--text-primary)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}>
                   Careers & Educator Faculty
                 </button>
               </li>
               <li>
-                <button onClick={() => navigateTo({ type: 'blog' })} style={{ color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <button onClick={() => navigateTo({ type: 'blog' })} style={{ color: 'var(--text-primary)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}>
                   Curriculum Guides & Articles
                 </button>
               </li>
@@ -291,7 +293,7 @@ export const Footer: React.FC = () => {
 
           {/* Global Country Hubs Column */}
           <div>
-            <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-heading-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
+            <h4 style={{ fontSize: '0.925rem', fontWeight: 800, color: 'var(--text-heading-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1rem' }}>
               International Hubs
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.85rem' }}>
@@ -305,15 +307,17 @@ export const Footer: React.FC = () => {
                         navigateTo({ type: 'country', code: code as CountryCode });
                       }}
                       style={{
-                        color: 'var(--text-secondary)',
+                        color: 'var(--text-primary)',
                         cursor: 'pointer',
                         display: 'flex',
                         alignItems: 'center',
                         gap: '0.4rem',
-                        textAlign: 'left'
+                        textAlign: 'left',
+                        fontWeight: 500,
+                        transition: 'color 0.15s ease'
                       }}
-                      onMouseEnter={(e) => e.currentTarget.style.color = '#818CF8'}
-                      onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}
+                      onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'}
+                      onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                     >
                       <span>{c.flag}</span>
                       <span>{c.name}</span>
@@ -327,53 +331,54 @@ export const Footer: React.FC = () => {
 
         {/* Single Global Admissions & Support Card */}
         <div style={{
-          borderTop: '1px solid var(--border-subtle)',
+          borderTop: '1px solid var(--border-medium)',
           paddingTop: '2rem',
           paddingBottom: '2rem'
         }}>
           <div style={{
-            background: 'rgba(255, 255, 255, 0.03)',
-            border: '1px solid var(--border-subtle)',
-            borderRadius: 'var(--radius-md)',
-            padding: '1.25rem 1.75rem',
+            background: '#FFFFFF',
+            border: '1px solid var(--border-medium)',
+            borderRadius: 'var(--radius-lg)',
+            padding: '1.5rem 2rem',
             display: 'flex',
             flexWrap: 'wrap',
             alignItems: 'center',
             justifyContent: 'space-between',
             gap: '1.25rem',
-            fontSize: '0.875rem'
+            fontSize: '0.875rem',
+            boxShadow: 'var(--shadow-sm)'
           }}>
             <div>
-              <div style={{ fontWeight: 700, color: 'var(--text-heading-primary)', fontSize: '1rem', marginBottom: '0.25rem' }}>
+              <div style={{ fontWeight: 800, color: 'var(--text-heading-primary)', fontSize: '1.05rem', marginBottom: '0.25rem' }}>
                 🌐 Global Admissions & Parent Support Desk
               </div>
-              <div style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
+              <div style={{ color: 'var(--text-primary)', fontSize: '0.85rem' }}>
                 Serving Students in USA, UK, UAE, Singapore, Canada, Australia, Europe & India
               </div>
             </div>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', alignItems: 'center' }}>
               <div>
-                <span style={{ color: 'var(--text-muted)', fontSize: '0.75rem', display: 'block', marginBottom: '0.15rem' }}>
+                <span style={{ color: 'var(--text-muted)', fontSize: '0.75rem', display: 'block', fontWeight: 700, marginBottom: '0.15rem' }}>
                   DIRECT HELPLINE & WHATSAPP
                 </span>
                 <a
                   href="https://wa.me/918126144847?text=Hello%20VLearnPro,%20I%20would%20like%20to%20learn%20more%20about%20your%20online%20tuition%20classes."
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: '#6EE7B7', fontWeight: 700, fontSize: '0.95rem' }}
+                  style={{ color: 'var(--color-success)', fontWeight: 700, fontSize: '0.95rem' }}
                 >
                   +91 8126144847
                 </a>
               </div>
 
               <div>
-                <span style={{ color: 'var(--text-muted)', fontSize: '0.75rem', display: 'block', marginBottom: '0.15rem' }}>
+                <span style={{ color: 'var(--text-muted)', fontSize: '0.75rem', display: 'block', fontWeight: 700, marginBottom: '0.15rem' }}>
                   OFFICIAL ADMISSIONS EMAIL
                 </span>
                 <a
                   href="mailto:educationvlearnpro20@gmail.com"
-                  style={{ color: '#818CF8', fontWeight: 600, fontSize: '0.95rem' }}
+                  style={{ color: 'var(--color-link)', fontWeight: 700, fontSize: '0.95rem' }}
                 >
                   educationvlearnpro20@gmail.com
                 </a>
@@ -384,30 +389,30 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Legal Copyright Bar */}
         <div style={{
-          borderTop: '1px solid var(--border-subtle)',
+          borderTop: '1px solid var(--border-medium)',
           paddingTop: '1.75rem',
           display: 'flex',
           flexWrap: 'wrap',
           alignItems: 'center',
           justifyContent: 'space-between',
           gap: '1rem',
-          fontSize: '0.78rem',
+          fontSize: '0.8rem',
           color: 'var(--text-muted)'
         }}>
           <div>
             © {new Date().getFullYear()} VLearnPro Education. All rights reserved. Registered International Educational Institute.
           </div>
           <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
-            <button onClick={() => navigateTo({ type: 'privacy-policy' })} style={{ color: 'var(--text-muted)', cursor: 'pointer' }}>
+            <button onClick={() => navigateTo({ type: 'privacy-policy' })} style={{ color: 'var(--text-muted)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}>
               Privacy Policy
             </button>
-            <button onClick={() => navigateTo({ type: 'terms-of-service' })} style={{ color: 'var(--text-muted)', cursor: 'pointer' }}>
+            <button onClick={() => navigateTo({ type: 'terms-of-service' })} style={{ color: 'var(--text-muted)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}>
               Terms of Service
             </button>
-            <button onClick={() => navigateTo({ type: 'refund-policy' })} style={{ color: 'var(--text-muted)', cursor: 'pointer' }}>
+            <button onClick={() => navigateTo({ type: 'refund-policy' })} style={{ color: 'var(--text-muted)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}>
               Refund & Cancellation Policy
             </button>
-            <button onClick={() => navigateTo({ type: 'privacy-policy' })} style={{ color: 'var(--text-muted)', cursor: 'pointer' }}>
+            <button onClick={() => navigateTo({ type: 'privacy-policy' })} style={{ color: 'var(--text-muted)', cursor: 'pointer', fontWeight: 500 }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-link)'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}>
               Child Safeguarding (COPPA)
             </button>
           </div>
