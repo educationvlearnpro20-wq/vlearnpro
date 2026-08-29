@@ -34,13 +34,13 @@ export const TutorVettingSection: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">
-            UNCOMPROMISING TUTOR STANDARDS
+            EEAT & FACULTY EXCELLENCE
           </span>
           <h2 className="section-title">
-            We Accept Only the Top 1.8% of Global Applicants
+            Certified Faculty for 1-on-1 Online Tuition Classes
           </h2>
           <p className="section-subtitle">
-            Your child will never be taught by an unverified tutor. Learn how our 4-stage vetting framework ensures unmatched pedagogical excellence.
+            Your child deserves an extraordinary mentor. We accept only the top 1.8% of global tutor applicants—graduates from Cambridge, IITs, and premier universities with verified teaching credentials.
           </p>
         </div>
 

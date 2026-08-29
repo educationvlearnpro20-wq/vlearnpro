@@ -24,13 +24,13 @@ export const CurriculumSelectorSection: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">
-            GLOBAL CURRICULA SPECIALIZATION
+            ACADEMIC CURRICULA MASTERY
           </span>
           <h2 className="section-title">
-            Tailored 1-on-1 Tuition for Your School Board
+            Online Tuition Classes Tailored to Your Child’s School Board
           </h2>
           <p className="section-subtitle">
-            Whether your child follows national boards or international baccalaureates, our faculty provides syllabus-exact prep and past paper mastery.
+            From CBSE (Gulf Region) and ICSE to Cambridge IGCSE, IB Diploma (DP & MYP), and American AP, our 1-on-1 online tuition classes deliver syllabus-exact mentoring and past exam paper mastery.
           </p>
         </div>
 

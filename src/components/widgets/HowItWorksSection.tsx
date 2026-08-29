@@ -41,13 +41,13 @@ export const HowItWorksSection: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">
-            HOW VLEARNPRO WORKS
+            SEAMLESS ONLINE TUITION EXPERIENCE
           </span>
           <h2 className="section-title">
-            A Proven 4-Step Pathway to Academic Excellence
+            How Our 1-on-1 Online Tuition Classes Transform Results
           </h2>
           <p className="section-subtitle">
-            From the first free diagnostic session to top board examination scores, here is how we guarantee your child’s transformation.
+            From your child’s first free 1-on-1 diagnostic session to top board examination distinctions, experience how our structured online tuition classes deliver measurable grade jumps.
           </p>
         </div>
 

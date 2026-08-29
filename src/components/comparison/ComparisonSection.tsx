@@ -52,10 +52,10 @@ export const ComparisonSection: React.FC = () => {
             THE VLEARNPRO ADVANTAGE
           </span>
           <h2 className="section-title">
-            Why Discerning Parents Choose VLearnPro Over Old Alternatives
+            Why Parents Choose Our 1-on-1 Online Tuition Classes
           </h2>
           <p className="section-subtitle">
-            See how our individualized 1-on-1 pedagogical model delivers 4X faster academic mastery compared to physical coaching centers and generic apps.
+            See how our individualized 1-on-1 online tuition classes deliver 4X faster academic progress compared to crowded physical tuition centers and pre-recorded video apps.
           </p>
         </div>
 

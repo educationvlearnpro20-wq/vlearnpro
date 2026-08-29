@@ -352,8 +352,11 @@ export const Footer: React.FC = () => {
               <div style={{ fontWeight: 800, color: 'var(--text-heading-primary)', fontSize: '1.05rem', marginBottom: '0.25rem' }}>
                 🕌 GCC Regional Admissions & Parent Support Desk
               </div>
-              <div style={{ color: 'var(--text-primary)', fontSize: '0.85rem' }}>
+              <div style={{ color: 'var(--text-primary)', fontSize: '0.85rem', marginBottom: '0.25rem' }}>
                 Serving Families in UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia, Qatar, Kuwait, Bahrain, Oman & India
+              </div>
+              <div style={{ color: 'var(--text-muted)', fontSize: '0.78rem' }}>
+                📍 Office: Near Union Bank, Jamia Nagar, Okhla, New Delhi, Delhi 110025
               </div>
             </div>
 

@@ -63,7 +63,7 @@ export const HomePage: React.FC = () => {
 
               {/* Single H1 Standard */}
               <h1 style={{ marginBottom: '1.25rem' }}>
-                Premier 1-on-1 Online Tuition for GCC & International Schools
+                Online Tuition Classes for Students Across the GCC
               </h1>
 
               {/* Subtitle */}
@@ -73,7 +73,7 @@ export const HomePage: React.FC = () => {
                 lineHeight: 1.6,
                 marginBottom: '2rem'
               }}>
-                Looking for top-rated <strong>Online Tuition Classes</strong> for your child? VLearnPro Education provides personalized 1-on-1 live online tutoring for parents across <strong>UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia (Riyadh, Jeddah), Qatar, Kuwait, Bahrain, Oman & India</strong> across CBSE, ICSE, IGCSE, IB, Cambridge & American Curricula.
+                Empowering students from Grade 1 to 12 in <strong>UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia (Riyadh, Jeddah), Qatar, Kuwait, Bahrain, Oman & India</strong> with top-rated 1-on-1 <strong>online tuition classes</strong>. Tailored academic mastery for CBSE, ICSE, Cambridge IGCSE, IB DP & American curricula delivered by certified top 1.8% subject mentors.
               </p>
 
               {/* Hero CTA Group */}

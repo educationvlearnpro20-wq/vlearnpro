@@ -68,13 +68,13 @@ export const GradeLevelTabs: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">
-            PROGRAMS TAILORED BY AGE & STAGE
+            GRADE 1 TO 12 TUTORING PATHWAYS
           </span>
           <h2 className="section-title">
-            Grade 1 to 12 Learning Pathways
+            Online Tuition Classes Tailored to Every Grade & Stage
           </h2>
           <p className="section-subtitle">
-            Every developmental stage requires distinct pedagogical techniques. Explore our age-specific curriculum roadmaps.
+            Whether your child is building primary math fundamentals or preparing for senior CBSE Board, IGCSE, AP, or IB DP exams, our 1-on-1 online tuition classes adapt to their exact academic stage.
           </p>
 
           {/* Tab Selector */}

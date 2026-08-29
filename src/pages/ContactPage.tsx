@@ -111,6 +111,17 @@ export const ContactPage: React.FC = () => {
 
                 <div className="card-solid" style={{ padding: '1.25rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.35rem' }}>
+                    <MapPin size={18} style={{ color: 'var(--color-link)' }} />
+                    <strong style={{ color: 'var(--text-heading-secondary)', fontSize: '0.95rem' }}>Corporate & Regional Operations Office</strong>
+                  </div>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-primary)', lineHeight: 1.5 }}>
+                    Near Union Bank, Jamia Nagar, Okhla, New Delhi, Delhi 110025, India
+                  </div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>Serving GCC, India & Global Families</div>
+                </div>
+
+                <div className="card-solid" style={{ padding: '1.25rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.35rem' }}>
                     <span style={{ fontSize: '1.25rem' }}>✉️</span>
                     <strong style={{ color: 'var(--text-heading-secondary)', fontSize: '0.95rem' }}>Official Admissions Email</strong>
                   </div>
