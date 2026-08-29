@@ -172,10 +172,11 @@ export const FreeDemoPage: React.FC = () => {
               ) : (
                 <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                    <label htmlFor="demo-parent-name" style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                       Parent Full Name *
                     </label>
                     <input
+                      id="demo-parent-name"
                       type="text"
                       required
                       value={form.parentName}
@@ -196,10 +197,11 @@ export const FreeDemoPage: React.FC = () => {
 
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label htmlFor="demo-parent-phone" style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                         Parent WhatsApp *
                       </label>
                       <input
+                        id="demo-parent-phone"
                         type="tel"
                         required
                         value={form.parentPhone}
@@ -219,10 +221,11 @@ export const FreeDemoPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label htmlFor="demo-parent-email" style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                         Parent Email *
                       </label>
                       <input
+                        id="demo-parent-email"
                         type="email"
                         required
                         value={form.parentEmail}
@@ -244,10 +247,11 @@ export const FreeDemoPage: React.FC = () => {
 
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label htmlFor="demo-student-grade" style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                         Student Grade
                       </label>
                       <input
+                        id="demo-student-grade"
                         type="text"
                         value={form.grade}
                         onChange={e => setForm({ ...form, grade: e.target.value })}
@@ -266,10 +270,11 @@ export const FreeDemoPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                      <label htmlFor="demo-board" style={{ display: 'block', fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                         Curriculum Board
                       </label>
                       <input
+                        id="demo-board"
                         type="text"
                         value={form.board}
                         onChange={e => setForm({ ...form, board: e.target.value })}

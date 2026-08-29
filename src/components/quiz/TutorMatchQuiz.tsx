@@ -195,11 +195,11 @@ export const TutorMatchQuiz: React.FC = () => {
                 animation: 'spin 1s linear infinite',
                 marginBottom: '1.25rem'
               }} />
-              <h4 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+              <h4 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-heading-primary)', marginBottom: '0.5rem' }}>
                 Analyzing Pedagogical Match...
               </h4>
               <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>
-                Cross-referencing 2,500+ tutor performance scores & curriculum specializations
+                Matching curriculum parameters, time zone availability & teaching style...
               </p>
             </div>
           )}
