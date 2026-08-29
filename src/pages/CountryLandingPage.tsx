@@ -25,7 +25,7 @@ const COUNTRY_IMAGES: Record<string, string> = {
 };
 
 export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryCode }) => {
-  const { openTrialModal, openQuizModal } = useApp();
+  const { openTrialModal, openQuizModal, navigateTo } = useApp();
   const country = COUNTRIES_DATA[countryCode] || COUNTRIES_DATA.usa;
 
   const countryImg = COUNTRY_IMAGES[countryCode] || COUNTRY_IMAGES.usa;
@@ -154,8 +154,83 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
       {/* Trust bar */}
       <TrustBadgeBar />
 
+      {/* Local Education Ecosystem & School Alignments Section */}
+      <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
+        <div className="container">
+          <div className="section-header">
+            <span className="section-eyebrow">
+              LOCAL ACADEMIC LANDSCAPE
+            </span>
+            <h2 className="section-title">
+              Education Ecosystem & School Boards in {country.name}
+            </h2>
+            <p className="section-subtitle">
+              Deep curriculum alignment with local examination authorities and leading international schools.
+            </p>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: '2rem',
+            alignItems: 'start',
+            marginBottom: '3rem'
+          }}>
+            <div className="card-glass" style={{ padding: '2rem' }}>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-heading-primary)', marginBottom: '1rem' }}>
+                🏫 School System & Curriculum Overview
+              </h3>
+              <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '1.5rem' }}>
+                {country.educationEcosystem}
+              </p>
+
+              <div style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.75rem', textTransform: 'uppercase' }}>
+                Popular Curricula Covered:
+              </div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                {country.popularBoards.map((board, idx) => (
+                  <span key={idx} className="badge badge-indigo">
+                    {board}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="card-glass" style={{ padding: '2rem' }}>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-heading-primary)', marginBottom: '1rem' }}>
+                ⏰ Schedules & Timezone Compatibility
+              </h3>
+              <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '1.5rem' }}>
+                {country.suitableSchedules}
+              </p>
+
+              <div style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.75rem', textTransform: 'uppercase' }}>
+                Key Local Schools Aligned:
+              </div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                {country.localSchoolAlignments.map((sch, idx) => (
+                  <span key={idx} className="badge badge-emerald">
+                    {sch}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Parent Expectations & Academic Goals */}
+          <div className="card-glass" style={{ padding: '2rem', borderLeft: '4px solid #2563EB' }}>
+            <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-heading-primary)', marginBottom: '0.75rem' }}>
+              🎯 Parent Expectations & Performance Targets in {country.name}
+            </h3>
+            <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.75, margin: 0 }}>
+              {country.parentExpectations}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Local Parent Pain Points & Solutions */}
-      <section className="section-padding" style={{ background: 'rgba(15, 23, 42, 0.4)', borderTop: '1px solid var(--border-subtle)', borderBottom: '1px solid var(--border-subtle)' }}>
+      <section className="section-padding" style={{ background: 'rgba(15, 23, 42, 0.02)', borderTop: '1px solid var(--border-subtle)', borderBottom: '1px solid var(--border-subtle)' }}>
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow">
@@ -182,7 +257,7 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
                 style={{ padding: '1.75rem' }}
               >
                 <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#EF4444', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                  Local Problem #{idx + 1}
+                  Local Challenge #{idx + 1}
                 </div>
                 <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '0.75rem', lineHeight: 1.4 }}>
                   {item.pain}
@@ -232,8 +307,61 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
         </div>
       </section>
 
-      {/* Tuition Fee Calculator */}
+      {/* Internal Navigation Links Hub */}
       <section className="section-padding">
+        <div className="container">
+          <div className="section-header">
+            <span className="section-eyebrow">
+              EXPLORE ACADEMIC HUB DIRECTORY
+            </span>
+            <h2 className="section-title">
+              Curricula & Subject Tracks for {country.name} Students
+            </h2>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+            gap: '1.25rem',
+            marginBottom: '3rem'
+          }}>
+            <div className="card-solid" style={{ padding: '1.5rem', textAlign: 'left' }}>
+              <h4 style={{ color: 'var(--text-heading-primary)', fontWeight: 700, marginBottom: '0.5rem' }}>📚 School Boards</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>Explore CBSE, ICSE, IGCSE, IB DP & American course specifications.</p>
+              <button onClick={() => navigateTo({ type: 'boards-hub' })} style={{ fontSize: '0.85rem', color: 'var(--color-link)', fontWeight: 700, cursor: 'pointer' }}>
+                View All School Boards →
+              </button>
+            </div>
+
+            <div className="card-solid" style={{ padding: '1.5rem', textAlign: 'left' }}>
+              <h4 style={{ color: 'var(--text-heading-primary)', fontWeight: 700, marginBottom: '0.5rem' }}>🧪 Subject Tracks</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>1-on-1 tutoring in Maths, Physics, Chemistry, Biology & Coding.</p>
+              <button onClick={() => navigateTo({ type: 'subjects-hub' })} style={{ fontSize: '0.85rem', color: 'var(--color-link)', fontWeight: 700, cursor: 'pointer' }}>
+                View All 11 Subject Tracks →
+              </button>
+            </div>
+
+            <div className="card-solid" style={{ padding: '1.5rem', textAlign: 'left' }}>
+              <h4 style={{ color: 'var(--text-heading-primary)', fontWeight: 700, marginBottom: '0.5rem' }}>🎯 Exam Preparation</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>Past paper revision bootcamps & timed mock test series.</p>
+              <button onClick={() => navigateTo({ type: 'exam-prep' })} style={{ fontSize: '0.85rem', color: 'var(--color-link)', fontWeight: 700, cursor: 'pointer' }}>
+                Explore Exam Revision →
+              </button>
+            </div>
+
+            <div className="card-solid" style={{ padding: '1.5rem', textAlign: 'left' }}>
+              <h4 style={{ color: 'var(--text-heading-primary)', fontWeight: 700, marginBottom: '0.5rem' }}>💳 Transparent Fees</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>Flex monthly & quarterly plans billed directly in {country.currency}.</p>
+              <button onClick={() => navigateTo({ type: 'pricing' })} style={{ fontSize: '0.85rem', color: 'var(--color-link)', fontWeight: 700, cursor: 'pointer' }}>
+                Calculate {country.currency} Fee →
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tuition Fee Calculator */}
+      <section className="section-padding" style={{ background: 'var(--bg-section)' }}>
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow">
@@ -258,19 +386,19 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
         subtitle={`Questions commonly asked by families living in ${country.name}.`}
       />
 
-      {/* Conversion Banner */}
+      {/* Unique Location Conversion Banner */}
       <section style={{
         padding: '4rem 0',
         background: 'linear-gradient(135deg, #1E1B4B 0%, #064E3B 100%)',
         textAlign: 'center',
         borderTop: '1px solid rgba(255, 255, 255, 0.15)'
       }}>
-        <div className="container" style={{ maxWidth: '680px' }}>
+        <div className="container" style={{ maxWidth: '740px' }}>
           <h2 style={{ fontSize: '2rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.75rem' }}>
-            Transform Your Child’s School Performance in {country.name}
+            Elevate Your Child’s Performance in {country.name}
           </h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.75rem', fontSize: '1rem' }}>
-            Book a complimentary 45-minute diagnostic session matched strictly to your local timezone ({country.timezone}).
+          <p style={{ color: '#E2E8F0', marginBottom: '1.75rem', fontSize: '1.05rem', lineHeight: 1.6 }}>
+            {country.uniqueConclusion}
           </p>
           <button
             type="button"
@@ -279,7 +407,7 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
             style={{ gap: '0.5rem' }}
           >
             <Sparkles size={18} />
-            <span>Book Free 1-on-1 Trial Class</span>
+            <span>Book Free 1-on-1 Trial Class in {country.name}</span>
             <ArrowRight size={18} />
           </button>
         </div>

@@ -117,6 +117,10 @@ export interface CountryInfo {
   phoneCode: string;
   tagline: string;
   description: string;
+  educationEcosystem: string;
+  suitableSchedules: string;
+  parentExpectations: string;
+  uniqueConclusion: string;
   popularBoards: string[];
   popularSubjects: string[];
   parentPainPoints: { pain: string; solution: string }[];
