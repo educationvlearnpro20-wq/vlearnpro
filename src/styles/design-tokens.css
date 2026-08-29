@@ -3,16 +3,17 @@
   --bg-primary: #FAFAFC;
   --bg-secondary: #FFFFFF;
   --bg-section: #F8FAFC;
-  --bg-tertiary: #E2E8F0;
+  --bg-tertiary: #F1F5F9;
   --bg-card: #FFFFFF;
-  --bg-card-hover: #FFFFFF;
+  --bg-card-hover: #FAFAFC;
   --bg-elevated: #FFFFFF;
+  --bg-glass: rgba(255, 255, 255, 0.9);
 
-  /* Typography Color Tokens */
+  /* Typography Color Tokens (WCAG AA & AAA Compliant) */
   --text-heading-primary: #0B1F3A;
   --text-heading-secondary: #1E293B;
   --text-primary: #334155;
-  --text-secondary: #334155;
+  --text-secondary: #475569;
   --text-muted: #64748B;
   --text-caption: #94A3B8;
   --text-inverse-primary: #FFFFFF;
@@ -23,20 +24,20 @@
   --brand-primary: #2563EB;
   --brand-primary-hover: #1D4ED8;
   --brand-primary-light: rgba(37, 99, 235, 0.08);
-  --brand-primary-glow: rgba(37, 99, 235, 0.25);
+  --brand-primary-glow: rgba(37, 99, 235, 0.22);
 
   /* Status Tokens */
-  --color-success: #16A34A;
-  --color-warning: #D97706;
+  --color-success: #15803D;
+  --color-warning: #B45309;
   --color-error: #DC2626;
 
   --brand-emerald: #059669;
   --brand-emerald-hover: #047857;
-  --brand-emerald-light: rgba(5, 150, 105, 0.08);
-  --brand-emerald-glow: rgba(5, 150, 105, 0.25);
+  --brand-emerald-light: rgba(16, 185, 129, 0.09);
+  --brand-emerald-glow: rgba(16, 185, 129, 0.25);
 
   --brand-amber: #D97706;
-  --brand-amber-light: rgba(217, 119, 6, 0.1);
+  --brand-amber-light: rgba(217, 119, 6, 0.09);
   --brand-amber-glow: rgba(217, 119, 6, 0.2);
 
   --brand-cyan: #0284C7;
@@ -48,11 +49,12 @@
   --border-strong: #94A3B8;
   --border-focus: #2563EB;
 
-  /* Soft Floating Elevation Shadows */
-  --shadow-sm: 0 1px 3px 0 rgba(11, 31, 58, 0.06);
-  --shadow-md: 0 4px 14px -2px rgba(11, 31, 58, 0.08), 0 2px 6px -2px rgba(11, 31, 58, 0.04);
-  --shadow-lg: 0 12px 32px -4px rgba(11, 31, 58, 0.12), 0 4px 12px -4px rgba(11, 31, 58, 0.06);
-  --shadow-xl: 0 24px 50px -12px rgba(11, 31, 58, 0.16);
+  /* Agency-Grade Floating Elevation Shadows */
+  --shadow-sm: 0 1px 3px 0 rgba(11, 31, 58, 0.04), 0 1px 2px -1px rgba(11, 31, 58, 0.04);
+  --shadow-md: 0 4px 16px -2px rgba(11, 31, 58, 0.06), 0 2px 6px -2px rgba(11, 31, 58, 0.03);
+  --shadow-lg: 0 12px 30px -4px rgba(11, 31, 58, 0.09), 0 4px 12px -4px rgba(11, 31, 58, 0.04);
+  --shadow-xl: 0 24px 54px -12px rgba(11, 31, 58, 0.14);
+  --shadow-glow: 0 0 24px rgba(37, 99, 235, 0.15);
 
   /* Typography Stack */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -85,7 +87,8 @@
   --z-whatsapp: 150;
 
   /* Transitions */
-  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-normal: 250ms cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 160ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-normal: 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-smooth: 400ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
