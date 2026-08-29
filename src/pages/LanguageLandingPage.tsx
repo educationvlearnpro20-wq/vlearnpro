@@ -144,7 +144,7 @@ export const LanguageLandingPage: React.FC<LanguageLandingPageProps> = ({ langua
                 style={{ padding: '1.75rem', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}
               >
                 <div>
-                  <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                  <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
                     {track.title}
                   </h3>
                   <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
@@ -152,7 +152,7 @@ export const LanguageLandingPage: React.FC<LanguageLandingPageProps> = ({ langua
                   </p>
                 </div>
 
-                <div style={{ borderTop: '1px solid var(--border-subtle)', paddingTop: '0.75rem', fontSize: '0.78rem', color: '#818CF8' }}>
+                <div style={{ borderTop: '1px solid var(--border-subtle)', paddingTop: '0.75rem', fontSize: '0.78rem', color: '#2563EB' }}>
                   <strong>Ideal for:</strong> {track.forWho}
                 </div>
               </div>
@@ -162,16 +162,17 @@ export const LanguageLandingPage: React.FC<LanguageLandingPageProps> = ({ langua
           {/* Certifications Recognized */}
           <div style={{
             padding: '2rem',
-            background: 'rgba(15, 23, 42, 0.75)',
+            background: '#FFFFFF',
             border: '1px solid var(--border-subtle)',
-            borderRadius: 'var(--radius-lg)'
+            borderRadius: 'var(--radius-lg)',
+            boxShadow: 'var(--shadow-sm)'
           }}>
-            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#FFFFFF', textAlign: 'center', marginBottom: '1.25rem' }}>
+            <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--text-primary)', textAlign: 'center', marginBottom: '1.25rem' }}>
               International Exam & Certification Alignment
             </h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
               {lang.certificationAlignment.map((cert, i) => (
-                <div key={i} style={{ padding: '0.5rem 1rem', background: 'rgba(79, 70, 229, 0.12)', border: '1px solid rgba(79, 70, 229, 0.3)', borderRadius: 'var(--radius-full)', color: '#FFFFFF', fontSize: '0.85rem', fontWeight: 600 }}>
+                <div key={i} style={{ padding: '0.5rem 1rem', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: 'var(--radius-full)', color: '#2563EB', fontSize: '0.85rem', fontWeight: 600 }}>
                   ✓ {cert}
                 </div>
               ))}

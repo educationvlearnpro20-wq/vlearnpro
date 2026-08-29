@@ -103,7 +103,7 @@ export const FreeDemoPage: React.FC = () => {
                     <CheckCircle2 size={18} />
                   </div>
                   <div>
-                    <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', margin: 0 }}>45-Minute 1-on-1 Diagnostic Lesson</h4>
+                    <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>45-Minute 1-on-1 Diagnostic Lesson</h4>
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>Comprehensive assessment of past grade prerequisites.</p>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export const FreeDemoPage: React.FC = () => {
                     <CheckCircle2 size={18} />
                   </div>
                   <div>
-                    <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', margin: 0 }}>Customized Learning Roadmap</h4>
+                    <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>Customized Learning Roadmap</h4>
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>Tailored syllabus blueprint matching your child’s school calendar.</p>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export const FreeDemoPage: React.FC = () => {
                     <CheckCircle2 size={18} />
                   </div>
                   <div>
-                    <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', margin: 0 }}>No Credit Card Required</h4>
+                    <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>No Credit Card Required</h4>
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: 0 }}>Completely free test drive with zero long-term commitment.</p>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ export const FreeDemoPage: React.FC = () => {
 
             {/* Right Booking Card */}
             <div className="card-glass" style={{ padding: '2.5rem', border: '1px solid rgba(5, 150, 105, 0.3)' }}>
-              <h2 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
                 Reserve Your Free Demo Class
               </h2>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
@@ -155,11 +155,11 @@ export const FreeDemoPage: React.FC = () => {
                   }}>
                     <CheckCircle2 size={36} />
                   </div>
-                  <h3 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                  <h3 style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
                     Demo Class Reserved!
                   </h3>
                   <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
-                    Thank you, <strong style={{ color: '#FFFFFF' }}>{form.parentName || 'Parent'}</strong>. Our Lead Coordinator is pairing <strong style={{ color: '#818CF8' }}>{form.studentName || 'your child'}</strong> with a top educator for <strong style={{ color: '#FFFFFF' }}>{form.subject} ({form.board})</strong>.
+                    Thank you, <strong style={{ color: 'var(--text-primary)' }}>{form.parentName || 'Parent'}</strong>. Our Lead Coordinator is pairing <strong style={{ color: '#818CF8' }}>{form.studentName || 'your child'}</strong> with a top educator for <strong style={{ color: 'var(--text-primary)' }}>{form.subject} ({form.board})</strong>.
                   </p>
                   <button
                     type="button"
@@ -184,10 +184,10 @@ export const FreeDemoPage: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -208,10 +208,10 @@ export const FreeDemoPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -231,10 +231,10 @@ export const FreeDemoPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -255,10 +255,10 @@ export const FreeDemoPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -277,10 +277,10 @@ export const FreeDemoPage: React.FC = () => {
                         style={{
                           width: '100%',
                           padding: '0.65rem 0.75rem',
-                          background: 'rgba(0,0,0,0.3)',
+                          background: '#FFFFFF',
                           border: '1px solid var(--border-medium)',
                           borderRadius: 'var(--radius-sm)',
-                          color: '#FFFFFF',
+                          color: 'var(--text-primary)',
                           fontSize: '0.875rem',
                           outline: 'none'
                         }}
@@ -301,10 +301,10 @@ export const FreeDemoPage: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}

@@ -90,25 +90,25 @@ export const PricingPage: React.FC = () => {
                   )}
 
                   <div>
-                    <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.35rem' }}>
+                    <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                       {plan.name}
                     </h3>
                     <p style={{ fontSize: '0.825rem', color: 'var(--text-secondary)', marginBottom: '1.25rem', lineHeight: 1.5 }}>
                       {plan.tagline}
                     </p>
 
-                    <div style={{ padding: '0.65rem 0.85rem', background: 'rgba(79, 70, 229, 0.1)', borderRadius: 'var(--radius-sm)', fontSize: '0.8rem', color: '#818CF8', fontWeight: 600, marginBottom: '1.5rem' }}>
+                    <div style={{ padding: '0.65rem 0.85rem', background: 'rgba(37, 99, 235, 0.1)', borderRadius: 'var(--radius-sm)', fontSize: '0.8rem', color: '#2563EB', fontWeight: 600, marginBottom: '1.5rem' }}>
                       {plan.savingsText}
                     </div>
 
-                    <div style={{ fontSize: '0.78rem', fontWeight: 700, color: '#FFFFFF', textTransform: 'uppercase', marginBottom: '0.75rem' }}>
+                    <div style={{ fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-primary)', textTransform: 'uppercase', marginBottom: '0.75rem' }}>
                       Plan Inclusions:
                     </div>
 
                     <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 2rem 0', display: 'flex', flexDirection: 'column', gap: '0.65rem', fontSize: '0.85rem' }}>
                       {plan.features.map((feat, i) => (
-                        <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', color: '#E2E8F0', lineHeight: 1.5 }}>
-                          <Check size={16} style={{ color: '#10B981', flexShrink: 0, marginTop: '2px' }} />
+                        <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
+                          <Check size={16} style={{ color: '#059669', flexShrink: 0, marginTop: '2px' }} />
                           <span>{feat}</span>
                         </li>
                       ))}
@@ -148,14 +148,14 @@ export const PricingPage: React.FC = () => {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#10B981',
+              color: '#059669',
               flexShrink: 0
             }}>
               <ShieldCheck size={36} />
             </div>
 
             <div style={{ flex: '1 1 300px' }}>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.35rem' }}>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
                 Our 100% Zero-Risk Parent Happiness Guarantee
               </h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.6, margin: 0 }}>

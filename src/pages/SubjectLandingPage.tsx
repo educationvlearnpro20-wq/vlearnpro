@@ -187,8 +187,8 @@ export const SubjectLandingPage: React.FC<SubjectLandingPageProps> = ({ subjectI
                 className="card-glass"
                 style={{ padding: '1.5rem', display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}
               >
-                <CheckCircle2 size={20} style={{ color: '#10B981', flexShrink: 0, marginTop: '2px' }} />
-                <span style={{ fontSize: '0.9rem', color: '#E2E8F0', lineHeight: 1.55 }}>
+                <CheckCircle2 size={20} style={{ color: '#059669', flexShrink: 0, marginTop: '2px' }} />
+                <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.55 }}>
                   {outcome}
                 </span>
               </div>
@@ -197,7 +197,7 @@ export const SubjectLandingPage: React.FC<SubjectLandingPageProps> = ({ subjectI
 
           {/* Grade Level Tracks */}
           <div>
-            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#FFFFFF', textAlign: 'center', marginBottom: '2rem' }}>
+            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', textAlign: 'center', marginBottom: '2rem' }}>
               Grade-by-Grade Curriculum Breakdown
             </h3>
 
@@ -212,10 +212,10 @@ export const SubjectLandingPage: React.FC<SubjectLandingPageProps> = ({ subjectI
                     <span className="badge badge-indigo" style={{ marginBottom: '0.75rem' }}>
                       {gl.gradeRange}
                     </span>
-                    <h4 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.5rem' }}>
+                    <h4 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
                       {gl.title}
                     </h4>
-                    <p style={{ fontSize: '0.825rem', color: '#818CF8', lineHeight: 1.45, marginBottom: '1rem', fontStyle: 'italic' }}>
+                    <p style={{ fontSize: '0.825rem', color: '#2563EB', lineHeight: 1.45, marginBottom: '1rem', fontStyle: 'italic' }}>
                       Methodology: {gl.methodology}
                     </p>
                   </div>
@@ -226,7 +226,7 @@ export const SubjectLandingPage: React.FC<SubjectLandingPageProps> = ({ subjectI
                     </div>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
                       {gl.topics.map((t, i) => (
-                        <span key={i} style={{ padding: '0.2rem 0.5rem', background: 'rgba(255, 255, 255, 0.05)', borderRadius: 'var(--radius-xs)', fontSize: '0.75rem', color: '#E2E8F0' }}>
+                        <span key={i} style={{ padding: '0.2rem 0.5rem', background: 'rgba(15, 23, 42, 0.05)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-xs)', fontSize: '0.75rem', color: 'var(--text-primary)' }}>
                           {t}
                         </span>
                       ))}

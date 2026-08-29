@@ -60,10 +60,10 @@ export const LanguagesHubPage: React.FC = () => {
                       </span>
                     </div>
 
-                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.25rem' }}>
+                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.25rem' }}>
                       {l.name}
                     </h2>
-                    <p style={{ fontSize: '0.85rem', color: '#818CF8', fontWeight: 600, marginBottom: '0.75rem' }}>
+                    <p style={{ fontSize: '0.85rem', color: '#2563EB', fontWeight: 600, marginBottom: '0.75rem' }}>
                       Native: {l.nativeName}
                     </p>
 

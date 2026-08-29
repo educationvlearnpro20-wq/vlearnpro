@@ -129,10 +129,10 @@ export const BookTrialModal: React.FC = () => {
           position: 'relative',
           width: '100%',
           maxWidth: '680px',
-          background: 'linear-gradient(180deg, #131B2E 0%, #0B0F1D 100%)',
-          border: '1px solid rgba(255, 255, 255, 0.15)',
+          background: '#FFFFFF',
+          border: '1px solid var(--border-medium)',
           borderRadius: 'var(--radius-xl)',
-          boxShadow: '0 25px 60px -15px rgba(0, 0, 0, 0.7)',
+          boxShadow: '0 25px 60px -15px rgba(15, 23, 42, 0.25)',
           overflow: 'hidden',
           maxHeight: '92vh',
           display: 'flex',
@@ -146,7 +146,7 @@ export const BookTrialModal: React.FC = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          background: 'rgba(255, 255, 255, 0.02)'
+          background: 'rgba(15, 23, 42, 0.02)'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <div style={{
@@ -319,10 +319,10 @@ export const BookTrialModal: React.FC = () => {
                   style={{
                     width: '100%',
                     padding: '0.75rem',
-                    background: 'rgba(0,0,0,0.3)',
+                    background: '#FFFFFF',
                     border: '1px solid var(--border-medium)',
                     borderRadius: 'var(--radius-sm)',
-                    color: '#FFFFFF',
+                    color: 'var(--text-primary)',
                     fontSize: '0.875rem',
                     outline: 'none',
                     resize: 'none'
@@ -350,10 +350,10 @@ export const BookTrialModal: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem 0.65rem 2.25rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -375,10 +375,10 @@ export const BookTrialModal: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem 0.65rem 2.25rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -393,7 +393,7 @@ export const BookTrialModal: React.FC = () => {
                     Parent WhatsApp / Mobile Number *
                   </label>
                   <div style={{ position: 'relative' }}>
-                    <Phone size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: '#10B981' }} />
+                    <Phone size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: '#059669' }} />
                     <input
                       type="tel"
                       required
@@ -403,10 +403,10 @@ export const BookTrialModal: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem 0.65rem 2.25rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -430,10 +430,10 @@ export const BookTrialModal: React.FC = () => {
                       style={{
                         width: '100%',
                         padding: '0.65rem 0.75rem 0.65rem 2.25rem',
-                        background: 'rgba(0,0,0,0.3)',
+                        background: '#FFFFFF',
                         border: '1px solid var(--border-medium)',
                         borderRadius: 'var(--radius-sm)',
-                        color: '#FFFFFF',
+                        color: 'var(--text-primary)',
                         fontSize: '0.875rem',
                         outline: 'none'
                       }}
@@ -454,10 +454,10 @@ export const BookTrialModal: React.FC = () => {
                     style={{
                       width: '100%',
                       padding: '0.65rem 0.75rem 0.65rem 2.25rem',
-                      background: '#162032',
+                      background: '#FFFFFF',
                       border: '1px solid var(--border-medium)',
                       borderRadius: 'var(--radius-sm)',
-                      color: '#FFFFFF',
+                      color: 'var(--text-primary)',
                       fontSize: '0.875rem',
                       outline: 'none'
                     }}
@@ -470,8 +470,8 @@ export const BookTrialModal: React.FC = () => {
               </div>
 
               {/* Privacy Disclosure Notice */}
-              <div style={{ fontSize: '0.75rem', color: '#94A3B8', textAlign: 'center', marginBottom: '1rem', lineHeight: 1.4 }}>
-                By submitting, you agree to our <button type="button" onClick={() => { closeTrialModal(); navigateTo({ type: 'privacy-policy' }); }} style={{ color: '#818CF8', textDecoration: 'underline', cursor: 'pointer' }}>Privacy Policy</button> & <button type="button" onClick={() => { closeTrialModal(); navigateTo({ type: 'terms-of-service' }); }} style={{ color: '#818CF8', textDecoration: 'underline', cursor: 'pointer' }}>Terms of Service</button>. We protect your data and will never sell or spam your contact information.
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textAlign: 'center', marginBottom: '1rem', lineHeight: 1.4 }}>
+                By submitting, you agree to our <button type="button" onClick={() => { closeTrialModal(); navigateTo({ type: 'privacy-policy' }); }} style={{ color: '#2563EB', textDecoration: 'underline', cursor: 'pointer' }}>Privacy Policy</button> & <button type="button" onClick={() => { closeTrialModal(); navigateTo({ type: 'terms-of-service' }); }} style={{ color: '#2563EB', textDecoration: 'underline', cursor: 'pointer' }}>Terms of Service</button>. We protect your data and will never sell or spam your contact information.
               </div>
 
               {/* Trust Callout */}

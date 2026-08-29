@@ -33,9 +33,9 @@ export const PrivacyPolicyPage: React.FC = () => {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', fontSize: '0.95rem', lineHeight: 1.7, color: 'var(--text-secondary)' }}>
             
             {/* Highlights Box */}
-            <div className="card-glass" style={{ padding: '1.5rem', borderLeft: '4px solid #10B981' }}>
-              <h3 style={{ color: '#FFFFFF', fontSize: '1.1rem', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <ShieldCheck size={20} style={{ color: '#10B981' }} />
+            <div className="card-glass" style={{ padding: '1.5rem', borderLeft: '4px solid #059669' }}>
+              <h3 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <ShieldCheck size={20} style={{ color: '#059669' }} />
                 <span>Our Data Promise to Parents</span>
               </h3>
               <p style={{ margin: 0 }}>
@@ -44,7 +44,7 @@ export const PrivacyPolicyPage: React.FC = () => {
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>1. Information We Collect</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>1. Information We Collect</h2>
               <p style={{ marginBottom: '0.75rem' }}>
                 When you visit <strong>https://vlearnproeducation.com</strong> or fill out lead forms, quiz widgets, or demo request modals on our platform, we collect the following types of information:
               </p>
@@ -56,7 +56,7 @@ export const PrivacyPolicyPage: React.FC = () => {
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>2. How We Use Collected Data</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>2. How We Use Collected Data</h2>
               <p style={{ marginBottom: '0.75rem' }}>We use lead data strictly for legitimate operational purposes:</p>
               <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 <li>Matching your child with certified subject specialists and arranging 1-on-1 trial classes.</li>
@@ -67,28 +67,28 @@ export const PrivacyPolicyPage: React.FC = () => {
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>3. Children’s Privacy (COPPA & GDPR-K Compliance)</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>3. Children’s Privacy (COPPA & GDPR-K Compliance)</h2>
               <p>
                 Protecting child privacy is paramount. VLearnPro Education complies with the Children’s Online Privacy Protection Act (COPPA) and General Data Protection Regulation for Children (GDPR-K). All trial bookings, enrollments, and communications must be authorized by a parent or legal guardian over 18 years of age. We do not knowingly collect personal information directly from children under 13 without parental consent.
               </p>
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>4. Data Security & Storage</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>4. Data Security & Storage</h2>
               <p>
                 We enforce SSL/TLS encryption for all data submitted through our forms. Access to parent contact details and student records is restricted strictly to authorized academic coordinators and assigned tutors bound by confidentiality agreements.
               </p>
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>5. Cookies & Advertising Conversion Tracking</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>5. Cookies & Advertising Conversion Tracking</h2>
               <p>
                 We use cookies and conversion tracking tags (including Google Ads remarketing and Microsoft Advertising tags) to measure campaign performance. You can disable cookies at any time through your web browser settings.
               </p>
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>6. Contact Us Regarding Your Privacy Rights</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>6. Contact Us Regarding Your Privacy Rights</h2>
               <p>
                 If you wish to request access to, correction of, or deletion of your personal data, please contact our Data Governance Officer:
               </p>

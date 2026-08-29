@@ -106,7 +106,7 @@ export const ExamPrepPage: React.FC = () => {
                     </span>
                   </div>
 
-                  <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem', lineHeight: 1.35 }}>
+                  <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem', lineHeight: 1.35 }}>
                     {track.title}
                   </h2>
 

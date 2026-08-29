@@ -145,11 +145,11 @@ export const CoursesPage: React.FC = () => {
                       </span>
                     </div>
 
-                    <h2 style={{ fontSize: '1.3rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.4rem' }}>
+                    <h2 style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.4rem' }}>
                       {s.name}
                     </h2>
 
-                    <p style={{ fontSize: '0.825rem', color: '#818CF8', fontWeight: 600, marginBottom: '0.75rem' }}>
+                    <p style={{ fontSize: '0.825rem', color: '#2563EB', fontWeight: 600, marginBottom: '0.75rem' }}>
                       {s.tagline}
                     </p>
 

@@ -123,10 +123,10 @@ export const TutorMatchQuiz: React.FC = () => {
           position: 'relative',
           width: '100%',
           maxWidth: '660px',
-          background: 'linear-gradient(180deg, #131B2E 0%, #0B0F1D 100%)',
-          border: '1px solid rgba(255, 255, 255, 0.15)',
+          background: '#FFFFFF',
+          border: '1px solid var(--border-medium)',
           borderRadius: 'var(--radius-xl)',
-          boxShadow: '0 25px 60px -15px rgba(0, 0, 0, 0.7)',
+          boxShadow: '0 25px 60px -15px rgba(15, 23, 42, 0.25)',
           overflow: 'hidden',
           maxHeight: '92vh',
           display: 'flex',
@@ -140,12 +140,12 @@ export const TutorMatchQuiz: React.FC = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          background: 'rgba(255, 255, 255, 0.02)'
+          background: 'rgba(15, 23, 42, 0.02)'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-            <Sparkles size={20} style={{ color: '#F59E0B' }} />
+            <Sparkles size={20} style={{ color: '#D97706' }} />
             <div>
-              <h3 id="quiz-modal-title" style={{ fontSize: '1.1rem', fontWeight: 700, margin: 0, color: '#FFFFFF' }}>
+              <h3 id="quiz-modal-title" style={{ fontSize: '1.1rem', fontWeight: 700, margin: 0, color: 'var(--text-primary)' }}>
                 60-Second Perfect Tutor Match Finder
               </h3>
               <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: 0 }}>
@@ -207,10 +207,10 @@ export const TutorMatchQuiz: React.FC = () => {
           {!isCalculating && !isCompleted && currentQ && (
             <div>
               <div style={{ marginBottom: '1.5rem' }}>
-                <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#818CF8', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#2563EB', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                   Question {currentStep + 1} of {QUIZ_QUESTIONS.length}
                 </span>
-                <h4 style={{ fontSize: '1.35rem', fontWeight: 700, color: '#FFFFFF', marginTop: '0.35rem', marginBottom: '0.35rem' }}>
+                <h4 style={{ fontSize: '1.35rem', fontWeight: 700, color: 'var(--text-primary)', marginTop: '0.35rem', marginBottom: '0.35rem' }}>
                   {currentQ.question}
                 </h4>
                 <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
@@ -226,9 +226,10 @@ export const TutorMatchQuiz: React.FC = () => {
                     onClick={() => handleSelectOption(currentQ.id, opt.value)}
                     style={{
                       padding: '1rem 1.25rem',
-                      background: 'rgba(255, 255, 255, 0.04)',
-                      border: '1px solid var(--border-subtle)',
+                      background: '#FFFFFF',
+                      border: '1px solid var(--border-medium)',
                       borderRadius: 'var(--radius-md)',
+                      boxShadow: 'var(--shadow-sm)',
                       textAlign: 'left',
                       cursor: 'pointer',
                       display: 'flex',
@@ -237,16 +238,16 @@ export const TutorMatchQuiz: React.FC = () => {
                       transition: 'all 0.2s ease'
                     }}
                     onMouseEnter={e => {
-                      e.currentTarget.style.background = 'rgba(79, 70, 229, 0.12)';
-                      e.currentTarget.style.borderColor = 'rgba(79, 70, 229, 0.4)';
+                      e.currentTarget.style.background = 'rgba(37, 99, 235, 0.05)';
+                      e.currentTarget.style.borderColor = '#2563EB';
                     }}
                     onMouseLeave={e => {
-                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.04)';
-                      e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                      e.currentTarget.style.background = '#FFFFFF';
+                      e.currentTarget.style.borderColor = 'var(--border-medium)';
                     }}
                   >
                     <div>
-                      <div style={{ fontSize: '0.95rem', fontWeight: 600, color: '#FFFFFF', marginBottom: '0.2rem' }}>
+                      <div style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.2rem' }}>
                         {opt.label}
                       </div>
                       <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
@@ -271,7 +272,7 @@ export const TutorMatchQuiz: React.FC = () => {
                   background: 'rgba(5, 150, 105, 0.15)',
                   border: '1px solid rgba(5, 150, 105, 0.3)',
                   borderRadius: 'var(--radius-full)',
-                  color: '#6EE7B7',
+                  color: '#059669',
                   fontSize: '0.8rem',
                   fontWeight: 600,
                   marginBottom: '0.75rem'
@@ -279,7 +280,7 @@ export const TutorMatchQuiz: React.FC = () => {
                   <UserCheck size={14} />
                   <span>99.4% Compatibility Match Found</span>
                 </div>
-                <h4 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#FFFFFF', margin: 0 }}>
+                <h4 style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-primary)', margin: 0 }}>
                   Meet Your Child’s Recommended Mentor
                 </h4>
               </div>
@@ -287,9 +288,10 @@ export const TutorMatchQuiz: React.FC = () => {
               {/* Matched Tutor Profile Card */}
               <div style={{
                 padding: '1.5rem',
-                background: 'rgba(255, 255, 255, 0.05)',
-                border: '1px solid rgba(255, 255, 255, 0.12)',
+                background: '#FFFFFF',
+                border: '1px solid var(--border-medium)',
                 borderRadius: 'var(--radius-lg)',
+                boxShadow: 'var(--shadow-sm)',
                 marginBottom: '1.5rem'
               }}>
                 <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'center', marginBottom: '1rem' }}>
@@ -305,23 +307,23 @@ export const TutorMatchQuiz: React.FC = () => {
                     fontWeight: 700,
                     fontSize: '1.25rem',
                     flexShrink: 0,
-                    boxShadow: '0 8px 20px rgba(0,0,0,0.3)'
+                    boxShadow: '0 8px 20px rgba(0,0,0,0.15)'
                   }}>
                     {matchedTutor.name.split(' ').map(n => n[0]).join('')}
                   </div>
                   <div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                      <h5 style={{ fontSize: '1.15rem', fontWeight: 700, color: '#FFFFFF', margin: 0 }}>
+                      <h5 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
                         {matchedTutor.name}
                       </h5>
                       <span className="badge badge-emerald">{matchedTutor.badge}</span>
                     </div>
-                    <p style={{ fontSize: '0.825rem', color: '#818CF8', margin: '0.15rem 0 0.35rem 0', fontWeight: 500 }}>
+                    <p style={{ fontSize: '0.825rem', color: '#2563EB', margin: '0.15rem 0 0.35rem 0', fontWeight: 600 }}>
                       {matchedTutor.degree} • {matchedTutor.university}
                     </p>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', fontSize: '0.78rem', color: 'var(--text-secondary)' }}>
-                      <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', color: '#F59E0B', fontWeight: 600 }}>
-                        <Star size={14} fill="#F59E0B" /> {matchedTutor.rating} ({matchedTutor.reviewCount} reviews)
+                      <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', color: '#D97706', fontWeight: 600 }}>
+                        <Star size={14} fill="#D97706" /> {matchedTutor.rating} ({matchedTutor.reviewCount} reviews)
                       </span>
                       <span>• {matchedTutor.hoursTaught}+ Live Hours</span>
                       <span>• {matchedTutor.experienceYears} Yrs Exp</span>
@@ -331,13 +333,13 @@ export const TutorMatchQuiz: React.FC = () => {
 
                 <div style={{
                   padding: '0.75rem 1rem',
-                  background: 'rgba(0, 0, 0, 0.25)',
+                  background: 'rgba(15, 23, 42, 0.04)',
                   borderRadius: 'var(--radius-sm)',
                   fontSize: '0.85rem',
                   color: 'var(--text-secondary)',
-                  borderLeft: '3px solid #4F46E5'
+                  borderLeft: '3px solid #2563EB'
                 }}>
-                  <strong style={{ color: '#FFFFFF' }}>Specialty:</strong> {matchedTutor.specialty}
+                  <strong style={{ color: 'var(--text-primary)' }}>Specialty:</strong> {matchedTutor.specialty}
                 </div>
               </div>
 

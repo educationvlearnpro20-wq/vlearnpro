@@ -32,9 +32,9 @@ export const RefundPolicyPage: React.FC = () => {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', fontSize: '0.95rem', lineHeight: 1.7, color: 'var(--text-secondary)' }}>
             
-            <div className="card-glass" style={{ padding: '1.5rem', borderLeft: '4px solid #F59E0B' }}>
-              <h3 style={{ color: '#FFFFFF', fontSize: '1.1rem', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <RotateCcw size={20} style={{ color: '#F59E0B' }} />
+            <div className="card-glass" style={{ padding: '1.5rem', borderLeft: '4px solid #D97706' }}>
+              <h3 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <RotateCcw size={20} style={{ color: '#D97706' }} />
                 <span>100% Money-Back & Free Tutor Swap Guarantee</span>
               </h3>
               <p style={{ margin: 0 }}>
@@ -43,28 +43,28 @@ export const RefundPolicyPage: React.FC = () => {
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>1. Trial Session Guarantee</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>1. Trial Session Guarantee</h2>
               <p>
                 Every student receives a 100% free, 45-minute diagnostic trial session. If you choose not to enroll after the trial class, you owe nothing. No credit card information is collected for trial sessions.
               </p>
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>2. Unused Balance Refund Eligibility</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>2. Unused Balance Refund Eligibility</h2>
               <p>
                 Parents can request a refund for unused tuition sessions at any time during an active package. Refunds are calculated on a pro-rata basis for remaining unconducted classes and credited back to your original payment method within 5–7 business days.
               </p>
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>3. Free Tutor Replacement Policy</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>3. Free Tutor Replacement Policy</h2>
               <p>
                 If your child does not connect well with their assigned tutor, notify your Academic Coordinator. We will rematch your child with another top 1.8% verified subject specialist free of charge.
               </p>
             </div>
 
             <div>
-              <h2 style={{ color: '#FFFFFF', fontSize: '1.35rem', marginBottom: '0.75rem' }}>4. How to Request a Refund</h2>
+              <h2 style={{ color: 'var(--text-primary)', fontSize: '1.35rem', marginBottom: '0.75rem' }}>4. How to Request a Refund</h2>
               <p>
                 To initiate a refund or request a tutor replacement, contact our admissions desk:
               </p>
