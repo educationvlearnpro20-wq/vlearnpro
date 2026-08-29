@@ -534,3 +534,51 @@ textarea {
     width: 100% !important;
   }
 }
+
+/* Comprehensive Mobile Screen Optimizations (<640px) */
+@media (max-width: 639px) {
+  /* Prevent horizontal overflow on smartphones */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Responsive Container Breathing Room */
+  .container {
+    padding-left: 1.15rem !important;
+    padding-right: 1.15rem !important;
+  }
+
+  /* Optimize Card Internal Padding for Phone Viewports */
+  .card-glass,
+  .card-solid {
+    padding: 1.25rem !important;
+  }
+
+  /* Ensure All Buttons Have 100% Touch-Friendly Targets & Instant Tap Response */
+  button,
+  .btn,
+  a {
+    touch-action: manipulation;
+  }
+
+  /* Responsive Modal Container Adjustments */
+  .modal-container {
+    width: 94% !important;
+    max-height: 90vh !important;
+    padding: 1.25rem !important;
+  }
+
+  /* Spacing to prevent fixed mobile bottom dock from overlapping page content */
+  footer {
+    padding-bottom: 5.5rem !important;
+  }
+}
+
+/* Utility to hide scrollbars on horizontal swipe containers */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

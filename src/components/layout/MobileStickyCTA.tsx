@@ -29,15 +29,15 @@ export const MobileStickyCTA: React.FC = () => {
         left: 0,
         right: 0,
         zIndex: 85,
-        background: 'rgba(10, 15, 29, 0.95)',
+        background: 'rgba(255, 255, 255, 0.96)',
         backdropFilter: 'blur(16px)',
         WebkitBackdropFilter: 'blur(16px)',
-        borderTop: '1px solid rgba(255, 255, 255, 0.15)',
+        borderTop: '1px solid var(--border-medium)',
         padding: '0.65rem 1rem',
         display: 'flex',
         alignItems: 'center',
         gap: '0.75rem',
-        boxShadow: '0 -10px 25px rgba(0, 0, 0, 0.5)'
+        boxShadow: '0 -8px 25px rgba(15, 23, 42, 0.12)'
       }}
       className="mobile-sticky-dock"
     >
@@ -49,13 +49,14 @@ export const MobileStickyCTA: React.FC = () => {
           width: '44px',
           height: '44px',
           borderRadius: 'var(--radius-sm)',
-          background: 'rgba(5, 150, 105, 0.2)',
-          border: '1px solid rgba(5, 150, 105, 0.4)',
-          color: '#34D399',
+          background: '#10B981',
+          border: 'none',
+          color: '#FFFFFF',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          flexShrink: 0
+          flexShrink: 0,
+          boxShadow: '0 4px 12px rgba(16, 185, 129, 0.35)'
         }}
         aria-label="WhatsApp Us"
       >

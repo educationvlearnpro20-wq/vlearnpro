@@ -831,12 +831,12 @@ export const Navbar: React.FC = () => {
           {/* Drawer Guarantee Footer */}
           <div style={{
             padding: '1rem',
-            background: 'rgba(5, 150, 105, 0.08)',
-            border: '1px solid rgba(5, 150, 105, 0.25)',
+            background: 'var(--brand-emerald-light)',
+            border: '1px solid var(--border-medium)',
             borderRadius: 'var(--radius-md)',
             textAlign: 'center',
             fontSize: '0.8rem',
-            color: '#6EE7B7'
+            color: 'var(--color-success)'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', fontWeight: 700, marginBottom: '0.25rem' }}>
               <ShieldCheck size={16} />
