@@ -93,13 +93,13 @@ export const GradeLevelTabs: React.FC = () => {
                   padding: '0.85rem 1rem',
                   fontSize: '0.875rem',
                   borderRadius: 'var(--radius-md)',
-                  background: activeTab === tab.id ? 'linear-gradient(135deg, #4F46E5 0%, #4338CA 100%)' : 'rgba(255, 255, 255, 0.04)',
-                  border: activeTab === tab.id ? '1px solid #818CF8' : '1px solid var(--border-subtle)',
-                  color: activeTab === tab.id ? '#FFFFFF' : 'var(--text-secondary)',
-                  fontWeight: activeTab === tab.id ? 700 : 500,
+                  background: activeTab === tab.id ? 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)' : '#FFFFFF',
+                  border: activeTab === tab.id ? '1px solid #2563EB' : '1px solid var(--border-medium)',
+                  color: activeTab === tab.id ? '#FFFFFF' : 'var(--text-primary)',
+                  fontWeight: activeTab === tab.id ? 700 : 600,
                   cursor: 'pointer',
                   transition: 'all 0.2s ease',
-                  boxShadow: activeTab === tab.id ? 'var(--shadow-md)' : 'none'
+                  boxShadow: activeTab === tab.id ? '0 4px 16px rgba(37, 99, 235, 0.35)' : 'var(--shadow-sm)'
                 }}
               >
                 {tab.label}

@@ -74,12 +74,16 @@ export const HowItWorksSection: React.FC = () => {
                 {/* Step Number & Highlight */}
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
                   <span style={{
-                    fontSize: '2rem',
+                    fontSize: '0.85rem',
                     fontWeight: 800,
                     fontFamily: 'var(--font-heading)',
-                    color: 'rgba(15, 23, 42, 0.15)'
+                    color: '#2563EB',
+                    background: 'rgba(37, 99, 235, 0.12)',
+                    border: '1px solid rgba(37, 99, 235, 0.3)',
+                    padding: '0.25rem 0.75rem',
+                    borderRadius: 'var(--radius-full)'
                   }}>
-                    {step.num}
+                    STEP {step.num}
                   </span>
                 </div>
 

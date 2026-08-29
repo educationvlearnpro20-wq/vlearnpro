@@ -45,7 +45,7 @@ export const ComparisonSection: React.FC = () => {
   ];
 
   return (
-    <section className="section-padding" style={{ background: 'rgba(15, 23, 42, 0.4)', borderTop: '1px solid var(--border-subtle)', borderBottom: '1px solid var(--border-subtle)' }}>
+    <section className="section-padding">
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">
