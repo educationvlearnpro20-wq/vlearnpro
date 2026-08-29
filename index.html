@@ -41,10 +41,17 @@
     <meta property="twitter:title" content="Online Tuition Classes | Live 1-on-1 Tutoring Grades 1-12" />
     <meta property="twitter:description" content="Empowering global school students from Grade 1 to 12 with top 1.8% verified online tutors." />
 
-    <!-- Google Fonts: Plus Jakarta Sans (Headings) & Inter (Body) -->
+    <!-- Preload Hero LCP Image for Maximum PageSpeed -->
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=800&q=80" fetchpriority="high" />
+
+    <!-- Google Fonts: Asynchronous Non-Blocking Preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" />
+    </noscript>
 
     <!-- Structured Data JSON-LD (EducationalOrganization + WebSite + BreadcrumbList) -->
     <script type="application/ld+json">
