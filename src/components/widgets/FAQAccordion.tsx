@@ -172,9 +172,9 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
           borderRadius: 'var(--radius-lg)',
           textAlign: 'center'
         }}>
-          <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.35rem' }}>
+          <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.35rem' }}>
             Have a specific question about your child’s school syllabus?
-          </h4>
+          </h3>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
             Our Academic Advisors provide complimentary 1-on-1 consultations for international school parents.
           </p>

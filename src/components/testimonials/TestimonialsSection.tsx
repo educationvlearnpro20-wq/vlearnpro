@@ -95,9 +95,9 @@ export const TestimonialsSection: React.FC = () => {
                 </div>
 
                 {/* Highlight Quote */}
-                <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem', lineHeight: 1.4 }}>
+                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem', lineHeight: 1.4 }}>
                   "{t.highlight}"
-                </h4>
+                </h3>
 
                 {/* Review Text */}
                 <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.25rem' }}>

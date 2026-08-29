@@ -74,8 +74,10 @@ export const TuitionCalculator: React.FC = () => {
 
         {/* Currency Switcher */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(255, 255, 255, 0.05)', padding: '0.35rem 0.6rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-subtle)' }}>
-          <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>CURRENCY:</span>
+          <label htmlFor="tuition-currency-select" style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>CURRENCY:</label>
           <select
+            id="tuition-currency-select"
+            aria-label="Select Billing Currency"
             value={selectedCurrency}
             onChange={(e) => setSelectedCurrency(e.target.value as CurrencyCode)}
             style={{
@@ -234,7 +236,7 @@ export const TuitionCalculator: React.FC = () => {
                     position: 'relative'
                   }}
                 >
-                  <span style={{ position: 'absolute', top: '-8px', right: '8px', background: '#059669', color: '#FFFFFF', fontSize: '0.65rem', padding: '0.1rem 0.4rem', borderRadius: 'var(--radius-full)', fontWeight: 700 }}>
+                  <span style={{ position: 'absolute', top: '-8px', right: '8px', background: '#047857', color: '#FFFFFF', fontSize: '0.7rem', padding: '0.15rem 0.5rem', borderRadius: 'var(--radius-full)', fontWeight: 800, letterSpacing: '0.04em', border: '1px solid #10B981' }}>
                     SAVE 10%
                   </span>
                   <div style={{ fontWeight: 600, fontSize: '0.875rem' }}>Quarterly (3 Months)</div>
