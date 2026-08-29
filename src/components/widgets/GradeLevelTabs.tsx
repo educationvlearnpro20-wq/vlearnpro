@@ -11,7 +11,7 @@ export const GradeLevelTabs: React.FC = () => {
       title: 'Primary School (Grades 1 to 5)',
       eyebrow: 'AGES 6 - 10 • FOUNDATIONS & CURIOSITY',
       tagline: 'Cultivating love for learning, mental numeracy, phonics and creative writing without academic stress.',
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=450&q=75&fm=webp',
       subjects: ['Singapore Primary Math (Bar Models)', 'Primary Science & Phonics', 'English Reading & Grammar', 'Creative Coding (Scratch)', 'Spanish / French for Kids'],
       highlights: [
         'Concrete-Pictorial-Abstract (CPA) math approach',
@@ -24,7 +24,7 @@ export const GradeLevelTabs: React.FC = () => {
       title: 'Middle School (Grades 6 to 8)',
       eyebrow: 'AGES 11 - 13 • ANALYTICAL TRANSITION',
       tagline: 'Bridging foundational concepts into rigorous algebra, separated sciences, and structured essay writing.',
-      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=450&q=75&fm=webp',
       subjects: ['Pre-Algebra & Deductive Geometry', 'Integrated Physics, Chem, Bio', 'PEEL Essay Writing & Literature', 'Python Programming & Robotics', 'Spoken English & Public Speaking'],
       highlights: [
         'Step-by-step problem deconstruction',
@@ -37,20 +37,20 @@ export const GradeLevelTabs: React.FC = () => {
       title: 'Secondary & Board Exam (Grades 9 to 10)',
       eyebrow: 'AGES 14 - 16 • HIGH-YIELD BOARD MASTERY',
       tagline: 'Targeting 90%+ in CBSE, ICSE, IGCSE & GCSE examinations with topical past paper mastery.',
-      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80',
-      subjects: ['Standard & Extended Mathematics', 'Physics, Chemistry, Biology (Lab Theory)', 'Computer Science (Java/Python)', 'Shakespeare & English Language', 'Board Exam Revision Bootcamps'],
+      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=450&q=75&fm=webp',
+      subjects: ['Grade 10 Higher Math & Coordinate Geometry', 'Physics, Chemistry & Biology (Separate)', 'IGCSE / GCSE Extended Math & Sciences', 'English Language & Literature Prep', 'AP Computer Science Principles'],
       highlights: [
-        'Past 10 years chapter-wise solved papers',
-        'Examiner step-marking scheme alignment',
-        'Paper 6 Alternative to Practical simulations',
-        'Timed 3-hour mock exams with detailed rubric feedback'
+        '10+ years solved past paper question banks',
+        'Examiner marking scheme & keyword training',
+        'Time-pressure mock test series with feedback',
+        'Direct exam strategy & formula shortcut sheets'
       ]
     },
     senior: {
-      title: 'Senior High & Pre-University (Grades 11 to 12)',
-      eyebrow: 'AGES 16 - 18 • AP, IB DP HL, A-LEVELS & UNIVERSITY GATEWAYS',
-      tagline: 'Elite mentorship for top competitive scores, AP Score 5s, IB DP 40+ points, and university admissions.',
-      image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80',
+      title: 'Senior Secondary & College Prep (Grades 11 to 12)',
+      eyebrow: 'AGES 17 - 18 • AP, IB DP & A-LEVEL EXCELLENCE',
+      tagline: 'Specialized 1-on-1 coaching for AP Exams, IB Higher Level (HL) subjects, and A-Level distinctions.',
+      image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=450&q=75&fm=webp',
       subjects: ['AP Calculus AB/BC & IB Math AA HL', 'AP Physics C / IB Physics HL', 'AP Chemistry & Biology', 'A-Level Pure Maths & Further Maths', 'Digital SAT / ACT & Admissions Prep'],
       highlights: [
         'Taught by PhDs, IITians and Cambridge/Oxbridge alumni',

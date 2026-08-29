@@ -8,26 +8,28 @@ import { BookTrialModal } from './components/modals/BookTrialModal';
 import { TutorMatchQuiz } from './components/quiz/TutorMatchQuiz';
 
 import { HomePage } from './pages/HomePage';
-import { AboutPage } from './pages/AboutPage';
-import { CoursesPage } from './pages/CoursesPage';
-import { BoardsHubPage } from './pages/BoardsHubPage';
-import { BoardLandingPage } from './pages/BoardLandingPage';
-import { SubjectsHubPage } from './pages/SubjectsHubPage';
-import { SubjectLandingPage } from './pages/SubjectLandingPage';
-import { LanguagesHubPage } from './pages/LanguagesHubPage';
-import { LanguageLandingPage } from './pages/LanguageLandingPage';
-import { CountriesHubPage } from './pages/CountriesHubPage';
-import { CountryLandingPage } from './pages/CountryLandingPage';
-import { ExamPrepPage } from './pages/ExamPrepPage';
-import { PricingPage } from './pages/PricingPage';
-import { FreeDemoPage } from './pages/FreeDemoPage';
-import { BlogHubPage } from './pages/BlogHubPage';
-import { BlogPostPage } from './pages/BlogPostPage';
-import { CareersPage } from './pages/CareersPage';
-import { ContactPage } from './pages/ContactPage';
-import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
-import { TermsPage } from './pages/TermsPage';
-import { RefundPolicyPage } from './pages/RefundPolicyPage';
+
+// Code-split subpages to eliminate unused JS on initial load
+const AboutPage = React.lazy(() => import('./pages/AboutPage').then(m => ({ default: m.AboutPage })));
+const CoursesPage = React.lazy(() => import('./pages/CoursesPage').then(m => ({ default: m.CoursesPage })));
+const BoardsHubPage = React.lazy(() => import('./pages/BoardsHubPage').then(m => ({ default: m.BoardsHubPage })));
+const BoardLandingPage = React.lazy(() => import('./pages/BoardLandingPage').then(m => ({ default: m.BoardLandingPage })));
+const SubjectsHubPage = React.lazy(() => import('./pages/SubjectsHubPage').then(m => ({ default: m.SubjectsHubPage })));
+const SubjectLandingPage = React.lazy(() => import('./pages/SubjectLandingPage').then(m => ({ default: m.SubjectLandingPage })));
+const LanguagesHubPage = React.lazy(() => import('./pages/LanguagesHubPage').then(m => ({ default: m.LanguagesHubPage })));
+const LanguageLandingPage = React.lazy(() => import('./pages/LanguageLandingPage').then(m => ({ default: m.LanguageLandingPage })));
+const CountriesHubPage = React.lazy(() => import('./pages/CountriesHubPage').then(m => ({ default: m.CountriesHubPage })));
+const CountryLandingPage = React.lazy(() => import('./pages/CountryLandingPage').then(m => ({ default: m.CountryLandingPage })));
+const ExamPrepPage = React.lazy(() => import('./pages/ExamPrepPage').then(m => ({ default: m.ExamPrepPage })));
+const PricingPage = React.lazy(() => import('./pages/PricingPage').then(m => ({ default: m.PricingPage })));
+const FreeDemoPage = React.lazy(() => import('./pages/FreeDemoPage').then(m => ({ default: m.FreeDemoPage })));
+const BlogHubPage = React.lazy(() => import('./pages/BlogHubPage').then(m => ({ default: m.BlogHubPage })));
+const BlogPostPage = React.lazy(() => import('./pages/BlogPostPage').then(m => ({ default: m.BlogPostPage })));
+const CareersPage = React.lazy(() => import('./pages/CareersPage').then(m => ({ default: m.CareersPage })));
+const ContactPage = React.lazy(() => import('./pages/ContactPage').then(m => ({ default: m.ContactPage })));
+const PrivacyPolicyPage = React.lazy(() => import('./pages/PrivacyPolicyPage').then(m => ({ default: m.PrivacyPolicyPage })));
+const TermsPage = React.lazy(() => import('./pages/TermsPage').then(m => ({ default: m.TermsPage })));
+const RefundPolicyPage = React.lazy(() => import('./pages/RefundPolicyPage').then(m => ({ default: m.RefundPolicyPage })));
 
 export const AppContent: React.FC = () => {
   const { currentPath, toastMessage } = useApp();
@@ -86,7 +88,9 @@ export const AppContent: React.FC = () => {
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Navbar />
       <div style={{ flex: 1 }}>
-        {renderActivePage()}
+        <React.Suspense fallback={<div style={{ minHeight: '60vh', background: 'var(--bg-primary)' }} />}>
+          {renderActivePage()}
+        </React.Suspense>
       </div>
       <Footer />
 
