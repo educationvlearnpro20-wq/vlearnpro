@@ -244,12 +244,13 @@ svg {
   transition: all var(--transition-normal);
   text-align: center;
   min-height: 44px;
+  white-space: nowrap;
 }
 
 @media (max-width: 639px) {
   .btn {
     white-space: normal;
-    word-break: break-word;
+    word-break: normal;
     width: 100%;
   }
 }

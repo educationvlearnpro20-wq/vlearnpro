@@ -171,22 +171,22 @@ export const CoursesPage: React.FC = () => {
                     </div>
                   </div>
 
-                  <div style={{ display: 'flex', gap: '0.5rem', borderTop: '1px solid var(--border-subtle)', paddingTop: '1.25rem' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem', borderTop: '1px solid var(--border-subtle)', paddingTop: '1.25rem' }}>
                     <button
                       type="button"
                       onClick={() => navigateTo({ type: 'subject', id: id as SubjectId })}
                       className="btn btn-secondary"
-                      style={{ flex: 1, fontSize: '0.85rem' }}
+                      style={{ width: '100%', fontSize: '0.875rem' }}
                     >
-                      View Syllabus →
+                      View Syllabus Track →
                     </button>
                     <button
                       type="button"
                       onClick={() => openTrialModal({ subject: s.name })}
                       className="btn btn-emerald"
-                      style={{ fontSize: '0.85rem' }}
+                      style={{ width: '100%', fontSize: '0.875rem' }}
                     >
-                      Book Trial
+                      Book Free Trial Class
                     </button>
                   </div>
                 </div>
