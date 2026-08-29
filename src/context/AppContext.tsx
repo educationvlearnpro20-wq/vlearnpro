@@ -142,6 +142,18 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
+  // Lock body scroll when any modal is open for premium agency UX
+  useEffect(() => {
+    if (isTrialModalOpen || isQuizModalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isTrialModalOpen, isQuizModalOpen]);
+
   const setSelectedCountry = (code: CountryCode) => {
     setSelectedCountryState(code);
     const countryData = COUNTRIES_DATA[code];

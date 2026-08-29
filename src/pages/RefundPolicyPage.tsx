@@ -71,6 +71,7 @@ export const RefundPolicyPage: React.FC = () => {
               <div className="card-solid" style={{ padding: '1.25rem', marginTop: '0.75rem' }}>
                 <div><strong>Email:</strong> educationvlearnpro20@gmail.com</div>
                 <div><strong>WhatsApp / Phone:</strong> +91 8126144847</div>
+                <div><strong>Registered Office Address:</strong> Near Union Bank, Jamia Nagar, Okhla, New Delhi, Delhi 110025, India</div>
                 <div><strong>Response Time:</strong> Within 24 hours</div>
               </div>
             </div>
