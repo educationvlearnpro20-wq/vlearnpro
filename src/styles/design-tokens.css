@@ -1,56 +1,56 @@
 :root {
-  /* Premium Clean Soft Palette */
+  /* Premium Clean Soft Palette for #EFF2F6 Light Aesthetic */
   --bg-primary: #eff2f6;
-  --bg-secondary: #0F172A;
-  --bg-tertiary: #1A2438;
-  --bg-card: rgba(15, 23, 42, 0.85);
-  --bg-card-hover: rgba(26, 36, 56, 0.95);
-  --bg-elevated: #162032;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-elevated: #ffffff;
 
-  /* Text Colors (High Contrast AAA for 100/100 PageSpeed Accessibility) */
-  --text-primary: #FFFFFF;
-  --text-secondary: #E2E8F0;
-  --text-muted: #CBD5E1;
-  --text-inverse-primary: #0F172A;
-  --text-inverse-secondary: #334155;
-  --text-inverse-muted: #475569;
+  /* Text Colors (High Contrast AAA for Light #EFF2F6 Background) */
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-inverse-primary: #ffffff;
+  --text-inverse-secondary: #e2e8f0;
+  --text-inverse-muted: #94a3b8;
 
   /* Accent & Primary Interactive - Royal Indigo & Sapphire */
-  --brand-primary: #4F46E5;
-  --brand-primary-hover: #4338CA;
-  --brand-primary-light: rgba(79, 70, 229, 0.16);
-  --brand-primary-glow: rgba(79, 70, 229, 0.35);
+  --brand-primary: #4f46e5;
+  --brand-primary-hover: #4338ca;
+  --brand-primary-light: rgba(79, 70, 229, 0.08);
+  --brand-primary-glow: rgba(79, 70, 229, 0.2);
 
   /* Secondary Accent - Emerald Conversion & Trust */
   --brand-emerald: #059669;
   --brand-emerald-hover: #047857;
-  --brand-emerald-light: rgba(5, 150, 105, 0.16);
-  --brand-emerald-glow: rgba(5, 150, 105, 0.35);
+  --brand-emerald-light: rgba(5, 150, 105, 0.08);
+  --brand-emerald-glow: rgba(5, 150, 105, 0.2);
 
   /* Distinction & Badges - Distinction Gold */
-  --brand-amber: #F59E0B;
-  --brand-amber-light: rgba(245, 158, 11, 0.16);
-  --brand-amber-glow: rgba(245, 158, 11, 0.35);
+  --brand-amber: #d97706;
+  --brand-amber-light: rgba(217, 119, 6, 0.1);
+  --brand-amber-glow: rgba(217, 119, 6, 0.2);
 
-  --brand-cyan: #0284C7;
-  --brand-cyan-light: rgba(2, 132, 199, 0.16);
+  --brand-cyan: #0284c7;
+  --brand-cyan-light: rgba(2, 132, 199, 0.1);
 
-  --brand-rose: #E11D48;
-  --brand-rose-light: rgba(225, 29, 72, 0.16);
+  --brand-rose: #e11d48;
+  --brand-rose-light: rgba(225, 29, 72, 0.1);
 
   /* Border Tokens */
-  --border-subtle: rgba(255, 255, 255, 0.1);
-  --border-medium: rgba(255, 255, 255, 0.18);
-  --border-strong: rgba(255, 255, 255, 0.3);
-  --border-focus: #818CF8;
+  --border-subtle: rgba(15, 23, 42, 0.08);
+  --border-medium: rgba(15, 23, 42, 0.15);
+  --border-strong: rgba(15, 23, 42, 0.25);
+  --border-focus: #4f46e5;
 
   /* Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
-  --shadow-xl: 0 20px 45px -10px rgba(0, 0, 0, 0.6);
-  --shadow-glow-indigo: 0 0 30px -5px rgba(79, 70, 229, 0.35);
-  --shadow-glow-emerald: 0 0 30px -5px rgba(5, 150, 105, 0.35);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 12px 30px -4px rgba(15, 23, 42, 0.12), 0 4px 10px -4px rgba(15, 23, 42, 0.06);
+  --shadow-xl: 0 20px 45px -10px rgba(15, 23, 42, 0.16);
+  --shadow-glow-indigo: 0 0 30px -5px rgba(79, 70, 229, 0.2);
+  --shadow-glow-emerald: 0 0 30px -5px rgba(5, 150, 105, 0.2);
 
   /* Typography Stack */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

@@ -50,11 +50,11 @@ export const Navbar: React.FC = () => {
           position: 'sticky',
           top: 0,
           zIndex: 100,
-          background: isScrolled ? 'rgba(10, 15, 29, 0.95)' : 'rgba(10, 15, 29, 0.85)',
+          background: isScrolled ? 'rgba(255, 255, 255, 0.95)' : 'rgba(239, 242, 246, 0.9)',
           backdropFilter: 'blur(20px)',
           WebkitBackdropFilter: 'blur(20px)',
-          borderBottom: isScrolled ? '1px solid rgba(255, 255, 255, 0.14)' : '1px solid rgba(255, 255, 255, 0.08)',
-          boxShadow: isScrolled ? '0 10px 30px rgba(0, 0, 0, 0.4)' : 'none',
+          borderBottom: isScrolled ? '1px solid rgba(15, 23, 42, 0.12)' : '1px solid rgba(15, 23, 42, 0.06)',
+          boxShadow: isScrolled ? '0 10px 30px rgba(15, 23, 42, 0.08)' : 'none',
           transition: 'all 0.25s ease'
         }}
       >
