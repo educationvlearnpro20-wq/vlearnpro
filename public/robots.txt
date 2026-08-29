@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /scratch/
+Disallow: /*?*query=
+
+Sitemap: https://vlearnproeducation.com/sitemap.xml
