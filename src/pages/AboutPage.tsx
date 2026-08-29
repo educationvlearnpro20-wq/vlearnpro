@@ -53,13 +53,13 @@ export const AboutPage: React.FC = () => {
                 ABOUT VLEARNPRO EDUCATION
               </span>
               <h1 style={{ marginBottom: '1.25rem' }}>
-                Reimagining Online Education Through Elite 1-on-1 Mentorship
+                Reimagining Online Education for Families Across the GCC & India
               </h1>
               <p style={{ fontSize: '1.2rem', color: 'var(--text-heading-secondary)', fontWeight: 600, lineHeight: 1.5, marginBottom: '1rem' }}>
-                Empowering students from Grade 1 to 12 to achieve academic mastery, self-confidence, and global university success.
+                Empowering students from Grade 1 to 12 across UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman & India to achieve academic mastery and global university success.
               </p>
               <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', lineHeight: 1.65 }}>
-                Founded by international education researchers and Cambridge alumni, VLearnPro Education was created to solve a widespread crisis in modern schooling: crowded classrooms where individual learning styles are overlooked, and rote memorization replaces genuine understanding.
+                Founded by international education researchers and Cambridge alumni, VLearnPro Education is the GCC’s premier 1-on-1 online education institute. We specialize in empowering families across Dubai, Abu Dhabi, Riyadh, Jeddah, Doha, Kuwait City, Manama, and Muscat with elite, subject-dedicated 1-on-1 tutors tailored to KHDA, ADEK, and GCC international school standards across CBSE, ICSE, IGCSE, IB, and American curricula.
               </p>
             </div>
 
@@ -96,10 +96,10 @@ export const AboutPage: React.FC = () => {
           }}>
             <div>
               <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#34D399', fontFamily: 'var(--font-heading)' }}>
-                18,500+
+                14,200+
               </div>
               <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                Students Mentored Globally
+                GCC & Indian Students Mentored
               </div>
             </div>
 
@@ -123,10 +123,10 @@ export const AboutPage: React.FC = () => {
 
             <div>
               <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text-heading-primary)', fontFamily: 'var(--font-heading)' }}>
-                8 Hubs
+                7 GCC Hubs
               </div>
               <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                USA, UK, UAE, SG, EU, CA, AU, IN
+                UAE, KSA, Qatar, Kuwait, Bahrain, Oman & India
               </div>
             </div>
           </div>

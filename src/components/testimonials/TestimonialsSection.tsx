@@ -5,15 +5,17 @@ import { useApp } from '../../context/AppContext';
 
 export const TestimonialsSection: React.FC = () => {
   const { openTrialModal } = useApp();
-  const [filter, setFilter] = useState<'all' | 'usa' | 'uk' | 'uae' | 'singapore' | 'india'>('all');
+  const [filter, setFilter] = useState<'all' | 'uae' | 'saudi' | 'qatar' | 'kuwait' | 'india' | 'uk' | 'usa'>('all');
 
   const filteredReviews = TESTIMONIALS_DATA.filter(t => {
     if (filter === 'all') return true;
-    if (filter === 'usa') return t.country.includes('United States');
-    if (filter === 'uk') return t.country.includes('United Kingdom');
     if (filter === 'uae') return t.country.includes('UAE');
-    if (filter === 'singapore') return t.country.includes('Singapore');
+    if (filter === 'saudi') return t.country.includes('Saudi');
+    if (filter === 'qatar') return t.country.includes('Qatar');
+    if (filter === 'kuwait') return t.country.includes('Kuwait');
     if (filter === 'india') return t.country.includes('India');
+    if (filter === 'uk') return t.country.includes('United Kingdom');
+    if (filter === 'usa') return t.country.includes('United States');
     return true;
   });
 
@@ -35,11 +37,13 @@ export const TestimonialsSection: React.FC = () => {
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1.5rem' }}>
             {[
               { id: 'all', label: 'All Reviews (1,840+)' },
-              { id: 'usa', label: '🇺🇸 USA' },
-              { id: 'uk', label: '🇬🇧 UK' },
               { id: 'uae', label: '🇦🇪 UAE (Dubai)' },
-              { id: 'singapore', label: '🇸🇬 Singapore' },
-              { id: 'india', label: '🇮🇳 India' }
+              { id: 'saudi', label: '🇸🇦 Saudi Arabia' },
+              { id: 'qatar', label: '🇶🇦 Qatar' },
+              { id: 'kuwait', label: '🇰🇼 Kuwait' },
+              { id: 'india', label: '🇮🇳 India' },
+              { id: 'uk', label: '🇬🇧 UK' },
+              { id: 'usa', label: '🇺🇸 USA' }
             ].map(f => (
               <button
                 key={f.id}

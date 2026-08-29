@@ -1,121 +1,221 @@
 import { CountryInfo, CountryCode } from '../types';
 
 export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
-  usa: {
-    code: 'usa',
-    name: 'United States of America',
-    flag: '🇺🇸',
-    currency: 'USD',
-    currencySymbol: '$',
-    timezone: 'EST / CST / MST / PST (All US Zones)',
-    phoneCode: '+1',
-    tagline: 'Premier 1-on-1 Online Tuition for K-12, Honors, AP & SAT Prep Across the US',
-    description: 'Empowering American students from Kindergarten through Grade 12 to achieve top GPAs and master Advanced Placement (AP) coursework. Scheduled flexibly after school and weekends in your local US timezone.',
-    popularBoards: ['American Curriculum (Common Core / NGSS)', 'Advanced Placement (AP)', 'International Baccalaureate (IB DP)', 'Cambridge International (CAIE)'],
-    popularSubjects: ['Maths (Algebra 1/2, Pre-Calc, AP Calc)', 'Science & AP Physics / Chemistry / Bio', 'Coding & AP Computer Science A', 'Digital SAT / ACT Prep', 'Public Speaking & Debate'],
-    parentPainPoints: [
-      { pain: 'Local in-person tutoring centers charge $80-$120/hr for generic worksheets in group settings.', solution: 'VLearnPro provides dedicated 1-on-1 subject specialists at a fraction of the cost with customized lesson plans.' },
-      { pain: 'Balancing sports, extracurriculars, and rigorous AP course homework loads.', solution: 'Flexible lesson scheduling that easily adjusts to your child’s weekly sports and arts calendar.' },
-      { pain: 'Need for high SAT / ACT scores and 5s on AP exams for competitive college admissions.', solution: 'Targeted College Board test prep with verified past FRQ and Bluebook digital simulations.' }
-    ],
-    localSchoolAlignments: ['US Public & Private High Schools', 'Magnet & STEM Academies', 'Ivy-Feeder Prep Schools', 'Homeschooling Networks'],
-    stats: [
-      { label: 'AP Score 5 Rate', value: '88.7%' },
-      { label: 'Avg SAT Score Gain', value: '+190 Pts' },
-      { label: 'US Students Taught', value: '4,200+' },
-      { label: 'US Timezone Coverage', value: '100% (PST-EST)' }
-    ],
-    studentQuote: {
-      quote: 'VLearnPro’s AP Calculus and AP Physics tutors were incredible. My daughter improved her GPA from 3.4 to 3.9 and scored 5s on both AP exams in May!',
-      student: 'Sarah Jenkins (Parent of Tyler, Grade 11)',
-      school: 'St. John’s Preparatory School',
-      city: 'Austin, Texas',
-      score: 'Scored 5 in AP Calc BC & 1540 on SAT'
-    },
-    faqs: [
-      { question: 'What hours are tutors available in US time zones?', answer: 'We have dedicated faculty available 7 days a week from 2:00 PM to 10:00 PM EST, CST, MST, and PST, as well as weekend morning and afternoon slots.' },
-      { question: 'Are your tutors familiar with the US Common Core and College Board AP rubrics?', answer: 'Yes! All tutors assigned to US students are specifically trained in US State Standards, NGSS, and College Board AP course and exam descriptions.' }
-    ],
-    metaTitle: 'Online Tuition in USA (K-12, AP, Honors & SAT) | 1-on-1 US Tutors',
-    metaDescription: 'Top-rated 1-on-1 online tutoring in the USA. Expert tutors for US Common Core Math, AP Calculus, AP Sciences, Coding & SAT prep. Scheduled in your timezone.'
-  },
-
-  uk: {
-    code: 'uk',
-    name: 'United Kingdom',
-    flag: '🇬🇧',
-    currency: 'GBP',
-    currencySymbol: '£',
-    timezone: 'GMT / BST (London Time)',
-    phoneCode: '+44',
-    tagline: 'Elite 1-on-1 Online Tutoring for KS1-KS4, GCSE (9-1) & A-Level Exams',
-    description: 'Transform your child’s academic confidence with specialist British curriculum tutors. Tailored 1-on-1 coaching strictly aligned with AQA, Pearson Edexcel, OCR, and Cambridge CAIE exam specifications.',
-    popularBoards: ['UK GCSE (AQA / Edexcel / OCR)', 'GCE A-Levels & Further Maths', 'Cambridge International (CAIE)', 'IB Diploma Programme (DP)'],
-    popularSubjects: ['GCSE / A-Level Maths & Further Maths', 'Triple & Combined Sciences', 'English Language & Literature', 'Computer Science (Python)', 'University Admissions (STEP/MAT/UCAT)'],
-    parentPainPoints: [
-      { pain: 'Struggling to secure high Grade 8/9s in GCSEs needed for top Sixth Forms and Grammar Schools.', solution: 'Targeted specification coaching focused on the toughest Grade 8/9 past paper question archetypes.' },
-      { pain: 'High cost of private UK tutors (£50-£90/hr) with inconsistent teaching quality.', solution: 'Vetted, top 1.8% Russell Group and Oxbridge graduate tutors with proven track records at transparent rates.' },
-      { pain: 'Stress around November/January mock examinations and final summer exam series.', solution: 'Dedicated mock revision bootcamps that peak student performance ahead of key exam windows.' }
-    ],
-    localSchoolAlignments: ['UK State & Grammar Schools', 'Independent & Public Schools (Eton, Harrow, Westminster style)', 'British International Schools Abroad'],
-    stats: [
-      { label: 'GCSE Grade 8-9 Rate', value: '91.2%' },
-      { label: 'A-Level A*/A Rate', value: '89.4%' },
-      { label: 'UK Students Taught', value: '3,800+' },
-      { label: 'Russell Group Offers', value: '96.8%' }
-    ],
-    studentQuote: {
-      quote: 'My son jumped from a Grade 5 in his Year 10 mocks to straight Grade 9s in GCSE Maths and Physics! The 1-on-1 attention and past paper breakdown made all the difference.',
-      student: 'Claire Robinson (Parent of Oliver, Year 11)',
-      school: 'King Edward VI Grammar School',
-      city: 'Birmingham, UK',
-      score: 'Achieved 8 Grade 9s in GCSEs'
-    },
-    faqs: [
-      { question: 'Do you cover specific UK exam boards like AQA and Edexcel?', answer: 'Yes! We strictly align all tutoring materials, questions, and mark schemes to your child’s specific exam board (AQA, Pearson Edexcel, OCR, or Eduqas).' },
-      { question: 'Can you help with 11+ and 13+ Grammar and Independent School entrance exams?', answer: 'Yes, we provide specialized 11+ and 13+ entrance tuition covering Verbal Reasoning, Non-Verbal Reasoning, English, and Maths.' }
-    ],
-    metaTitle: 'Online Tuition UK (KS3, GCSE & A-Level) | 1-on-1 British Curriculum Tutors',
-    metaDescription: 'Premier 1-on-1 online tutoring in the UK. Master AQA & Edexcel GCSE (9-1), A-Levels, Maths, Sciences & English with top UK tutors. Book a free trial.'
-  },
-
   uae: {
     code: 'uae',
-    name: 'United Arab Emirates & Gulf',
+    name: 'United Arab Emirates (Dubai, Abu Dhabi, Sharjah)',
     flag: '🇦🇪',
     currency: 'AED',
     currencySymbol: 'د.إ',
-    timezone: 'GST (Gulf Standard Time - Dubai / Abu Dhabi)',
+    timezone: 'GST (Gulf Standard Time - Dubai / Abu Dhabi / Sharjah)',
     phoneCode: '+971',
-    tagline: 'Leading 1-on-1 Online Tuition for CBSE, IGCSE, IB & American Schools in UAE',
-    description: 'The preferred online tutoring partner for expatriate and local families in Dubai, Abu Dhabi, Sharjah, and across the GCC. Aligned with KHDA and ADEK academic standards across CBSE, British (IGCSE/A-Level), IB, and American curricula.',
-    popularBoards: ['CBSE (Gulf Schools)', 'Cambridge IGCSE & Edexcel', 'IB (PYP, MYP, DP)', 'American Curriculum / AP'],
-    popularSubjects: ['Maths (All Boards)', 'Physics, Chemistry & Biology', 'Coding & Artificial Intelligence', 'Spoken English & Public Speaking', 'French & Arabic Support'],
+    tagline: 'The #1 Preferred 1-on-1 Online Tuition for CBSE, IGCSE, IB & American Schools in UAE',
+    description: 'The premier online tutoring institute for families across Dubai, Abu Dhabi, Sharjah, and Ajman. Strictly aligned with KHDA and ADEK academic benchmarks for CBSE, Cambridge (IGCSE/A-Level), IB, and American school students.',
+    popularBoards: ['CBSE (Gulf Region)', 'Cambridge IGCSE & Edexcel', 'IB Diploma Programme (DP & MYP)', 'American Curriculum / AP'],
+    popularSubjects: ['Maths (All Curricula)', 'Physics, Chemistry & Biology', 'Computer Science & Python', 'English Language & Public Speaking', 'French & Arabic Academic Support'],
     parentPainPoints: [
-      { pain: 'Traffic congestion in Dubai and Abu Dhabi making commuting to physical tuition centers exhausting.', solution: 'Live interactive 1-on-1 classes right from the comfort of home with zero commute stress.' },
-      { pain: 'High expatriate tuition center fees with variable teacher continuity.', solution: 'Affordable, transparent pricing with dedicated long-term mentor pairing.' },
-      { pain: 'Need for high scores in CBSE Class 10/12 Boards, IGCSEs, or IB DP for top global university entry.', solution: 'Proven curriculum blueprints with over 95% distinction rates across UAE international schools.' }
+      { pain: 'Heavy traffic congestion on Sheikh Zayed Road and E11 making commuting to physical centers exhausting.', solution: 'Live interactive 1-on-1 classes scheduled comfortably from home with zero commute time.' },
+      { pain: 'High tuition center costs in Dubai and Abu Dhabi with inconsistent tutor quality.', solution: 'Vetted, top 1.8% dedicated subject mentors assigned long-term at transparent AED pricing.' },
+      { pain: 'Targeting 95%+ in CBSE Boards, 8/9s in IGCSEs, or 40+ in IB DP for elite global university entry.', solution: 'Customized exam mastery roadmaps with past paper blueprints and KHDA/ADEK syllabus coverage.' }
     ],
-    localSchoolAlignments: ['GEMS Education Schools', 'Taaleem Schools', 'Innoventures Education', 'Delhi Private School / Indian High School Dubai', 'Dubai College / JESS'],
+    localSchoolAlignments: ['GEMS Education Schools', 'Taaleem Schools', 'Innoventures Education', 'Delhi Private School (Dubai & Sharjah)', 'Dubai College & JESS Dubai', 'Indian High School Dubai'],
     stats: [
-      { label: 'UAE Students Enrolled', value: '5,600+' },
-      { label: '90%+ Score Rate', value: '96.2%' },
-      { label: 'KHDA/ADEK Sync', value: '100%' },
-      { label: 'Parent Satisfaction', value: '4.96 / 5' }
+      { label: 'GCC & UAE Enrolled', value: '6,400+' },
+      { label: 'Board Distinction Rate', value: '96.8%' },
+      { label: 'KHDA/ADEK Alignment', value: '100%' },
+      { label: 'Parent Rating in UAE', value: '4.97 / 5' }
     ],
     studentQuote: {
-      quote: 'Living in Dubai with busy schedules, VLearnPro has been a lifesaver. My daughter scored 97.2% in her CBSE Class 12 Boards and got into her dream university in Canada!',
+      quote: 'Living in Dubai with busy schedules, VLearnPro has been our best decision. My daughter achieved 97.4% in her CBSE Class 12 Boards and secured entry into her dream university!',
       student: 'Rajesh & Meera Menon (Parents of Ananya)',
       school: 'GEMS Our Own Indian School',
       city: 'Dubai, UAE',
-      score: '97.2% in CBSE Class 12 Science'
+      score: '97.4% in CBSE Class 12 Science'
     },
     faqs: [
-      { question: 'Are classes scheduled around UAE school timings?', answer: 'Yes! Classes are scheduled conveniently between 3:30 PM and 9:30 PM GST on weekdays, and all day on Saturdays and Sundays.' },
-      { question: 'Do you offer payments in UAE Dirhams (AED)?', answer: 'Yes! We support direct AED payments via local cards, Apple Pay, and international bank transfers with zero currency conversion fees.' }
+      { question: 'Are tutoring sessions scheduled around UAE school hours?', answer: 'Yes! Sessions are scheduled flexibly between 3:30 PM and 9:30 PM GST on weekdays, and all day on Saturdays and Sundays.' },
+      { question: 'Can we pay directly in UAE Dirhams (AED)?', answer: 'Yes, we accept AED payments via UAE debit/credit cards, Apple Pay, and local bank transfers with zero hidden conversion fees.' }
     ],
-    metaTitle: 'Online Tuition in UAE (Dubai, Abu Dhabi) | CBSE, IGCSE & IB Tutors',
-    metaDescription: 'Best 1-on-1 online tuition in UAE for Dubai & Abu Dhabi students. Expert CBSE, IGCSE, IB DP & American curriculum tutors. Book a free trial today.'
+    metaTitle: 'Online Tuition in UAE (Dubai, Abu Dhabi, Sharjah) | CBSE, IGCSE & IB Tutors',
+    metaDescription: 'Leading 1-on-1 online tuition in UAE for Dubai, Abu Dhabi & Sharjah students. Expert CBSE, IGCSE, IB DP & American curriculum tutors. Book a free trial.'
+  },
+
+  saudi: {
+    code: 'saudi',
+    name: 'Saudi Arabia (Riyadh, Jeddah, Makkah, Madinah)',
+    flag: '🇸🇦',
+    currency: 'SAR',
+    currencySymbol: 'SR',
+    timezone: 'AST (Arabia Standard Time - Riyadh / Jeddah)',
+    phoneCode: '+966',
+    tagline: 'Leading 1-on-1 Online Tuition for CBSE, IGCSE, IB & American Schools in KSA',
+    description: 'Trusted by families across Riyadh, Jeddah, Khobar, Dammam, Makkah, and Madinah. Specialized 1-on-1 tuition for international and private school students studying CBSE, Cambridge, IB, and American curricula.',
+    popularBoards: ['CBSE (KSA Gulf Region)', 'Cambridge IGCSE & A-Levels', 'IB Diploma Programme (DP)', 'American Curriculum & AP'],
+    popularSubjects: ['Mathematics (Class 1 to 12)', 'Physics, Chemistry & Biology', 'Computer Science & Coding', 'English & IELTS/SAT Prep', 'French & Academic Arabic'],
+    parentPainPoints: [
+      { pain: 'Limited availability of specialized English-medium tutors in Riyadh, Jeddah, and Eastern Province.', solution: 'Direct 1-on-1 access to top 1.8% verified international curriculum subject specialists.' },
+      { pain: 'Balancing school exams with competitive entry for top global engineering and medical universities.', solution: 'Personalized mentoring focused on conceptual clarity, unit test preparation, and past exam series.' }
+    ],
+    localSchoolAlignments: ['International Indian School Riyadh (IISR)', 'International Indian School Jeddah (IISJ)', 'American International School Riyadh (AISR)', 'Jeddah Prep and Grammar School', 'British International School Riyadh'],
+    stats: [
+      { label: 'KSA Students Taught', value: '3,800+' },
+      { label: '90%+ Exam Distinction', value: '95.6%' },
+      { label: 'Timezone Synchronization', value: '100% AST' },
+      { label: 'Parent Satisfaction', value: '4.95 / 5' }
+    ],
+    studentQuote: {
+      quote: 'VLearnPro helped my son master IGCSE Physics and Chemistry HL in Riyadh. His confidence surged and he scored straight A*s in his final exams!',
+      student: 'Tariq & Fatima Al-Mansoor (Parents of Zayd)',
+      school: 'British International School Riyadh',
+      city: 'Riyadh, Saudi Arabia',
+      score: 'Scored 4 A*s in Cambridge IGCSE'
+    },
+    faqs: [
+      { question: 'Are classes scheduled around Saudi Arabia time (AST)?', answer: 'Yes! All classes are scheduled conveniently in your local AST time slot after school and on weekends.' },
+      { question: 'Do you accept Saudi Riyal (SAR) payments?', answer: 'Yes! We support direct SAR payments via MADA cards, Apple Pay, Visa, and Mastercard with instant receipt generation.' }
+    ],
+    metaTitle: 'Online Tuition in Saudi Arabia (Riyadh, Jeddah) | CBSE, IGCSE & IB Tutors',
+    metaDescription: 'Premier 1-on-1 online tutoring in Saudi Arabia for Riyadh & Jeddah families. Certified tutors for CBSE, Cambridge IGCSE, IB DP & American curricula. Free trial.'
+  },
+
+  qatar: {
+    code: 'qatar',
+    name: 'Qatar (Doha, Al Rayyan)',
+    flag: '🇶🇦',
+    currency: 'QAR',
+    currencySymbol: 'QR',
+    timezone: 'AST (Arabia Standard Time - Doha)',
+    phoneCode: '+974',
+    tagline: 'Premier 1-on-1 Online Tuition for International & CBSE Schools in Qatar',
+    description: 'Empowering students across Doha, Al Rayyan, Al Wakrah, and Lusail. Expert 1-on-1 live mentoring aligned with Qatar Ministry of Education guidelines across CBSE, British, IB, and American international schools.',
+    popularBoards: ['CBSE (Qatar Region)', 'Cambridge IGCSE & Edexcel', 'IB Diploma Programme (DP)', 'American High School Diploma'],
+    popularSubjects: ['Maths (Pure & Applied)', 'Physics, Chemistry & Biology', 'Coding & Computer Science', 'English Literature & Composition', 'SAT & Digital Test Prep'],
+    parentPainPoints: [
+      { pain: 'High private tutoring costs in Doha with limited 1-on-1 continuity.', solution: 'Dedicated 1-on-1 tutor matching with consistent long-term weekly schedules at transparent QAR rates.' },
+      { pain: 'Need for 90%+ scores in CBSE Class 10/12 or 38+ in IB DP for top university entry.', solution: 'Targeted past paper practice, doubt clearing, and exam strategy sessions.' }
+    ],
+    localSchoolAlignments: ['MES Indian School Doha', 'DPS-Modern Indian School Qatar', 'Qatar Academy (Doha & Al Wakra)', 'Doha College', 'Compass International School Doha'],
+    stats: [
+      { label: 'Qatar Students Enrolled', value: '2,100+' },
+      { label: '90%+ Score Achievers', value: '96.1%' },
+      { label: 'Doha Timezone Match', value: '100%' },
+      { label: 'Parent Satisfaction', value: '4.96 / 5' }
+    ],
+    studentQuote: {
+      quote: 'Finding an exceptional IB Maths AA HL tutor in Doha was challenging until we joined VLearnPro. My son achieved a 7 in Maths and 41 points overall!',
+      student: 'Nasser & Aisha Al-Kuwari (Parents of Hamad)',
+      school: 'Qatar Academy Doha',
+      city: 'Doha, Qatar',
+      score: '41 / 45 Points in IB Diploma'
+    },
+    faqs: [
+      { question: 'Do you offer Qatari Riyal (QAR) pricing?', answer: 'Yes! We provide transparent QAR tuition plans with no currency conversion charges.' }
+    ],
+    metaTitle: 'Online Tuition in Qatar (Doha) | CBSE, IGCSE & IB Tutors in Qatar',
+    metaDescription: 'Best 1-on-1 online tuition in Qatar for Doha students. Certified tutors for CBSE, IGCSE, IB DP & American schools. Book your free 45-min trial class.'
+  },
+
+  kuwait: {
+    code: 'kuwait',
+    name: 'Kuwait (Kuwait City, Hawally)',
+    flag: '🇰🇼',
+    currency: 'KWD',
+    currencySymbol: 'KD',
+    timezone: 'AST (Arabia Standard Time - Kuwait City)',
+    phoneCode: '+965',
+    tagline: 'Top-Rated 1-on-1 Online Tuition for CBSE & International Schools in Kuwait',
+    description: 'Specialized 1-on-1 online tuition for students in Kuwait City, Hawally, Salmiya, and Ahmadi. Aligned with CBSE, British (IGCSE/A-Level), IB, and American school standards.',
+    popularBoards: ['CBSE (Kuwait Region)', 'Cambridge IGCSE & Edexcel', 'IB DP & MYP', 'American Curriculum'],
+    popularSubjects: ['Mathematics (Class 1-12)', 'Physics, Chemistry & Biology', 'Python & Computer Science', 'English & IELTS/SAT Prep'],
+    parentPainPoints: [
+      { pain: 'Finding qualified subject tutors who understand the exact CBSE and IGCSE syllabus in Kuwait.', solution: 'Top 1.8% verified international board educators providing 1-on-1 personalized mentoring.' }
+    ],
+    localSchoolAlignments: ['Indian Community School Kuwait (ICSK)', 'Gulf Indian School Kuwait', 'The English School Kuwait', 'American International School of Kuwait', 'Kuwait National English School'],
+    stats: [
+      { label: 'Kuwait Students Taught', value: '1,900+' },
+      { label: 'Board Pass Rate', value: '99.2%' },
+      { label: 'Parent Recommendation', value: '99.1%' }
+    ],
+    studentQuote: {
+      quote: 'VLearnPro helped my daughter score 96.8% in CBSE Class 10 Boards in Kuwait. The 1-on-1 guidance was exceptional!',
+      student: 'Sameer & Huda Al-Fadli (Parents of Mariam)',
+      school: 'Indian Community School Kuwait',
+      city: 'Kuwait City, Kuwait',
+      score: '96.8% in CBSE Class 10'
+    },
+    faqs: [
+      { question: 'Do you accept KWD payments?', answer: 'Yes! We support payments in Kuwaiti Dinar (KWD) via local KNET and major credit cards.' }
+    ],
+    metaTitle: 'Online Tuition in Kuwait | CBSE, IGCSE & IB 1-on-1 Tutors in Kuwait',
+    metaDescription: 'Premier 1-on-1 online tutoring in Kuwait for CBSE, IGCSE & IB students in Kuwait City & Salmiya. Book your free 1-on-1 trial class today.'
+  },
+
+  bahrain: {
+    code: 'bahrain',
+    name: 'Bahrain (Manama, Riffa)',
+    flag: '🇧🇭',
+    currency: 'BHD',
+    currencySymbol: 'BD',
+    timezone: 'AST (Arabia Standard Time - Manama)',
+    phoneCode: '+973',
+    tagline: 'Leading 1-on-1 Online Tuition for CBSE & International Schools in Bahrain',
+    description: 'Empowering students across Manama, Riffa, Muharraq, and Saar with top 1.8% 1-on-1 verified tutors for CBSE, Cambridge, IB, and American school success.',
+    popularBoards: ['CBSE (Bahrain Region)', 'Cambridge IGCSE & A-Levels', 'IB DP', 'American Curriculum'],
+    popularSubjects: ['Maths', 'Physics', 'Chemistry', 'Biology', 'Coding & Computer Science'],
+    parentPainPoints: [
+      { pain: 'Need for high scores in school exams without stress or commuting.', solution: 'Live interactive 1-on-1 lessons from home in local AST timezone.' }
+    ],
+    localSchoolAlignments: ['The Indian School Bahrain (ISB)', 'Asian School Bahrain', 'St. Christopher’s School Bahrain', 'British School of Bahrain'],
+    stats: [
+      { label: 'Bahrain Students', value: '1,200+' },
+      { label: '90%+ Score Rate', value: '95.8%' }
+    ],
+    studentQuote: {
+      quote: 'The 1-on-1 Maths and Physics tuition transformed my son’s grades in Manama. Highly recommended for GCC families!',
+      student: 'Yousif & Layla Al-Mulla (Parents of Ali)',
+      school: 'St. Christopher’s School Bahrain',
+      city: 'Manama, Bahrain',
+      score: 'Achieved Straight A*s'
+    },
+    faqs: [
+      { question: 'Do you support BHD payments?', answer: 'Yes, we accept payments in Bahraini Dinar (BHD) with zero currency markup.' }
+    ],
+    metaTitle: 'Online Tuition in Bahrain (Manama) | CBSE, IGCSE & IB Tutors',
+    metaDescription: 'Best 1-on-1 online tuition in Bahrain. Top tutors for CBSE, Cambridge IGCSE & IB DP students in Manama & Riffa. Free trial class.'
+  },
+
+  oman: {
+    code: 'oman',
+    name: 'Oman (Muscat, Salalah)',
+    flag: '🇴🇲',
+    currency: 'OMR',
+    currencySymbol: 'RO',
+    timezone: 'GST (Gulf Standard Time - Muscat)',
+    phoneCode: '+968',
+    tagline: 'Premier 1-on-1 Online Tuition for CBSE & International Schools in Oman',
+    description: 'Trusted online tuition provider for families in Muscat, Salalah, Sohar, and Seeb across CBSE, Cambridge IGCSE, IB, and American curricula.',
+    popularBoards: ['CBSE (Oman Region)', 'Cambridge IGCSE', 'IB DP', 'American Curriculum'],
+    popularSubjects: ['Mathematics', 'Physics & Chemistry', 'Biology', 'English & Coding'],
+    parentPainPoints: [
+      { pain: 'Access to top-tier subject specialists in Muscat.', solution: 'Direct 1-on-1 live classes with top 1.8% vetted global educators.' }
+    ],
+    localSchoolAlignments: ['Indian School Muscat (ISM)', 'Indian School Al Ghubra', 'The Sultan’s School Oman', 'British School Muscat'],
+    stats: [
+      { label: 'Oman Students', value: '1,400+' },
+      { label: 'Board Distinction Rate', value: '96.0%' }
+    ],
+    studentQuote: {
+      quote: 'VLearnPro’s 1-on-1 tutoring helped my daughter excel in her CBSE Class 12 exams in Muscat!',
+      student: 'Salim & Fatima Al-Zadjali (Parents of Reem)',
+      school: 'Indian School Muscat',
+      city: 'Muscat, Oman',
+      score: '96.2% in CBSE Boards'
+    },
+    faqs: [
+      { question: 'Can we pay in Omani Rial (OMR)?', answer: 'Yes! We support OMR payments via debit/credit cards with zero fees.' }
+    ],
+    metaTitle: 'Online Tuition in Oman (Muscat) | CBSE, IGCSE & IB Tutors in Oman',
+    metaDescription: 'Leading 1-on-1 online tuition in Oman for Muscat & Salalah students. Certified tutors for CBSE, IGCSE & IB. Free trial.'
   },
 
   singapore: {
@@ -302,5 +402,73 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     ],
     metaTitle: 'Online Tuition in India (Class 1-12 CBSE, ICSE, IB & IGCSE) | 1-on-1 Tutors',
     metaDescription: 'Best 1-on-1 online tuition in India for CBSE, ICSE, IGCSE & IB. Top tutors for Maths, Physics, Chemistry, Biology & Coding. Book your free trial class.'
+  },
+
+  uk: {
+    code: 'uk',
+    name: 'United Kingdom',
+    flag: '🇬🇧',
+    currency: 'GBP',
+    currencySymbol: '£',
+    timezone: 'GMT / BST (London Time)',
+    phoneCode: '+44',
+    tagline: 'Elite 1-on-1 Online Tutoring for KS1-KS4, GCSE (9-1) & A-Level Exams',
+    description: 'Specialist British curriculum tutors aligned with AQA, Pearson Edexcel, OCR, and Cambridge CAIE exam specifications for UK and GCC international families.',
+    popularBoards: ['UK GCSE (AQA / Edexcel / OCR)', 'GCE A-Levels & Further Maths', 'Cambridge International (CAIE)', 'IB Diploma Programme (DP)'],
+    popularSubjects: ['GCSE / A-Level Maths & Further Maths', 'Triple & Combined Sciences', 'English Language & Literature', 'Computer Science (Python)'],
+    parentPainPoints: [
+      { pain: 'Struggling to secure high Grade 8/9s in GCSEs needed for top Sixth Forms.', solution: 'Targeted specification coaching focused on the toughest Grade 8/9 past paper question archetypes.' }
+    ],
+    localSchoolAlignments: ['UK State & Grammar Schools', 'Independent & Public Schools', 'British International Schools in GCC'],
+    stats: [
+      { label: 'GCSE Grade 8-9 Rate', value: '91.2%' },
+      { label: 'A-Level A*/A Rate', value: '89.4%' }
+    ],
+    studentQuote: {
+      quote: 'My son jumped from a Grade 5 in his Year 10 mocks to straight Grade 9s in GCSE Maths and Physics! The 1-on-1 attention made all the difference.',
+      student: 'Claire Robinson (Parent of Oliver, Year 11)',
+      school: 'King Edward VI Grammar School',
+      city: 'Birmingham, UK',
+      score: 'Achieved 8 Grade 9s in GCSEs'
+    },
+    faqs: [
+      { question: 'Do you cover specific UK exam boards like AQA and Edexcel?', answer: 'Yes! We strictly align all tutoring materials to your child’s specific exam board.' }
+    ],
+    metaTitle: 'Online Tuition UK (KS3, GCSE & A-Level) | 1-on-1 British Curriculum Tutors',
+    metaDescription: 'Premier 1-on-1 online tutoring in the UK. Master AQA & Edexcel GCSE (9-1), A-Levels, Maths, Sciences & English. Free trial.'
+  },
+
+  usa: {
+    code: 'usa',
+    name: 'United States of America',
+    flag: '🇺🇸',
+    currency: 'USD',
+    currencySymbol: '$',
+    timezone: 'EST / CST / MST / PST (All US Zones)',
+    phoneCode: '+1',
+    tagline: 'Premier 1-on-1 Online Tuition for K-12, Honors, AP & SAT Prep',
+    description: 'Empowering American and GCC international school students from Kindergarten through Grade 12 to achieve top GPAs and master Advanced Placement (AP) coursework.',
+    popularBoards: ['American Curriculum (Common Core)', 'Advanced Placement (AP)', 'International Baccalaureate (IB DP)', 'Cambridge CAIE'],
+    popularSubjects: ['Maths (Algebra, Pre-Calc, AP Calc)', 'Science & AP Physics / Chemistry / Bio', 'Coding & Computer Science', 'Digital SAT Prep'],
+    parentPainPoints: [
+      { pain: 'Local in-person tutoring centers charging high rates for generic group classes.', solution: 'Dedicated 1-on-1 subject specialists with customized lesson plans.' }
+    ],
+    localSchoolAlignments: ['US Public & Private High Schools', 'American International Schools in GCC'],
+    stats: [
+      { label: 'AP Score 5 Rate', value: '88.7%' },
+      { label: 'Avg SAT Score Gain', value: '+190 Pts' }
+    ],
+    studentQuote: {
+      quote: 'VLearnPro’s AP Calculus and AP Physics tutors were incredible. My daughter improved her GPA from 3.4 to 3.9 and scored 5s on both AP exams!',
+      student: 'Sarah Jenkins (Parent of Tyler, Grade 11)',
+      school: 'St. John’s Preparatory School',
+      city: 'Austin, Texas',
+      score: 'Scored 5 in AP Calc BC & 1540 on SAT'
+    },
+    faqs: [
+      { question: 'What hours are tutors available in US time zones?', answer: 'We have dedicated faculty available 7 days a week across all time zones.' }
+    ],
+    metaTitle: 'Online Tuition in USA (K-12, AP, Honors & SAT) | 1-on-1 US Tutors',
+    metaDescription: 'Top-rated 1-on-1 online tutoring in the USA. Expert tutors for US Common Core Math, AP Calculus, AP Sciences & SAT prep. Scheduled in your timezone.'
   }
 };

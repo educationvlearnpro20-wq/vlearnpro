@@ -97,8 +97,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   };
 
   const [currentPath, setCurrentPath] = useState<NavigationPath>(parsePathFromUrl);
-  const [selectedCountry, setSelectedCountryState] = useState<CountryCode>('usa');
-  const [selectedCurrency, setSelectedCurrency] = useState<CurrencyCode>('USD');
+  const [selectedCountry, setSelectedCountryState] = useState<CountryCode>('uae');
+  const [selectedCurrency, setSelectedCurrency] = useState<CurrencyCode>('AED');
   const [isTrialModalOpen, setIsTrialModalOpen] = useState(false);
   const [trialPrefill, setTrialPrefill] = useState<BookingPrefill>({});
   const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);

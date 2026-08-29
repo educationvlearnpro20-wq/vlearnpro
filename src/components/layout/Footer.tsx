@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '1.25rem', color: 'var(--text-primary)' }}>
-              Premium international 1-on-1 live online education institute empowering students from Grade 1 to 12 across 8 global countries and 9 school boards.
+              The premier 1-on-1 live online education institute empowering families across the GCC (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman) and India across 9 top school curricula.
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.8rem', color: 'var(--color-warning)' }}>
               <Star size={15} fill="var(--color-warning)" color="var(--color-warning)" />
@@ -350,10 +350,10 @@ export const Footer: React.FC = () => {
           }}>
             <div>
               <div style={{ fontWeight: 800, color: 'var(--text-heading-primary)', fontSize: '1.05rem', marginBottom: '0.25rem' }}>
-                🌐 Global Admissions & Parent Support Desk
+                🕌 GCC Regional Admissions & Parent Support Desk
               </div>
               <div style={{ color: 'var(--text-primary)', fontSize: '0.85rem' }}>
-                Serving Students in USA, UK, UAE, Singapore, Canada, Australia, Europe & India
+                Serving Families in UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia, Qatar, Kuwait, Bahrain, Oman & India
               </div>
             </div>
 

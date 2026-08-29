@@ -38,10 +38,10 @@ export const CountriesHubPage: React.FC = () => {
               GLOBAL OPERATIONAL HUBS
             </span>
             <h1 style={{ marginBottom: '1rem' }}>
-              Localized 1-on-1 Online Tuition Across 8 Countries
+              Localized 1-on-1 Online Tuition Across the GCC & Regional Hubs
             </h1>
             <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
-              We synchronize live tutoring directly with your child’s local school calendar, regional examination boards, and local time zones (EST, PST, GMT, GST, SGT, AEST, IST).
+              We synchronize live tutoring directly with GCC school calendars across UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman & India, regional academic standards (KHDA, ADEK, MOE), and local time zones (GST, AST, IST).
             </p>
           </div>
 

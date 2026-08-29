@@ -2,23 +2,6 @@ import { Testimonial } from '../types';
 
 export const TESTIMONIALS_DATA: Testimonial[] = [
   {
-    id: 't-1',
-    parentName: 'Jennifer & Robert Vance',
-    childName: 'Emma Vance',
-    grade: 'Grade 11',
-    board: 'American Curriculum / AP',
-    subject: 'AP Calculus BC & AP Physics C',
-    country: 'United States',
-    countryFlag: '🇺🇸',
-    rating: 5,
-    date: 'February 2026',
-    highlight: 'Scored 5s on both AP Calculus BC and AP Physics C exams!',
-    review: 'Emma was feeling overwhelmed with the pace of her AP Calculus class. VLearnPro matched her with Dr. Alok, an extraordinary mentor who broke down multi-variable integrals and mechanics from first principles. She went from a B- to an unshakeable A and scored 5s on both AP exams!',
-    metric: 'B- to A (Top 2% in Class)',
-    verified: true,
-    avatarUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
-  },
-  {
     id: 't-2',
     parentName: 'Dr. Tariq & Ayesha Al-Mansoor',
     childName: 'Zayed Al-Mansoor',
@@ -34,6 +17,54 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     metric: 'Straight A* (Grade 9s)',
     verified: true,
     avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80'
+  },
+  {
+    id: 't-ksa',
+    parentName: 'Sultan & Haya Al-Otaibi',
+    childName: 'Faisal Al-Otaibi',
+    grade: 'Grade 12',
+    board: 'CBSE (Gulf Region)',
+    subject: 'Physics, Chemistry & Mathematics',
+    country: 'Saudi Arabia (Riyadh)',
+    countryFlag: '🇸🇦',
+    rating: 5,
+    date: 'February 2026',
+    highlight: 'Scored 97.2% in CBSE Class 12 Boards in Riyadh!',
+    review: 'Finding top-tier 1-on-1 CBSE mentors in Riyadh was challenging until we joined VLearnPro. The mentor systematically cleared Faisal’s doubts after school hours, and his performance in Pre-Boards improved dramatically.',
+    metric: '97.2% CBSE Board Aggregate',
+    verified: true
+  },
+  {
+    id: 't-qatar',
+    parentName: 'Nasser & Aisha Al-Kuwari',
+    childName: 'Hamad Al-Kuwari',
+    grade: 'Grade 12 (IB DP)',
+    board: 'IB Diploma Programme',
+    subject: 'IB Maths AA HL & Chemistry HL',
+    country: 'Qatar (Doha)',
+    countryFlag: '🇶🇦',
+    rating: 5,
+    date: 'January 2026',
+    highlight: 'Scored 41 / 45 points in IB Diploma with Level 7 in Maths AA HL!',
+    review: 'VLearnPro matched Hamad with a master IB examiner who coached him through Internal Assessments and past paper papers in Doha. He scored a 7 in Maths AA HL!',
+    metric: '41 / 45 IB DP Points',
+    verified: true
+  },
+  {
+    id: 't-kuwait',
+    parentName: 'Sameer & Huda Al-Fadli',
+    childName: 'Mariam Al-Fadli',
+    grade: 'Grade 10',
+    board: 'CBSE',
+    subject: 'Class 10 Science & Mathematics',
+    country: 'Kuwait (Kuwait City)',
+    countryFlag: '🇰🇼',
+    rating: 5,
+    date: 'February 2026',
+    highlight: '96.8% in CBSE Class 10 Boards in Kuwait.',
+    review: 'The personalized 1-on-1 pace was perfect for Mariam in Kuwait City. She built complete conceptual clarity without the stress of large tuition groups.',
+    metric: '96.8% Board Aggregate',
+    verified: true
   },
   {
     id: 't-3',

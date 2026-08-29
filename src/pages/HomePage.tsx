@@ -58,12 +58,12 @@ export const HomePage: React.FC = () => {
               {/* Top Credibility Badge */}
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 1rem', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: 'var(--radius-full)', color: '#2563EB', fontSize: '0.85rem', fontWeight: 600, marginBottom: '1.5rem' }}>
                 <Sparkles size={15} style={{ color: '#D97706' }} />
-                <span>International Online Education Institute • Grades 1 to 12</span>
+                <span>The GCC’s Most Trusted 1-on-1 Online Education Institute • Grades 1 to 12</span>
               </div>
 
               {/* Single H1 Standard */}
               <h1 style={{ marginBottom: '1.25rem' }}>
-                Online Tuition Classes for Students Worldwide
+                Premier 1-on-1 Online Tuition for GCC & International Schools
               </h1>
 
               {/* Subtitle */}
@@ -73,7 +73,7 @@ export const HomePage: React.FC = () => {
                 lineHeight: 1.6,
                 marginBottom: '2rem'
               }}>
-                Looking for top-rated <strong>Online Tuition Classes</strong> for your child? VLearnPro Education provides personalized 1-on-1 live online tutoring for 18,500+ students in <strong>{country.name}</strong>, UK, UAE, Singapore & worldwide across CBSE, ICSE, IGCSE, IB, Cambridge & US Curricula.
+                Looking for top-rated <strong>Online Tuition Classes</strong> for your child? VLearnPro Education provides personalized 1-on-1 live online tutoring for parents across <strong>UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia (Riyadh, Jeddah), Qatar, Kuwait, Bahrain, Oman & India</strong> across CBSE, ICSE, IGCSE, IB, Cambridge & American Curricula.
               </p>
 
               {/* Hero CTA Group */}
@@ -184,7 +184,7 @@ export const HomePage: React.FC = () => {
                   boxShadow: '0 10px 20px rgba(0, 0, 0, 0.4)'
                 }}>
                   <div style={{ fontSize: '1.1rem', fontWeight: 800 }}>★ 4.94 / 5.0 Rating</div>
-                  <div style={{ fontSize: '0.725rem', color: '#E0E7FF' }}>From 1,840+ Verified Parents</div>
+                  <div style={{ fontSize: '0.725rem', color: '#E0E7FF' }}>From 1,840+ GCC & Indian Parents</div>
                 </div>
               </div>
             </div>
@@ -243,7 +243,7 @@ export const HomePage: React.FC = () => {
                 Give Your Child the Advantage of Top 1.8% 1-on-1 Tutors
               </h2>
               <p style={{ fontSize: '1.1rem', color: '#E2E8F0', marginBottom: '2.25rem', lineHeight: 1.6 }}>
-                Join parents in {country.name}, UK, UAE, Singapore & worldwide who trust VLearnPro Education for live 1-on-1 tutoring. Experience your child’s customized 45-minute demo class with zero risk.
+                Join families across UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia (Riyadh, Jeddah), Qatar, Kuwait, Bahrain, Oman & India who trust VLearnPro Education for live 1-on-1 tutoring. Experience your child’s customized 45-minute demo class with zero risk.
               </p>
 
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>

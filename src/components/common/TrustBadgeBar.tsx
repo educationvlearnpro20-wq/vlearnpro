@@ -91,8 +91,8 @@ export const TrustBadgeBar: React.FC = () => {
             <Users size={18} />
           </div>
           <div>
-            <div style={{ fontSize: '0.95rem', fontWeight: 800, color: 'var(--text-primary)' }}>18,500+ Students</div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Across 8 Global Countries</div>
+            <div style={{ fontSize: '0.95rem', fontWeight: 800, color: 'var(--text-primary)' }}>14,200+ Students</div>
+            <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Across GCC & India Hubs</div>
           </div>
         </div>
       </div>

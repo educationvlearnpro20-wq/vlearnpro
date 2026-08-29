@@ -8,14 +8,19 @@ export interface CurrencyConfig {
 }
 
 export const CURRENCIES: Record<CurrencyCode, CurrencyConfig> = {
+  AED: { code: 'AED', symbol: 'د.إ', rateAgainstUSD: 3.67, hourlyBaseRate: 88 },
+  SAR: { code: 'SAR', symbol: 'SR', rateAgainstUSD: 3.75, hourlyBaseRate: 90 },
+  QAR: { code: 'QAR', symbol: 'QR', rateAgainstUSD: 3.64, hourlyBaseRate: 87 },
+  KWD: { code: 'KWD', symbol: 'KD', rateAgainstUSD: 0.31, hourlyBaseRate: 7.5 },
+  BHD: { code: 'BHD', symbol: 'BD', rateAgainstUSD: 0.38, hourlyBaseRate: 9 },
+  OMR: { code: 'OMR', symbol: 'RO', rateAgainstUSD: 0.38, hourlyBaseRate: 9 },
+  INR: { code: 'INR', symbol: '₹', rateAgainstUSD: 84.5, hourlyBaseRate: 1250 },
   USD: { code: 'USD', symbol: '$', rateAgainstUSD: 1, hourlyBaseRate: 24 },
   GBP: { code: 'GBP', symbol: '£', rateAgainstUSD: 0.79, hourlyBaseRate: 19 },
   EUR: { code: 'EUR', symbol: '€', rateAgainstUSD: 0.92, hourlyBaseRate: 22 },
-  AED: { code: 'AED', symbol: 'د.إ', rateAgainstUSD: 3.67, hourlyBaseRate: 88 },
   SGD: { code: 'SGD', symbol: 'S$', rateAgainstUSD: 1.35, hourlyBaseRate: 32 },
   CAD: { code: 'CAD', symbol: 'C$', rateAgainstUSD: 1.38, hourlyBaseRate: 33 },
-  AUD: { code: 'AUD', symbol: 'A$', rateAgainstUSD: 1.55, hourlyBaseRate: 37 },
-  INR: { code: 'INR', symbol: '₹', rateAgainstUSD: 84.5, hourlyBaseRate: 1250 }
+  AUD: { code: 'AUD', symbol: 'A$', rateAgainstUSD: 1.55, hourlyBaseRate: 37 }
 };
 
 export interface PricingPlan {

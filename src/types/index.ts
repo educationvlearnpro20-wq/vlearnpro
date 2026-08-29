@@ -30,16 +30,21 @@ export type LanguageId =
   | 'urdu';
 
 export type CountryCode = 
-  | 'usa' 
-  | 'uk' 
   | 'uae' 
+  | 'saudi' 
+  | 'qatar' 
+  | 'kuwait' 
+  | 'bahrain' 
+  | 'oman' 
+  | 'india' 
+  | 'uk' 
+  | 'usa' 
   | 'singapore' 
   | 'europe' 
   | 'canada' 
-  | 'australia' 
-  | 'india';
+  | 'australia';
 
-export type CurrencyCode = 'USD' | 'GBP' | 'EUR' | 'AED' | 'SGD' | 'CAD' | 'AUD' | 'INR';
+export type CurrencyCode = 'AED' | 'SAR' | 'QAR' | 'KWD' | 'BHD' | 'OMR' | 'INR' | 'USD' | 'GBP' | 'EUR' | 'SGD' | 'CAD' | 'AUD';
 
 export interface BoardInfo {
   id: BoardId;
