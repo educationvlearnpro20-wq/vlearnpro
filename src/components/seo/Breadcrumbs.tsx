@@ -50,7 +50,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
             <li key={index} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
               <ChevronRight size={12} style={{ color: 'var(--text-muted)' }} />
               {isLast || !item.path ? (
-                <span style={{ color: '#818CF8', fontWeight: 600 }} aria-current="page">
+                <span style={{ color: '#2563EB', fontWeight: 700 }} aria-current="page">
                   {item.label}
                 </span>
               ) : (

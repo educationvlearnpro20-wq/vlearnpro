@@ -88,10 +88,10 @@ export const Navbar: React.FC = () => {
               <BookOpen size={22} />
             </div>
             <div>
-              <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#FFFFFF', letterSpacing: '-0.02em', display: 'block', lineHeight: 1.1 }}>
-                VLearn<span style={{ color: '#818CF8' }}>Pro</span>
+              <span style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '-0.02em', display: 'block', lineHeight: 1.1 }}>
+                VLearn<span style={{ color: '#2563EB' }}>Pro</span>
               </span>
-              <span style={{ fontSize: '0.65rem', color: '#94A3B8', textTransform: 'uppercase', letterSpacing: '0.12em', fontWeight: 700 }}>
+              <span style={{ fontSize: '0.65rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.12em', fontWeight: 700 }}>
                 EDUCATION
               </span>
             </div>
@@ -227,7 +227,7 @@ export const Navbar: React.FC = () => {
                     </span>
                     <button
                       onClick={() => handleNavClick({ type: 'subjects-hub' })}
-                      style={{ fontSize: '0.75rem', color: '#6EE7B7', fontWeight: 700, cursor: 'pointer' }}
+                      style={{ fontSize: '0.75rem', color: '#059669', fontWeight: 700, cursor: 'pointer' }}
                     >
                       View All 11 Subjects →
                     </button>
@@ -246,13 +246,13 @@ export const Navbar: React.FC = () => {
                           background: 'transparent',
                           transition: 'background 0.15s ease'
                         }}
-                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                         onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                       >
-                        <div style={{ fontSize: '0.85rem', fontWeight: 600, color: '#FFFFFF' }}>
+                        <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)' }}>
                           {s.name}
                         </div>
-                        <div style={{ fontSize: '0.72rem', color: '#94A3B8' }}>
+                        <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
                           {s.grades}
                         </div>
                       </button>
@@ -585,10 +585,11 @@ export const Navbar: React.FC = () => {
               alignItems: 'center',
               justifyContent: 'center',
               padding: '0.5rem',
-              color: '#FFFFFF',
+              color: 'var(--text-primary)',
               borderRadius: 'var(--radius-sm)',
-              background: 'rgba(255, 255, 255, 0.05)',
-              border: '1px solid rgba(255, 255, 255, 0.15)',
+              background: '#FFFFFF',
+              border: '1px solid var(--border-medium)',
+              boxShadow: 'var(--shadow-sm)',
               cursor: 'pointer'
             }}
             aria-label="Toggle navigation menu"
@@ -790,9 +791,10 @@ export const Navbar: React.FC = () => {
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     padding: '0.85rem 1rem',
-                    background: isActive ? 'rgba(79, 70, 229, 0.18)' : 'rgba(255, 255, 255, 0.03)',
-                    border: `1px solid ${isActive ? 'rgba(79, 70, 229, 0.5)' : 'rgba(255, 255, 255, 0.08)'}`,
+                    background: isActive ? 'rgba(37, 99, 235, 0.1)' : '#FFFFFF',
+                    border: `1px solid ${isActive ? '#2563EB' : 'var(--border-medium)'}`,
                     borderRadius: 'var(--radius-md)',
+                    boxShadow: 'var(--shadow-sm)',
                     textAlign: 'left',
                     cursor: 'pointer',
                     transition: 'all 0.15s ease'
@@ -803,17 +805,17 @@ export const Navbar: React.FC = () => {
                       width: '36px',
                       height: '36px',
                       borderRadius: 'var(--radius-sm)',
-                      background: 'rgba(255, 255, 255, 0.06)',
+                      background: 'rgba(37, 99, 235, 0.1)',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      color: item.color,
+                      color: '#2563EB',
                       flexShrink: 0
                     }}>
                       <IconComp size={18} />
                     </div>
                     <div>
-                      <div style={{ fontSize: '0.925rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.15rem' }}>
+                      <div style={{ fontSize: '0.925rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.15rem' }}>
                         {item.label}
                       </div>
                       <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
