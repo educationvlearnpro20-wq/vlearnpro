@@ -66,35 +66,25 @@ export const Navbar: React.FC = () => {
             style={{
               display: 'flex',
               alignItems: 'center',
-              gap: '0.75rem',
-              textAlign: 'left',
               cursor: 'pointer',
               marginRight: '2.5rem',
-              flexShrink: 0
+              flexShrink: 0,
+              padding: 0,
+              background: 'transparent',
+              border: 'none'
             }}
             aria-label="VLearnPro Education Home"
           >
-            <div style={{
-              width: '42px',
-              height: '42px',
-              borderRadius: 'var(--radius-md)',
-              background: 'linear-gradient(135deg, #4F46E5 0%, #06B6D4 100%)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#FFFFFF',
-              boxShadow: '0 4px 14px rgba(79, 70, 229, 0.45)'
-            }}>
-              <BookOpen size={22} />
-            </div>
-            <div>
-              <span style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '-0.02em', display: 'block', lineHeight: 1.1 }}>
-                VLearn<span style={{ color: '#2563EB' }}>Pro</span>
-              </span>
-              <span style={{ fontSize: '0.65rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.12em', fontWeight: 700 }}>
-                EDUCATION
-              </span>
-            </div>
+            <img
+              src="/vlearnpro-logo.jpg"
+              alt="VLearnPro Education Logo"
+              style={{
+                height: '52px',
+                width: 'auto',
+                objectFit: 'contain',
+                borderRadius: 'var(--radius-sm)'
+              }}
+            />
           </button>
 
           {/* Streamlined Desktop Navigation Links */}
