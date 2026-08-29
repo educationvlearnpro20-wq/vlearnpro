@@ -133,13 +133,13 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
                     background: isOpen ? 'rgba(79, 70, 229, 0.05)' : 'transparent'
                   }}
                 >
-                  <span style={{ fontSize: '1rem', fontWeight: 600, color: isOpen ? '#818CF8' : '#FFFFFF', lineHeight: 1.4 }}>
+                  <span style={{ fontSize: '1rem', fontWeight: 600, color: isOpen ? '#2563EB' : 'var(--text-primary)', lineHeight: 1.4 }}>
                     {faq.question}
                   </span>
                   <ChevronDown
                     size={20}
                     style={{
-                      color: isOpen ? '#818CF8' : 'var(--text-muted)',
+                      color: isOpen ? '#2563EB' : 'var(--text-muted)',
                       transform: isOpen ? 'rotate(180deg)' : 'none',
                       transition: 'transform 0.2s ease',
                       flexShrink: 0
@@ -167,12 +167,13 @@ export const FAQAccordion: React.FC<FAQAccordionProps> = ({
         <div style={{
           marginTop: '3rem',
           padding: '1.5rem',
-          background: 'rgba(255, 255, 255, 0.03)',
+          background: '#FFFFFF',
           border: '1px solid var(--border-subtle)',
           borderRadius: 'var(--radius-lg)',
+          boxShadow: 'var(--shadow-sm)',
           textAlign: 'center'
         }}>
-          <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.35rem' }}>
+          <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
             Have a specific question about your child’s school syllabus?
           </h3>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>

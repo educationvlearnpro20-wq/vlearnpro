@@ -77,7 +77,7 @@ export const HowItWorksSection: React.FC = () => {
                     fontSize: '2rem',
                     fontWeight: 800,
                     fontFamily: 'var(--font-heading)',
-                    color: 'rgba(255, 255, 255, 0.15)'
+                    color: 'rgba(15, 23, 42, 0.15)'
                   }}>
                     {step.num}
                   </span>
@@ -96,11 +96,11 @@ export const HowItWorksSection: React.FC = () => {
                     objectFit: 'cover',
                     borderRadius: 'var(--radius-md)',
                     marginBottom: '1rem',
-                    border: '1px solid rgba(255, 255, 255, 0.15)'
+                    border: '1px solid var(--border-subtle)'
                   }}
                 />
 
-                <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#FFFFFF', marginBottom: '0.75rem', lineHeight: 1.3 }}>
+                <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem', lineHeight: 1.3 }}>
                   {step.title}
                 </h3>
 

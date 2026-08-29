@@ -114,7 +114,7 @@ export const Navbar: React.FC = () => {
                   gap: '0.3rem',
                   fontSize: '0.875rem',
                   fontWeight: currentPath.type === 'board' || currentPath.type === 'boards-hub' ? 700 : 500,
-                  color: currentPath.type === 'board' || currentPath.type === 'boards-hub' ? '#818CF8' : '#CBD5E1',
+                  color: currentPath.type === 'board' || currentPath.type === 'boards-hub' ? '#2563EB' : 'var(--text-primary)',
                   cursor: 'pointer',
                   padding: '0.5rem 0',
                   transition: 'color 0.15s'
@@ -130,23 +130,23 @@ export const Navbar: React.FC = () => {
                   top: '100%',
                   left: '0',
                   width: '520px',
-                  background: '#0F172A',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
+                  background: '#FFFFFF',
+                  border: '1px solid rgba(203, 213, 225, 0.8)',
                   borderRadius: 'var(--radius-lg)',
-                  boxShadow: '0 20px 45px rgba(0, 0, 0, 0.65)',
+                  boxShadow: '0 20px 45px rgba(15, 23, 42, 0.15)',
                   padding: '1.25rem',
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr',
                   gap: '0.5rem',
                   zIndex: 200
                 }}>
-                  <div style={{ gridColumn: 'span 2', paddingBottom: '0.5rem', borderBottom: '1px solid rgba(255, 255, 255, 0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#818CF8', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  <div style={{ gridColumn: 'span 2', paddingBottom: '0.5rem', borderBottom: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#2563EB', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                       All Supported Global Boards
                     </span>
                     <button
                       onClick={() => handleNavClick({ type: 'boards-hub' })}
-                      style={{ fontSize: '0.75rem', color: '#6EE7B7', fontWeight: 700, cursor: 'pointer' }}
+                      style={{ fontSize: '0.75rem', color: '#059669', fontWeight: 700, cursor: 'pointer' }}
                     >
                       View All Boards →
                     </button>
@@ -165,13 +165,13 @@ export const Navbar: React.FC = () => {
                           background: 'transparent',
                           transition: 'background 0.15s ease'
                         }}
-                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                         onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                       >
-                        <div style={{ fontSize: '0.85rem', fontWeight: 600, color: '#FFFFFF' }}>
+                        <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)' }}>
                           {b.shortName} Tuition
                         </div>
-                        <div style={{ fontSize: '0.72rem', color: '#94A3B8' }}>
+                        <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
                           {b.badge}
                         </div>
                       </button>
@@ -195,7 +195,7 @@ export const Navbar: React.FC = () => {
                   gap: '0.3rem',
                   fontSize: '0.875rem',
                   fontWeight: currentPath.type === 'subject' || currentPath.type === 'subjects-hub' ? 700 : 500,
-                  color: currentPath.type === 'subject' || currentPath.type === 'subjects-hub' ? '#818CF8' : '#CBD5E1',
+                  color: currentPath.type === 'subject' || currentPath.type === 'subjects-hub' ? '#2563EB' : 'var(--text-primary)',
                   cursor: 'pointer',
                   padding: '0.5rem 0',
                   transition: 'color 0.15s'
@@ -211,18 +211,18 @@ export const Navbar: React.FC = () => {
                   top: '100%',
                   left: '0',
                   width: '540px',
-                  background: '#0F172A',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
+                  background: '#FFFFFF',
+                  border: '1px solid rgba(203, 213, 225, 0.8)',
                   borderRadius: 'var(--radius-lg)',
-                  boxShadow: '0 20px 45px rgba(0, 0, 0, 0.65)',
+                  boxShadow: '0 20px 45px rgba(15, 23, 42, 0.15)',
                   padding: '1.25rem',
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr',
                   gap: '0.5rem',
                   zIndex: 200
                 }}>
-                  <div style={{ gridColumn: 'span 2', paddingBottom: '0.5rem', borderBottom: '1px solid rgba(255, 255, 255, 0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#818CF8', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  <div style={{ gridColumn: 'span 2', paddingBottom: '0.5rem', borderBottom: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#2563EB', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                       Core Academic & Skill Tracks
                     </span>
                     <button
@@ -276,7 +276,7 @@ export const Navbar: React.FC = () => {
                   gap: '0.3rem',
                   fontSize: '0.875rem',
                   fontWeight: currentPath.type === 'language' || currentPath.type === 'languages-hub' ? 700 : 500,
-                  color: currentPath.type === 'language' || currentPath.type === 'languages-hub' ? '#818CF8' : '#CBD5E1',
+                  color: currentPath.type === 'language' || currentPath.type === 'languages-hub' ? '#2563EB' : 'var(--text-primary)',
                   cursor: 'pointer',
                   padding: '0.5rem 0',
                   transition: 'color 0.15s'
@@ -292,10 +292,10 @@ export const Navbar: React.FC = () => {
                   top: '100%',
                   left: '0',
                   width: '320px',
-                  background: '#0F172A',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
+                  background: '#FFFFFF',
+                  border: '1px solid rgba(203, 213, 225, 0.8)',
                   borderRadius: 'var(--radius-lg)',
-                  boxShadow: '0 20px 45px rgba(0, 0, 0, 0.65)',
+                  boxShadow: '0 20px 45px rgba(15, 23, 42, 0.15)',
                   padding: '1rem',
                   display: 'flex',
                   flexDirection: 'column',
@@ -319,13 +319,13 @@ export const Navbar: React.FC = () => {
                           background: 'transparent',
                           transition: 'background 0.15s ease'
                         }}
-                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                         onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                       >
                         <span style={{ fontSize: '1.25rem' }}>{l.flag}</span>
                         <div>
-                          <div style={{ fontSize: '0.85rem', fontWeight: 600, color: '#FFFFFF' }}>{l.name}</div>
-                          <div style={{ fontSize: '0.7rem', color: '#94A3B8' }}>{l.nativeName}</div>
+                          <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)' }}>{l.name}</div>
+                          <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>{l.nativeName}</div>
                         </div>
                       </button>
                     );
@@ -348,7 +348,7 @@ export const Navbar: React.FC = () => {
                   gap: '0.3rem',
                   fontSize: '0.875rem',
                   fontWeight: currentPath.type === 'country' || currentPath.type === 'countries-hub' ? 700 : 500,
-                  color: currentPath.type === 'country' || currentPath.type === 'countries-hub' ? '#818CF8' : '#CBD5E1',
+                  color: currentPath.type === 'country' || currentPath.type === 'countries-hub' ? '#2563EB' : 'var(--text-primary)',
                   cursor: 'pointer',
                   padding: '0.5rem 0',
                   transition: 'color 0.15s'
@@ -364,10 +364,10 @@ export const Navbar: React.FC = () => {
                   top: '100%',
                   left: '0',
                   width: '460px',
-                  background: '#0F172A',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
+                  background: '#FFFFFF',
+                  border: '1px solid rgba(203, 213, 225, 0.8)',
                   borderRadius: 'var(--radius-lg)',
-                  boxShadow: '0 20px 45px rgba(0, 0, 0, 0.65)',
+                  boxShadow: '0 20px 45px rgba(15, 23, 42, 0.15)',
                   padding: '1rem',
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr',
@@ -394,13 +394,13 @@ export const Navbar: React.FC = () => {
                           background: 'transparent',
                           transition: 'background 0.15s ease'
                         }}
-                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                         onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                       >
                         <span style={{ fontSize: '1.15rem' }}>{c.flag}</span>
                         <div>
-                          <div style={{ fontSize: '0.85rem', fontWeight: 600, color: '#FFFFFF' }}>{c.name}</div>
-                          <div style={{ fontSize: '0.7rem', color: '#94A3B8' }}>{c.currency} ({c.currencySymbol})</div>
+                          <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)' }}>{c.name}</div>
+                          <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>{c.currency} ({c.currencySymbol})</div>
                         </div>
                       </button>
                     );
@@ -415,7 +415,7 @@ export const Navbar: React.FC = () => {
               style={{
                 fontSize: '0.875rem',
                 fontWeight: currentPath.type === 'exam-prep' ? 700 : 500,
-                color: currentPath.type === 'exam-prep' ? '#818CF8' : '#CBD5E1',
+                color: currentPath.type === 'exam-prep' ? '#2563EB' : 'var(--text-primary)',
                 cursor: 'pointer',
                 transition: 'color 0.15s'
               }}
@@ -429,7 +429,7 @@ export const Navbar: React.FC = () => {
               style={{
                 fontSize: '0.875rem',
                 fontWeight: currentPath.type === 'pricing' ? 700 : 500,
-                color: currentPath.type === 'pricing' ? '#818CF8' : '#CBD5E1',
+                color: currentPath.type === 'pricing' ? '#2563EB' : 'var(--text-primary)',
                 cursor: 'pointer',
                 transition: 'color 0.15s'
               }}
@@ -450,7 +450,7 @@ export const Navbar: React.FC = () => {
                   gap: '0.3rem',
                   fontSize: '0.875rem',
                   fontWeight: currentPath.type === 'about' || currentPath.type === 'blog' || currentPath.type === 'contact' || currentPath.type === 'careers' ? 700 : 500,
-                  color: currentPath.type === 'about' || currentPath.type === 'blog' || currentPath.type === 'contact' || currentPath.type === 'careers' ? '#818CF8' : '#CBD5E1',
+                  color: currentPath.type === 'about' || currentPath.type === 'blog' || currentPath.type === 'contact' || currentPath.type === 'careers' ? '#2563EB' : 'var(--text-primary)',
                   cursor: 'pointer',
                   padding: '0.5rem 0',
                   transition: 'color 0.15s'
@@ -466,10 +466,10 @@ export const Navbar: React.FC = () => {
                   top: '100%',
                   right: '0',
                   width: '260px',
-                  background: '#0F172A',
-                  border: '1px solid rgba(255, 255, 255, 0.18)',
+                  background: '#FFFFFF',
+                  border: '1px solid rgba(203, 213, 225, 0.8)',
                   borderRadius: 'var(--radius-lg)',
-                  boxShadow: '0 20px 45px rgba(0, 0, 0, 0.65)',
+                  boxShadow: '0 20px 45px rgba(15, 23, 42, 0.15)',
                   padding: '0.75rem',
                   display: 'flex',
                   flexDirection: 'column',
@@ -486,14 +486,14 @@ export const Navbar: React.FC = () => {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.6rem',
-                      color: '#FFFFFF',
+                      color: 'var(--text-primary)',
                       fontSize: '0.85rem',
                       background: 'transparent'
                     }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                     onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                   >
-                    <Info size={16} style={{ color: '#818CF8' }} />
+                    <Info size={16} style={{ color: '#2563EB' }} />
                     <span>About VLearnPro</span>
                   </button>
 
@@ -507,14 +507,14 @@ export const Navbar: React.FC = () => {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.6rem',
-                      color: '#FFFFFF',
+                      color: 'var(--text-primary)',
                       fontSize: '0.85rem',
                       background: 'transparent'
                     }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                     onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                   >
-                    <FileText size={16} style={{ color: '#34D399' }} />
+                    <FileText size={16} style={{ color: '#059669' }} />
                     <span>Parent Guides & Articles</span>
                   </button>
 
@@ -528,14 +528,14 @@ export const Navbar: React.FC = () => {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.6rem',
-                      color: '#FFFFFF',
+                      color: 'var(--text-primary)',
                       fontSize: '0.85rem',
                       background: 'transparent'
                     }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                     onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                   >
-                    <Users size={16} style={{ color: '#F59E0B' }} />
+                    <Users size={16} style={{ color: '#D97706' }} />
                     <span>Careers & Educator Faculty</span>
                   </button>
 
@@ -549,14 +549,14 @@ export const Navbar: React.FC = () => {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.6rem',
-                      color: '#FFFFFF',
+                      color: 'var(--text-primary)',
                       fontSize: '0.85rem',
                       background: 'transparent'
                     }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'}
+                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(15, 23, 42, 0.05)'}
                     onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                   >
-                    <Phone size={16} style={{ color: '#6EE7B7' }} />
+                    <Phone size={16} style={{ color: '#059669' }} />
                     <span>Contact Admissions</span>
                   </button>
                 </div>
@@ -605,7 +605,7 @@ export const Navbar: React.FC = () => {
             position: 'fixed',
             inset: 0,
             top: '72px',
-            background: 'linear-gradient(180deg, #070B14 0%, #0F172A 100%)',
+            background: '#EFF2F6',
             backdropFilter: 'blur(24px)',
             zIndex: 9999,
             overflowY: 'auto',
@@ -621,16 +621,17 @@ export const Navbar: React.FC = () => {
             alignItems: 'center',
             justifyContent: 'space-between',
             padding: '0.6rem 0.85rem',
-            background: 'rgba(255, 255, 255, 0.04)',
-            border: '1px solid rgba(255, 255, 255, 0.1)',
+            background: '#FFFFFF',
+            border: '1px solid var(--border-medium)',
             borderRadius: 'var(--radius-md)',
+            boxShadow: 'var(--shadow-sm)',
             fontSize: '0.78rem'
           }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#FCD34D', fontWeight: 600 }}>
-              <Star size={14} fill="#F59E0B" color="#F59E0B" />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#D97706', fontWeight: 600 }}>
+              <Star size={14} fill="#D97706" color="#D97706" />
               <span>4.94★ (1,840+ Parent Reviews)</span>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#6EE7B7', fontWeight: 600 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#059669', fontWeight: 600 }}>
               <span>{currentCountry.flag}</span>
               <span>{currentCountry.name} ({currentCountry.timezone})</span>
             </div>
@@ -648,7 +649,7 @@ export const Navbar: React.FC = () => {
                 width: '100%',
                 gap: '0.5rem',
                 justifyContent: 'center',
-                boxShadow: '0 8px 25px rgba(16, 185, 129, 0.35)'
+                boxShadow: '0 8px 25px rgba(5, 150, 105, 0.35)'
               }}
             >
               <Sparkles size={18} />
@@ -666,9 +667,11 @@ export const Navbar: React.FC = () => {
                 width: '100%',
                 gap: '0.5rem',
                 justifyContent: 'center',
-                background: 'rgba(79, 70, 229, 0.15)',
-                border: '1px solid rgba(79, 70, 229, 0.4)',
-                color: '#818CF8'
+                background: '#FFFFFF',
+                border: '1px solid var(--border-medium)',
+                boxShadow: 'var(--shadow-sm)',
+                color: '#2563EB',
+                fontWeight: 700
               }}
             >
               <span>Match Your Child’s Ideal Tutor (60s)</span>
@@ -685,11 +688,12 @@ export const Navbar: React.FC = () => {
                 gap: '0.5rem',
                 padding: '0.65rem 1rem',
                 borderRadius: 'var(--radius-md)',
-                background: 'rgba(16, 185, 129, 0.08)',
-                border: '1px solid rgba(16, 185, 129, 0.3)',
-                color: '#34D399',
+                background: '#FFFFFF',
+                border: '1px solid rgba(5, 150, 105, 0.3)',
+                boxShadow: 'var(--shadow-sm)',
+                color: '#059669',
                 fontSize: '0.875rem',
-                fontWeight: 600
+                fontWeight: 700
               }}
             >
               <MessageSquare size={16} />

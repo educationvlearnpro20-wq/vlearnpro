@@ -63,28 +63,28 @@ export const ComparisonSection: React.FC = () => {
         <div style={{
           overflowX: 'auto',
           borderRadius: 'var(--radius-xl)',
-          border: '1px solid var(--border-subtle)',
-          boxShadow: 'var(--shadow-xl)',
-          background: '#0B0F1D'
+          border: '1px solid var(--border-medium)',
+          boxShadow: 'var(--shadow-lg)',
+          background: '#FFFFFF'
         }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '700px' }}>
             <thead>
-              <tr style={{ background: 'rgba(255, 255, 255, 0.03)', borderBottom: '1px solid var(--border-medium)' }}>
+              <tr style={{ background: 'rgba(15, 23, 42, 0.03)', borderBottom: '1px solid var(--border-medium)' }}>
                 <th style={{ padding: '1.25rem 1.5rem', fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 600, width: '25%' }}>
                   Pedagogical Metric
                 </th>
                 <th style={{
                   padding: '1.25rem 1.5rem',
                   fontSize: '1rem',
-                  color: '#FFFFFF',
+                  color: 'var(--text-primary)',
                   fontWeight: 800,
-                  background: 'rgba(79, 70, 229, 0.15)',
-                  borderLeft: '2px solid #4F46E5',
-                  borderRight: '2px solid #4F46E5',
+                  background: 'rgba(37, 99, 235, 0.08)',
+                  borderLeft: '2px solid #2563EB',
+                  borderRight: '2px solid #2563EB',
                   width: '35%'
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                    <Sparkles size={16} style={{ color: '#F59E0B' }} />
+                    <Sparkles size={16} style={{ color: '#D97706' }} />
                     <span>VLearnPro 1-on-1</span>
                   </div>
                 </th>
@@ -102,19 +102,19 @@ export const ComparisonSection: React.FC = () => {
                   key={idx}
                   style={{
                     borderBottom: '1px solid var(--border-subtle)',
-                    background: idx % 2 === 0 ? 'transparent' : 'rgba(255, 255, 255, 0.01)'
+                    background: idx % 2 === 0 ? 'transparent' : 'rgba(15, 23, 42, 0.015)'
                   }}
                 >
-                  <td style={{ padding: '1.25rem 1.5rem', fontSize: '0.875rem', fontWeight: 600, color: '#FFFFFF' }}>
+                  <td style={{ padding: '1.25rem 1.5rem', fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-primary)' }}>
                     {row.feature}
                   </td>
                   <td style={{
                     padding: '1.25rem 1.5rem',
                     fontSize: '0.875rem',
-                    color: '#86EFAC',
-                    background: 'rgba(79, 70, 229, 0.06)',
-                    borderLeft: '2px solid #4F46E5',
-                    borderRight: '2px solid #4F46E5',
+                    color: '#059669',
+                    background: 'rgba(37, 99, 235, 0.04)',
+                    borderLeft: '2px solid #2563EB',
+                    borderRight: '2px solid #2563EB',
                     fontWeight: 600
                   }}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>

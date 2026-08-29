@@ -78,7 +78,7 @@ export const TutorVettingSection: React.FC = () => {
         <div style={{ marginBottom: '2.5rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
             <div>
-              <h3 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#FFFFFF', margin: 0 }}>
+              <h3 style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
                 Meet a Few of Our Senior Faculty
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', margin: '0.25rem 0 0 0' }}>
@@ -142,10 +142,10 @@ export const TutorVettingSection: React.FC = () => {
                     </div>
                   )}
                   <div>
-                    <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#FFFFFF', margin: 0 }}>
+                    <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
                       {tutor.name}
                     </h4>
-                    <p style={{ fontSize: '0.78rem', color: '#818CF8', margin: '0.15rem 0' }}>
+                    <p style={{ fontSize: '0.78rem', color: '#2563EB', fontWeight: 600, margin: '0.15rem 0' }}>
                       {tutor.degree}
                     </p>
                     <div style={{ fontSize: '0.725rem', color: 'var(--text-muted)' }}>

@@ -115,20 +115,20 @@ export const GradeLevelTabs: React.FC = () => {
               <span className="badge badge-amber" style={{ marginBottom: '0.75rem' }}>
                 {current.eyebrow}
               </span>
-              <h3 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#FFFFFF', marginBottom: '0.75rem' }}>
+              <h3 style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                 {current.title}
               </h3>
               <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.65, marginBottom: '1.5rem' }}>
                 {current.tagline}
               </p>
 
-              <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: '#FFFFFF', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem' }}>
+              <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem' }}>
                 Key Inclusions:
               </h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 2rem 0', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
                 {current.highlights.map((h, i) => (
-                  <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '0.9rem', color: '#E2E8F0' }}>
-                    <CheckCircle2 size={16} style={{ color: '#10B981', flexShrink: 0 }} />
+                  <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+                    <CheckCircle2 size={16} style={{ color: '#059669', flexShrink: 0 }} />
                     <span>{h}</span>
                   </li>
                 ))}

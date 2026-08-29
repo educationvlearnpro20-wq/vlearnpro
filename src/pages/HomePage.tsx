@@ -56,8 +56,8 @@ export const HomePage: React.FC = () => {
             {/* Left Hero Text Column */}
             <div className="mobile-center-hero">
               {/* Top Credibility Badge */}
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 1rem', background: 'rgba(79, 70, 229, 0.12)', border: '1px solid rgba(79, 70, 229, 0.3)', borderRadius: 'var(--radius-full)', color: '#818CF8', fontSize: '0.85rem', fontWeight: 600, marginBottom: '1.5rem' }}>
-                <Sparkles size={15} style={{ color: '#F59E0B' }} />
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 1rem', background: 'rgba(37, 99, 235, 0.1)', border: '1px solid rgba(37, 99, 235, 0.3)', borderRadius: 'var(--radius-full)', color: '#2563EB', fontSize: '0.85rem', fontWeight: 600, marginBottom: '1.5rem' }}>
+                <Sparkles size={15} style={{ color: '#D97706' }} />
                 <span>International Online Education Institute • Grades 1 to 12</span>
               </div>
 
