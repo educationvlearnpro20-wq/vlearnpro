@@ -308,10 +308,11 @@ export const BookTrialModal: React.FC = () => {
               </div>
 
               <div>
-                <label style={{ display: 'block', fontSize: '0.9rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.6rem' }}>
+                <label htmlFor="trial-specific-goal" style={{ display: 'block', fontSize: '0.9rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.6rem' }}>
                   2. Any specific challenges or goals? (Optional)
                 </label>
                 <textarea
+                  id="trial-specific-goal"
                   value={formData.specificGoal}
                   onChange={e => setFormData({ ...formData, specificGoal: e.target.value })}
                   placeholder="e.g. Struggles with algebra word problems, needs to prepare for May IGCSE board exams, wants to score a 5 on AP Physics..."
@@ -336,12 +337,13 @@ export const BookTrialModal: React.FC = () => {
             <form onSubmit={handleSubmit}>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1rem' }}>
                 <div>
-                  <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                  <label htmlFor="trial-parent-name" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                     Parent Full Name *
                   </label>
                   <div style={{ position: 'relative' }}>
                     <User size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
                     <input
+                      id="trial-parent-name"
                       type="text"
                       required
                       value={formData.parentName}
@@ -362,12 +364,13 @@ export const BookTrialModal: React.FC = () => {
                 </div>
 
                 <div>
-                  <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                  <label htmlFor="trial-child-name" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                     Student Name
                   </label>
                   <div style={{ position: 'relative' }}>
                     <BookOpen size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
                     <input
+                      id="trial-child-name"
                       type="text"
                       value={formData.childName}
                       onChange={e => setFormData({ ...formData, childName: e.target.value })}
@@ -389,12 +392,13 @@ export const BookTrialModal: React.FC = () => {
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1rem' }}>
                 <div>
-                  <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                  <label htmlFor="trial-parent-phone" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                     Parent WhatsApp / Mobile Number *
                   </label>
                   <div style={{ position: 'relative' }}>
                     <Phone size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: '#059669' }} />
                     <input
+                      id="trial-parent-phone"
                       type="tel"
                       required
                       value={formData.parentPhone}
@@ -416,12 +420,13 @@ export const BookTrialModal: React.FC = () => {
                 </div>
 
                 <div>
-                  <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
+                  <label htmlFor="trial-parent-email" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.35rem' }}>
                     Parent Email Address *
                   </label>
                   <div style={{ position: 'relative' }}>
                     <Mail size={16} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
                     <input
+                      id="trial-parent-email"
                       type="email"
                       required
                       value={formData.parentEmail}
