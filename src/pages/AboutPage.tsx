@@ -55,7 +55,7 @@ export const AboutPage: React.FC = () => {
               <h1 style={{ marginBottom: '1.25rem' }}>
                 Reimagining Online Education Through Elite 1-on-1 Mentorship
               </h1>
-              <p style={{ fontSize: '1.2rem', color: '#E2E8F0', fontWeight: 500, lineHeight: 1.5, marginBottom: '1rem' }}>
+              <p style={{ fontSize: '1.2rem', color: 'var(--text-heading-secondary)', fontWeight: 600, lineHeight: 1.5, marginBottom: '1rem' }}>
                 Empowering students from Grade 1 to 12 to achieve academic mastery, self-confidence, and global university success.
               </p>
               <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', lineHeight: 1.65 }}>
