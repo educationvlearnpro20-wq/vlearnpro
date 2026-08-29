@@ -1,56 +1,58 @@
 :root {
-  /* High-Impact Visually Stunning Palette for #EFF2F6 Background */
-  --bg-primary: #eff2f6;
-  --bg-secondary: #ffffff;
-  --bg-tertiary: #e2e8f0;
-  --bg-card: #ffffff;
-  --bg-card-hover: #ffffff;
-  --bg-elevated: #ffffff;
+  /* Light Background Tokens */
+  --bg-primary: #FAFAFC;
+  --bg-secondary: #FFFFFF;
+  --bg-section: #F8FAFC;
+  --bg-tertiary: #E2E8F0;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FFFFFF;
+  --bg-elevated: #FFFFFF;
 
-  /* Text Colors (High Contrast Ink Navy on Light Ice Background) */
-  --text-primary: #0f172a;
+  /* Typography Color Tokens */
+  --text-heading-primary: #0B1F3A;
+  --text-heading-secondary: #1E293B;
+  --text-primary: #334155;
   --text-secondary: #334155;
-  --text-muted: #64748b;
-  --text-inverse-primary: #ffffff;
-  --text-inverse-secondary: #e2e8f0;
-  --text-inverse-muted: #94a3b8;
+  --text-muted: #64748B;
+  --text-caption: #94A3B8;
+  --text-inverse-primary: #FFFFFF;
 
-  /* Accent & Primary Interactive - Electric Sapphire & Deep Royal Blue */
-  --brand-primary: #2563eb;
-  --brand-primary-hover: #1d4ed8;
+  /* Link & Interactive Tokens */
+  --color-link: #2563EB;
+  --color-link-hover: #1D4ED8;
+  --brand-primary: #2563EB;
+  --brand-primary-hover: #1D4ED8;
   --brand-primary-light: rgba(37, 99, 235, 0.08);
   --brand-primary-glow: rgba(37, 99, 235, 0.25);
 
-  /* Secondary Accent - High-Impact Emerald Green */
+  /* Status Tokens */
+  --color-success: #16A34A;
+  --color-warning: #D97706;
+  --color-error: #DC2626;
+
   --brand-emerald: #059669;
   --brand-emerald-hover: #047857;
   --brand-emerald-light: rgba(5, 150, 105, 0.08);
   --brand-emerald-glow: rgba(5, 150, 105, 0.25);
 
-  /* Badges & Rating - Rich Amber Gold */
-  --brand-amber: #d97706;
+  --brand-amber: #D97706;
   --brand-amber-light: rgba(217, 119, 6, 0.1);
   --brand-amber-glow: rgba(217, 119, 6, 0.2);
 
-  --brand-cyan: #0284c7;
-  --brand-cyan-light: rgba(2, 132, 199, 0.1);
-
-  --brand-rose: #e11d48;
-  --brand-rose-light: rgba(225, 29, 72, 0.1);
+  --brand-cyan: #0284C7;
+  --brand-rose: #E11D48;
 
   /* Crisp Border Tokens */
-  --border-subtle: rgba(203, 213, 225, 0.7);
-  --border-medium: rgba(148, 163, 184, 0.4);
-  --border-strong: rgba(100, 116, 139, 0.5);
-  --border-focus: #2563eb;
+  --border-subtle: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --border-strong: #94A3B8;
+  --border-focus: #2563EB;
 
   /* Soft Floating Elevation Shadows */
-  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06);
-  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -2px rgba(15, 23, 42, 0.04);
-  --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.12), 0 4px 12px -4px rgba(15, 23, 42, 0.06);
-  --shadow-xl: 0 24px 50px -12px rgba(15, 23, 42, 0.16);
-  --shadow-glow-indigo: 0 0 35px -5px rgba(37, 99, 235, 0.25);
-  --shadow-glow-emerald: 0 0 35px -5px rgba(5, 150, 105, 0.25);
+  --shadow-sm: 0 1px 3px 0 rgba(11, 31, 58, 0.06);
+  --shadow-md: 0 4px 14px -2px rgba(11, 31, 58, 0.08), 0 2px 6px -2px rgba(11, 31, 58, 0.04);
+  --shadow-lg: 0 12px 32px -4px rgba(11, 31, 58, 0.12), 0 4px 12px -4px rgba(11, 31, 58, 0.06);
+  --shadow-xl: 0 24px 50px -12px rgba(11, 31, 58, 0.16);
 
   /* Typography Stack */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

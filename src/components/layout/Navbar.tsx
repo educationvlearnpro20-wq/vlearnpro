@@ -130,10 +130,10 @@ export const Navbar: React.FC = () => {
                   top: '100%',
                   left: '0',
                   width: '520px',
-                  background: '#FFFFFF',
-                  border: '1px solid rgba(203, 213, 225, 0.8)',
+                  background: 'var(--bg-card)',
+                  border: '1px solid var(--border-subtle)',
                   borderRadius: 'var(--radius-lg)',
-                  boxShadow: '0 20px 45px rgba(15, 23, 42, 0.15)',
+                  boxShadow: 'var(--shadow-lg)',
                   padding: '1.25rem',
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr',
@@ -141,12 +141,12 @@ export const Navbar: React.FC = () => {
                   zIndex: 200
                 }}>
                   <div style={{ gridColumn: 'span 2', paddingBottom: '0.5rem', borderBottom: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <span style={{ fontSize: '0.75rem', fontWeight: 700, color: '#2563EB', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-link)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                       All Supported Global Boards
                     </span>
                     <button
                       onClick={() => handleNavClick({ type: 'boards-hub' })}
-                      style={{ fontSize: '0.75rem', color: '#059669', fontWeight: 700, cursor: 'pointer' }}
+                      style={{ fontSize: '0.75rem', color: 'var(--color-success)', fontWeight: 700, cursor: 'pointer' }}
                     >
                       View All Boards →
                     </button>

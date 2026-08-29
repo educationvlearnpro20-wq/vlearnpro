@@ -191,22 +191,22 @@ export const BookTrialModal: React.FC = () => {
             alignItems: 'center',
             justifyContent: 'space-between',
             padding: '0.75rem 1.75rem',
-            background: 'rgba(79, 70, 229, 0.05)',
+            background: 'var(--brand-primary-light)',
             borderBottom: '1px solid var(--border-subtle)',
             fontSize: '0.8rem'
           }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: step >= 1 ? '#818CF8' : 'var(--text-muted)', fontWeight: step === 1 ? 700 : 500 }}>
-              <span style={{ width: '22px', height: '22px', borderRadius: '50%', background: step >= 1 ? '#4F46E5' : 'rgba(255,255,255,0.1)', color: '#FFFFFF', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>1</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: step >= 1 ? 'var(--color-link)' : 'var(--text-muted)', fontWeight: step === 1 ? 700 : 500 }}>
+              <span style={{ width: '22px', height: '22px', borderRadius: '50%', background: step >= 1 ? 'var(--color-link)' : 'var(--border-subtle)', color: '#FFFFFF', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>1</span>
               <span>Grade & Board</span>
             </div>
-            <div style={{ height: '1px', flex: 1, background: step >= 2 ? '#4F46E5' : 'rgba(255,255,255,0.1)', margin: '0 0.75rem' }} />
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: step >= 2 ? '#818CF8' : 'var(--text-muted)', fontWeight: step === 2 ? 700 : 500 }}>
-              <span style={{ width: '22px', height: '22px', borderRadius: '50%', background: step >= 2 ? '#4F46E5' : 'rgba(255,255,255,0.1)', color: '#FFFFFF', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>2</span>
+            <div style={{ height: '1px', flex: 1, background: step >= 2 ? 'var(--color-link)' : 'var(--border-subtle)', margin: '0 0.75rem' }} />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: step >= 2 ? 'var(--color-link)' : 'var(--text-muted)', fontWeight: step === 2 ? 700 : 500 }}>
+              <span style={{ width: '22px', height: '22px', borderRadius: '50%', background: step >= 2 ? 'var(--color-link)' : 'var(--border-subtle)', color: '#FFFFFF', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>2</span>
               <span>Subject & Goals</span>
             </div>
-            <div style={{ height: '1px', flex: 1, background: step >= 3 ? '#4F46E5' : 'rgba(255,255,255,0.1)', margin: '0 0.75rem' }} />
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: step >= 3 ? '#818CF8' : 'var(--text-muted)', fontWeight: step === 3 ? 700 : 500 }}>
-              <span style={{ width: '22px', height: '22px', borderRadius: '50%', background: step >= 3 ? '#4F46E5' : 'rgba(255,255,255,0.1)', color: '#FFFFFF', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>3</span>
+            <div style={{ height: '1px', flex: 1, background: step >= 3 ? 'var(--color-link)' : 'var(--border-subtle)', margin: '0 0.75rem' }} />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: step >= 3 ? 'var(--color-link)' : 'var(--text-muted)', fontWeight: step === 3 ? 700 : 500 }}>
+              <span style={{ width: '22px', height: '22px', borderRadius: '50%', background: step >= 3 ? 'var(--color-link)' : 'var(--border-subtle)', color: '#FFFFFF', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem' }}>3</span>
               <span>Schedule & Contact</span>
             </div>
           </div>
