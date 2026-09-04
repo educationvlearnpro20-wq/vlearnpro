@@ -319,6 +319,40 @@ export const CountryLandingPage: React.FC<CountryLandingPageProps> = ({ countryC
             </h2>
           </div>
 
+          {countryCode === 'india' && (
+            <div style={{ marginBottom: '3rem' }}>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--text-heading-primary)', fontWeight: 700, marginBottom: '1rem' }}>
+                📍 Major City Educational Hubs in India
+              </h3>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+                {[
+                  { id: 'delhi', name: 'Delhi (NCR)', desc: 'CBSE, ICSE & IB Tutors' },
+                  { id: 'mumbai', name: 'Mumbai', desc: 'ICSE, IB & IGCSE Mentors' },
+                  { id: 'pune', name: 'Pune', desc: 'CBSE & ICSE Classes' },
+                  { id: 'bangalore', name: 'Bangalore', desc: 'IB, IGCSE & STEM Tutors' },
+                  { id: 'chennai', name: 'Chennai', desc: 'Maths & Science Specialists' },
+                  { id: 'ahmedabad', name: 'Ahmedabad', desc: 'CBSE & IB Mentorship' },
+                  { id: 'indore', name: 'Indore', desc: 'CBSE & ICSE Board Prep' },
+                  { id: 'lucknow', name: 'Lucknow', desc: 'ICSE & CBSE Tuition' }
+                ].map(city => (
+                  <div
+                    key={city.id}
+                    className="card-solid"
+                    onClick={() => navigateTo({ type: 'city', cityId: city.id as any })}
+                    style={{ padding: '1rem', cursor: 'pointer', transition: 'transform 0.2s ease' }}
+                  >
+                    <div style={{ fontWeight: 700, color: 'var(--text-heading-primary)', fontSize: '0.95rem' }}>
+                      {city.name} →
+                    </div>
+                    <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
+                      {city.desc}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',

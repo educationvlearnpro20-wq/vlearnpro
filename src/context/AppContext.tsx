@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { CountryCode, CurrencyCode, BoardId, SubjectId, LanguageId } from '../types';
+import { CountryCode, CurrencyCode, BoardId, SubjectId, LanguageId, CityId } from '../types';
 import { COUNTRIES_DATA } from '../data/countriesData';
 import { CURRENCIES } from '../data/pricingData';
 
@@ -15,6 +15,7 @@ export type NavigationPath =
   | { type: 'language'; id: LanguageId }
   | { type: 'countries-hub' }
   | { type: 'country'; code: CountryCode }
+  | { type: 'city'; cityId: CityId }
   | { type: 'exam-prep' }
   | { type: 'pricing' }
   | { type: 'free-demo' }
@@ -89,6 +90,12 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       return { type: 'languages-hub' };
     }
     if (parts[0] === 'countries') {
+      if (parts[1] === 'india' && parts[2]) {
+        const validCities: CityId[] = ['delhi', 'mumbai', 'pune', 'bangalore', 'chennai', 'ahmedabad', 'indore', 'lucknow'];
+        if (validCities.includes(parts[2] as CityId)) {
+          return { type: 'city', cityId: parts[2] as CityId };
+        }
+      }
       if (parts[1]) return { type: 'country', code: parts[1] as CountryCode };
       return { type: 'countries-hub' };
     }
@@ -122,6 +129,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       case 'language': url = `/languages/${path.id}`; break;
       case 'countries-hub': url = '/countries'; break;
       case 'country': url = `/countries/${path.code}`; break;
+      case 'city': url = `/countries/india/${path.cityId}`; break;
       case 'exam-prep': url = '/exam-prep'; break;
       case 'pricing': url = '/pricing'; break;
       case 'free-demo': url = '/free-demo'; break;

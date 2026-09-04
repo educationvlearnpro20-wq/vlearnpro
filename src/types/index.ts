@@ -44,6 +44,39 @@ export type CountryCode =
   | 'canada' 
   | 'australia';
 
+export type CityId = 
+  | 'delhi' 
+  | 'mumbai' 
+  | 'pune' 
+  | 'bangalore' 
+  | 'chennai' 
+  | 'ahmedabad' 
+  | 'indore' 
+  | 'lucknow';
+
+export interface CityInfo {
+  id: CityId;
+  cityName: string;
+  state: string;
+  primaryKeyword: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  tagline: string;
+  intro: string;
+  educationEcosystem: string;
+  studentLearningNeeds: string;
+  parentExpectations: string;
+  onlineBenefits: string;
+  classTimings: string;
+  vlearnproAdvantage: string;
+  conclusion: string;
+  topSchools: string[];
+  popularBoards: string[];
+  stats: { label: string; value: string }[];
+  faqs: { question: string; answer: string }[];
+}
+
 export type CurrencyCode = 'AED' | 'SAR' | 'QAR' | 'KWD' | 'BHD' | 'OMR' | 'INR' | 'USD' | 'GBP' | 'EUR' | 'SGD' | 'CAD' | 'AUD';
 
 export interface BoardInfo {

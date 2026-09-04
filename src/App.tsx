@@ -20,6 +20,7 @@ const LanguagesHubPage = React.lazy(() => import('./pages/LanguagesHubPage').the
 const LanguageLandingPage = React.lazy(() => import('./pages/LanguageLandingPage').then(m => ({ default: m.LanguageLandingPage })));
 const CountriesHubPage = React.lazy(() => import('./pages/CountriesHubPage').then(m => ({ default: m.CountriesHubPage })));
 const CountryLandingPage = React.lazy(() => import('./pages/CountryLandingPage').then(m => ({ default: m.CountryLandingPage })));
+const CityLandingPage = React.lazy(() => import('./pages/CityLandingPage').then(m => ({ default: m.CityLandingPage })));
 const ExamPrepPage = React.lazy(() => import('./pages/ExamPrepPage').then(m => ({ default: m.ExamPrepPage })));
 const PricingPage = React.lazy(() => import('./pages/PricingPage').then(m => ({ default: m.PricingPage })));
 const FreeDemoPage = React.lazy(() => import('./pages/FreeDemoPage').then(m => ({ default: m.FreeDemoPage })));
@@ -58,6 +59,8 @@ export const AppContent: React.FC = () => {
         return <CountriesHubPage />;
       case 'country':
         return <CountryLandingPage countryCode={currentPath.code} />;
+      case 'city':
+        return <CityLandingPage cityId={currentPath.cityId} />;
       case 'exam-prep':
         return <ExamPrepPage />;
       case 'pricing':
