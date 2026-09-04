@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, CheckCircle2, MessageSquare } from 'lucide-react';
+import { Sparkles, ArrowRight, CheckCircle2, MessageSquare, Globe } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { SEOHead } from '../components/seo/SEOHead';
 import { TrustBadgeBar } from '../components/common/TrustBadgeBar';
@@ -68,13 +68,31 @@ export const HomePage: React.FC = () => {
 
               {/* Subtitle */}
               <p style={{
-                fontSize: 'clamp(1rem, 1.8vw, 1.15rem)',
+                fontSize: 'clamp(1.05rem, 1.8vw, 1.2rem)',
                 color: 'var(--text-secondary)',
                 lineHeight: 1.6,
-                marginBottom: '2rem'
+                marginBottom: '1.25rem'
               }}>
-                Empowering students from Grade 1 to 12 in <strong>UAE (Dubai, Abu Dhabi, Sharjah), Saudi Arabia (Riyadh, Jeddah), Qatar, Kuwait, Bahrain, Oman & India</strong> with top-rated 1-on-1 <strong>online tuition classes</strong>. Tailored academic mastery for CBSE, ICSE, Cambridge IGCSE, IB DP & American curricula delivered by certified top 1.8% subject mentors.
+                Empowering Grade 1 to 12 students with top-rated 1-on-1 <strong>online tuition classes</strong>. Tailored academic mastery for CBSE, ICSE, Cambridge IGCSE, IB DP & American curricula delivered by certified top 1.8% subject mentors.
               </p>
+
+              {/* Global Coverage Pill */}
+              <div style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                padding: '0.5rem 1rem',
+                background: 'rgba(243, 244, 246, 0.85)',
+                border: '1px solid rgba(229, 231, 235, 1)',
+                borderRadius: '0.75rem',
+                fontSize: '0.85rem',
+                color: '#374151',
+                marginBottom: '2rem',
+                lineHeight: 1.4
+              }}>
+                <Globe size={16} style={{ color: '#2563EB', flexShrink: 0 }} />
+                <span><strong>Serving Students In:</strong> UAE (Dubai, Abu Dhabi, Sharjah), KSA (Riyadh, Jeddah), Qatar, Kuwait, Bahrain, Oman & India</span>
+              </div>
 
               {/* Hero CTA Group */}
               <div className="hero-cta-group" style={{
