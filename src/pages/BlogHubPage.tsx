@@ -11,8 +11,8 @@ export const BlogHubPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Parent Guides, Curriculum Comparisons & Study Insights | VLearnPro"
-        description="Expert educational insights, board comparisons (IB vs IGCSE vs CBSE), Singapore Math guides, and high-yield board examination revision strategies."
+        title="Educational Blog & Parent Guides | Study Insights | VLearnPro"
+        description="Read expert educational insights, board exam revision strategies, IB vs IGCSE comparisons, and learning tips for parents. Explore our latest guides today."
         primaryKeyword="Online Education Guides"
         canonicalUrl="https://vlearnproeducation.com/blog"
       />

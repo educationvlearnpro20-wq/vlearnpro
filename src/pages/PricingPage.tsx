@@ -14,8 +14,8 @@ export const PricingPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Transparent Tuition Pricing & Fee Calculator | VLearnPro Education"
-        description="Transparent 1-on-1 online tuition fees with zero hidden charges. Monthly & quarterly flex plans with 100% money-back satisfaction guarantee."
+        title="Online Tuition Fees & Packages | 1-on-1 Classes | VLearnPro"
+        description="Transparent, flexible monthly & quarterly fee packages for 1-on-1 online tuition in your local currency. Zero hidden fees. Calculate your tuition cost now."
         primaryKeyword="Online Tuition Pricing"
         canonicalUrl="https://vlearnproeducation.com/pricing"
       />

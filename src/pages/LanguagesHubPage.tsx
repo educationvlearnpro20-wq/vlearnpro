@@ -12,8 +12,8 @@ export const LanguagesHubPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="World Languages Online Tuition | Spanish, French, German, Chinese & Urdu"
-        description="Master global languages with certified native speakers. 1-on-1 online classes for kids & teens: Spanish, German, French, Mandarin Chinese & Urdu."
+        title="Online Language Classes for Kids & School Students | VLearnPro"
+        description="Learn Spanish, French, German, Mandarin & Urdu with certified 1-on-1 online native tutors. Conversational fluency & exam prep. Claim your free demo today."
         primaryKeyword="Online Language Classes"
         canonicalUrl="https://vlearnproeducation.com/languages"
       />

@@ -50,8 +50,8 @@ export const FreeDemoPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Book a Free 1-on-1 Online Demo Class | VLearnPro Education"
-        description="Book your 100% free, zero-obligation 45-minute 1-on-1 diagnostic demo class. Matched with top 1.8% verified tutors across CBSE, ICSE, IGCSE, IB & US Boards."
+        title="Book Free Demo Class | 1-on-1 Online Tutoring | VLearnPro"
+        description="Experience personalized 1-on-1 online tutoring with a certified expert. Reserve your zero-risk 30-minute demo session for any subject. Book your demo now."
         primaryKeyword="Free Demo Online Tuition"
         canonicalUrl="https://vlearnproeducation.com/free-demo"
         breadcrumbName="Book Free Demo"

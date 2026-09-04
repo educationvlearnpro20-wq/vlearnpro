@@ -31,9 +31,9 @@ export const CareersPage: React.FC = () => {
 
   return (
     <main>
-      <SEOHead
-        title="Careers & Educator Recruitment | Join VLearnPro Teaching Faculty"
-        description="Join the top 1.8% global online teaching faculty at VLearnPro Education. We hire premier subject specialists, PhD scholars, and international board examiners."
+        <SEOHead
+        title="Online Tutor Jobs & Academic Careers | VLearnPro"
+        description="Join VLearnPro's global team of expert 1-on-1 online tutors. Flexible teaching hours, competitive compensation & rewarding careers. Apply to teach today."
         primaryKeyword="VLearnPro Careers"
         canonicalUrl="https://vlearnproeducation.com/careers"
         breadcrumbName="Careers & Educators"

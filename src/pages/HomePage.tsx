@@ -20,8 +20,8 @@ export const HomePage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Online Tuition Classes | Live 1-on-1 Online Tuition for Grades 1-12 | VLearnPro Education"
-        description="World-class Online Tuition Classes for Grades 1 to 12. Certified expert 1-on-1 tutors for CBSE, ICSE, IGCSE, IB, Cambridge, Singapore & US Curricula. Maths, Science, Coding & Languages."
+        title="Online Tuition Classes for School Students | VLearnPro"
+        description="Boost your child's grades with live 1-on-1 online tuition classes for CBSE, ICSE, IGCSE & IB curricula. Learn from expert tutors. Book a free demo class today."
         primaryKeyword="Online Tuition Classes"
       />
 

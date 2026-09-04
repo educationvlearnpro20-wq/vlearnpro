@@ -47,8 +47,8 @@ export const ContactPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Contact VLearnPro Education | Global Admissions & Parent Support"
-        description="Get in touch with VLearnPro Education. Contact our global admissions hubs in USA, UK, UAE, Singapore & India. Book a free 1-on-1 trial class."
+        title="Contact VLearnPro Education | Student Support | VLearnPro"
+        description="Have questions about 1-on-1 online tuition? Get in touch with our academic advisors via WhatsApp, phone, or email. We are here to help your child succeed."
         primaryKeyword="Contact VLearnPro"
         canonicalUrl="https://vlearnproeducation.com/contact"
       />

@@ -17,7 +17,7 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ slug }) => {
   return (
     <main>
       <SEOHead
-        title={`${post.title} | VLearnPro Education`}
+        title={`${post.title} | VLearnPro`}
         description={post.excerpt}
         canonicalUrl={`https://vlearnproeducation.com/blog/${post.slug}`}
       />

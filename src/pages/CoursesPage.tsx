@@ -35,8 +35,8 @@ export const CoursesPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Courses & Programs Directory (Grades 1-12) | VLearnPro Education"
-        description="Browse all 1-on-1 online courses: Maths, Physics, Chemistry, Biology, English, Coding & Public Speaking across CBSE, ICSE, IGCSE, IB & US Boards."
+        title="Online Tutoring Courses for School Students | VLearnPro"
+        description="Explore 1-on-1 online tutoring courses in Maths, Science, Languages & Coding for Grades 1-12 across global school boards. Schedule your free demo class today."
         primaryKeyword="Online Tuition Courses"
         canonicalUrl="https://vlearnproeducation.com/courses"
       />

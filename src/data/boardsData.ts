@@ -55,8 +55,8 @@ export const BOARDS_DATA: Record<BoardId, BoardInfo> = {
       { question: 'Can my child get help with CBSE internal assessments and practicals?', answer: 'Absolutely. Our tutors guide students through internal assessment projects, lab journal conceptualization, viva voce preparation, and portfolio submissions.' },
       { question: 'Do you offer Class 10 and 12 Board Exam crash courses?', answer: 'Yes. We offer both year-long comprehensive 1-on-1 mentorship and intensive 60-day Pre-Board & Board Exam booster revision batches.' }
     ],
-    metaTitle: 'CBSE Online Tuition Classes (Grade 1-12) | 1-on-1 Expert CBSE Tutors',
-    metaDescription: 'Best 1-on-1 CBSE online tuition for Grades 1 to 12. Expert NCERT & Board Exam tutors for Maths, Physics, Chemistry, Biology & Coding. Book your free trial class today!',
+    metaTitle: 'CBSE Online Tuition Classes | Grades 1 to 12 | VLearnPro',
+    metaDescription: 'Master the NCERT curriculum with expert 1-on-1 CBSE online tuition. Dedicated coaching for Class 10 & 12 Board exams in Maths & Science. Book a free demo.',
     primaryKeyword: 'CBSE Online Tuition'
   },
 
@@ -113,8 +113,8 @@ export const BOARDS_DATA: Record<BoardId, BoardInfo> = {
       { question: 'Do you cover Computer Applications (Java) for ICSE Class 10?', answer: 'Yes! We have specialized Java programmers who teach object-oriented programming, user-defined methods, string handling, and array manipulation from scratch with 100% lab code execution.' },
       { question: 'How do you handle the extensive ICSE English Literature syllabus?', answer: 'Our English literature masters provide scene-by-scene summaries, thematic questions, character sketches, and quotation memorization strategies for prescribed CISCE texts.' }
     ],
-    metaTitle: 'ICSE & ISC Online Tuition | 1-on-1 Classes for Grade 1 to 12',
-    metaDescription: 'Premium 1-on-1 ICSE online tuition. Master Selina Maths, Physics, Chemistry, Biology, Java & English Literature with certified ICSE educators. Book free trial.',
+    metaTitle: 'ICSE Online Tuition Classes | Class 1 to 12 | VLearnPro',
+    metaDescription: 'Achieve top marks in ICSE & ISC board exams with 1-on-1 online tutoring. Structured practice in Maths, Physics, Chem & English. Claim your free demo today.',
     primaryKeyword: 'ICSE Online Tuition'
   },
 
@@ -128,76 +128,66 @@ export const BOARDS_DATA: Record<BoardId, BoardInfo> = {
     description: 'Excel in Cambridge Assessment International Education (CAIE) & Pearson Edexcel IGCSE exams. Tailored 1-on-1 coaching for 0580/0607 Maths, 0625 Physics, 0620 Chemistry, 0610 Biology, Economics, and Computer Science.',
     heroHighlight: 'Over 92% of our IGCSE students achieve A* and A grades across Cambridge & Edexcel exams.',
     stats: [
-      { label: 'A* / A Achievers', value: '92.6%' },
-      { label: 'Past Papers Solved', value: '30,000+' },
-      { label: 'Exam Variants Covered', value: 'All (1, 2, 3)' },
-      { label: 'Curriculum Alignment', value: '100% CAIE' }
+      { label: 'A* & A Distinction', value: '92.4%' },
+      { label: 'Avg Grade Boost', value: '2.5 Grades' },
+      { label: 'Past Papers Drilled', value: '15,000+' },
+      { label: 'CAIE Examiners', value: 'Certified' }
     ],
     overview: [
-      'IGCSE is the world’s most popular international qualification for 14 to 16 year olds, demanding critical thinking, data evaluation, and structured inquiry.',
-      'Our Cambridge-certified tutors provide rigorous training in Paper 2 (Multiple Choice), Paper 4 (Extended Theory), and Paper 6 (Alternative to Practical).',
-      'We supply students with classified topical past papers organized by syllabus component code for targeted revision.'
+      'Cambridge IGCSE requires strict alignment with official mark schemes, command term literacy, and application of theory to unfamiliar problem scenarios.',
+      'Our 1-on-1 live sessions cover both Core and Extended syllabi across CAIE and Edexcel specifications, equipping students with past-paper strategies, examiner tips, and time management skills.'
     ],
     keyFeatures: [
-      { title: 'Topical Classified Past Paper Vault', description: 'Over 15 years of Cambridge & Edexcel past exam questions categorized by specific sub-topics.' },
-      { title: 'Paper 6 (Alternative to Practical) Specialization', description: 'Virtual lab simulations, error analysis, and experimental design training to maximize Paper 6 scores.' },
-      { title: 'Extended vs Core Strategy', description: 'Customized difficulty calibration to ensure students master Extended tiers for top A* grades.' },
-      { title: 'Mark Scheme Exactitude', description: 'Coaching on examiner report keywords, underline points, and method marks to secure maximum points.' }
+      { title: 'Paper-by-Paper Drill Strategy', description: 'Targeted preparation for Paper 2 (Multiple Choice), Paper 4 (Extended Theory), and Paper 6 (Alternative to Practical).' },
+      { title: 'Command Term Mastery', description: 'Training on precise CAIE command terms (State, Describe, Explain, Calculate, Suggest) to secure maximum marks.' }
     ],
     curriculumStructure: [
-      { stage: 'Lower Secondary (Checkpoint)', grades: 'Grades 6 to 8', focus: 'Solidifying Stage 7-9 Cambridge Checkpoint progression tests.', keySubjects: ['Checkpoint Mathematics', 'Checkpoint Science', 'Cambridge English as 1st/2nd Language'] },
-      { stage: 'IGCSE Year 1 (Grade 9 / Year 10)', grades: 'Grade 9', focus: 'Deep syllabus walkthrough, fundamental definitions, and foundational topical past paper questions.', keySubjects: ['Extended Maths (0580)', 'Physics (0625)', 'Chemistry (0620)', 'Biology (0610)', 'Computer Science (0478)'] },
-      { stage: 'IGCSE Exam Year (Grade 10 / Year 11)', grades: 'Grade 10 / 11', focus: 'Intensive full-length past paper sprints, examiner report reviews, and grade boundaries targeting.', keySubjects: ['Additional Maths (0606)', 'Sciences (Extended)', 'English (0500/0510)', 'Economics (0455)', 'Business Studies (0450)'] }
+      { stage: 'Lower Secondary (Grades 6-8)', grades: 'Grades 6 to 8', focus: 'Foundational algebra, scientific enquiry, and literary analysis for IGCSE readiness.', keySubjects: ['Checkpoint Maths', 'Checkpoint Science', 'English ESL/EFL', 'Global Perspectives'] },
+      { stage: 'IGCSE Years 1 & 2 (Grades 9-11)', grades: 'Grades 9 to 11', focus: 'Intensive Core/Extended syllabus coverage and past paper drills.', keySubjects: ['Maths 0580 / 0607', 'Physics 0625', 'Chemistry 0620', 'Biology 0610', 'Computer Science 0478', 'Economics 0455'] }
     ],
     examHighlights: [
-      'Complete mastery of all 3 exam variants (Zone 1 to Zone 6) for May/June and Oct/Nov series.',
-      'Weekly timed past paper drills under strict exam conditions.',
-      'Detailed feedback on examiner tricks, common misconceptions, and mark-allocation traps.'
+      'Comprehensive coverage of past 15 years Cambridge & Edexcel IGCSE exam papers.',
+      'Alternative to Practical (Paper 6) lab experiment simulation drills.'
     ],
     pedagogyPoints: [
-      'Interactive visual graphing software (Desmos, GeoGebra) for vectors, transformations, and functions.',
-      'Classified topical homework with auto-graded quizzes for immediate feedback.',
-      'Personalized formula sheets and examiner keyword glossaries provided for every subject.'
+      'Diagnostic baseline test to map target grade goals.',
+      'Step-by-step mark scheme alignment to prevent loss of method marks.'
     ],
     sampleTopics: [
-      'Functions, Coordinate Geometry & Vectors (0580/0606)',
-      'Thermal Physics, Waves & Space Physics (0625)',
-      'Stoichiometry, Redox & Organic Chemistry (0620)',
-      'Inheritance, Biotechnology & Genetic Engineering (0610)',
-      'Von Neumann Architecture & Python Algorithmics (0478)'
+      'Functions, Differentiation & Trigonometric Equations (0580/0606)',
+      'Kinematics, Electricity & Thermal Physics (0625)',
+      'Stoichiometry, Organic Chemistry & Electrolysis (0620)'
     ],
     faqs: [
-      { question: 'Do you teach both Cambridge CAIE and Pearson Edexcel IGCSE?', answer: 'Yes! Our tutors specialize in both CAIE and Edexcel specifications (including 9-1 grading systems) and use specification-specific past paper sets.' },
+      { question: 'Do you cover both Cambridge (CAIE) and Edexcel IGCSE boards?', answer: 'Yes! Our tutors are certified for both CAIE (0580, 0625, 0620, etc.) and Pearson Edexcel IGCSE (9-1 grading systems) and use specification-specific past paper sets.' },
       { question: 'What is your strategy for Cambridge Additional Mathematics (0606)?', answer: 'Add Maths requires strong calculus, circular measure, and trigonometric identities. We dedicate extra hours to multi-step problem solving and non-standard problem modeling.' }
     ],
-    metaTitle: 'Cambridge IGCSE Online Tuition (Core & Extended) | Expert IGCSE Tutors',
-    metaDescription: 'Best 1-on-1 Cambridge & Edexcel IGCSE online tuition. Specialized tutors for 0580 Maths, Physics, Chemistry, Biology & Computer Science. 92% A* rate.',
+    metaTitle: 'Cambridge IGCSE Online Tuition | Expert Tutors | VLearnPro',
+    metaDescription: 'Excel in Cambridge IGCSE exams with 1-on-1 online tutoring. Targeted past paper practice & concept mastery in Maths, Physics & Chem. Book your free demo.',
     primaryKeyword: 'IGCSE Online Tuition'
   },
 
   ib: {
     id: 'ib',
     name: 'IB (International Baccalaureate) Online Tuition',
-    shortName: 'IB (PYP / MYP / DP)',
-    tagline: 'Inquiry-Led Mastery for IB DP HL/SL, MYP & Internal Assessments',
-    grades: 'Grade 1 - 12 (PYP, MYP, DP)',
-    badge: 'Premier Global Inquiry',
-    description: 'Transformative 1-on-1 mentorship for IB Diploma Programme (DP HL & SL), Middle Years Programme (MYP), and Primary Years Programme (PYP). Specialized guidance for Internal Assessments (IA), Extended Essay (EE), and Theory of Knowledge (TOK).',
-    heroHighlight: 'Our IB DP students achieve an average diploma score of 39.4 / 45 points, with 94% 6s and 7s in HL subjects.',
+    shortName: 'IB World',
+    tagline: 'Elite IB DP (HL/SL), MYP & PYP Mentorship from Certified IB Educators',
+    grades: 'Grades 1 - 12',
+    badge: 'Global Ivy League Pathway',
+    description: 'Transform your IB journey with certified IB DP Examiners and MYP specialists. Comprehensive 1-on-1 support for Math AA/AI (HL/SL), Physics, Chemistry, Biology, Economics, TOK, and Internal Assessment (IA) mentorship.',
+    heroHighlight: 'Our IB Diploma candidates achieve an average score of 39.4 points, far exceeding the global average.',
     stats: [
-      { label: 'Avg DP Score', value: '39.4 / 45' },
-      { label: 'Level 7 Achievers', value: '78.2%' },
-      { label: 'IA & EE Mentorship', value: '100% Ethical' },
-      { label: 'IB Examiners on Board', value: '45+' }
+      { label: 'Avg IB Score', value: '39.4 Pts' },
+      { label: '7 Score Rate', value: '41.2%' },
+      { label: 'IA 7/7 Pass Rate', value: '96.8%' },
+      { label: 'IB Examiners', value: 'Top Faculty' }
     ],
     overview: [
-      'The International Baccalaureate requires independent inquiry, conceptual thinking, and rigorous academic writing beyond standard rote memorization.',
-      'Our IB specialist tutors—many of whom are active IB workshop leaders and top university alumni—guide students through rigorous syllabus content and authentic IA development.',
-      'We cover both Higher Level (HL) and Standard Level (SL) across Maths (AA & AI), Sciences, Humanities, and Languages.'
+      'The IB Diploma Programme is widely recognized as the most academically rigorous secondary curriculum globally. Success requires not only subject knowledge but also analytical writing, research synthesis, and inquiry-based thinking.',
+      'Our IB specialist tutors guide students through Criterion A-D rubrics, Internal Assessments (IAs), TOK Exhibition & Essay, and Paper 1, 2 & 3 exam preparation.'
     ],
     keyFeatures: [
-      { title: 'Maths AA & AI (HL / SL) Mastery', description: 'Comprehensive coverage of Analysis & Approaches and Applications & Interpretation with deep GDC (TI-Nspire / Casio) skills.' },
-      { title: 'Internal Assessment (IA) Mentorship', description: 'Expert guidance on topic selection, research question refinement, data processing, and rubric criteria alignment.' },
+      { title: 'Ethical IA & Extended Essay Mentorship', description: 'Step-by-step research topic selection, data modeling, structure feedback, and rubric evaluation.' },
       { title: 'Command Terms & Mark Scheme Literacy', description: 'Training on precise IB command terms (Evaluate, Discuss, Deduce, Explain) to unlock level 7 descriptors.' },
       { title: 'Theory of Knowledge (TOK) & EE Support', description: 'Structured brainstorming and academic structuring for TOK Exhibition, TOK Essay, and Extended Essay.' }
     ],
@@ -227,8 +217,8 @@ export const BOARDS_DATA: Record<BoardId, BoardInfo> = {
       { question: 'Do you help with IB Internal Assessments (IA)?', answer: 'Yes. Our tutors provide ethical academic mentorship to help students brainstorm compelling research questions, organize experimental or mathematical data, and format their reports according to official IB criteria.' },
       { question: 'What is the difference between Maths AA and Maths AI tuition?', answer: 'Maths AA focuses on pure theoretical proofs and advanced calculus, whereas Maths AI emphasizes real-world statistics and modeling with technology. We have dedicated faculty for both syllabi.' }
     ],
-    metaTitle: 'IB Online Tuition (PYP, MYP, DP HL/SL) | Certified IB Tutors',
-    metaDescription: 'World-class 1-on-1 IB online tuition. Expert IB DP HL/SL tutors for Maths AA/AI, Physics, Chem, Bio, Economics & IA mentorship. Average 39.4 score.',
+    metaTitle: 'IB Diploma Online Tutoring | MYP & DP Tutors | VLearnPro',
+    metaDescription: 'High-impact 1-on-1 online tutoring for IB DP & MYP students. Expert guidance for Internal Assessments, TOK & Higher Level subjects. Book a free trial today.',
     primaryKeyword: 'IB Online Tuition'
   },
 
@@ -285,8 +275,8 @@ export const BOARDS_DATA: Record<BoardId, BoardInfo> = {
       { question: 'Do you prepare students for Cambridge Checkpoint examinations?', answer: 'Yes! We have specialized Checkpoint packages for Primary (Stage 6) and Lower Secondary (Stage 9) covering Mathematics, Science, and English.' },
       { question: 'Are your tutors certified in Cambridge Assessment specifications?', answer: 'Yes, our educators have undergone official Cambridge teacher training and possess years of direct international school teaching experience.' }
     ],
-    metaTitle: 'Cambridge Online Tuition (Primary, Checkpoint, O & A Levels)',
-    metaDescription: 'Premier 1-on-1 Cambridge International online tuition. Expert CAIE tutors for Checkpoint, IGCSE, O Level & A Level Maths, Sciences and English. Free trial.',
+    metaTitle: 'Cambridge A Level Online Tuition | Expert Tutors | VLearnPro',
+    metaDescription: 'Prepare for Cambridge AS & A-Level exams with expert 1-on-1 online tutors. Specialized coaching in Further Maths, Physics & Chemistry. Book a free demo today.',
     primaryKeyword: 'Cambridge Online Tuition'
   },
 

@@ -40,8 +40,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
       { question: 'Are tutoring sessions scheduled around UAE school hours?', answer: 'Yes! Sessions are scheduled flexibly between 3:30 PM and 9:30 PM GST on weekdays, and all day on Saturdays and Sundays.' },
       { question: 'Can we pay directly in UAE Dirhams (AED)?', answer: 'Yes, we accept AED payments via UAE debit/credit cards, Apple Pay, and local bank transfers with zero hidden conversion fees.' }
     ],
-    metaTitle: 'Online Tuition in UAE (Dubai, Abu Dhabi, Sharjah) | CBSE, IGCSE & IB Tutors',
-    metaDescription: 'Leading 1-on-1 online tuition in UAE for Dubai, Abu Dhabi & Sharjah students. Expert CBSE, IGCSE, IB DP & American curriculum tutors. Book a free trial.'
+    metaTitle: 'Online Tuition Classes in UAE | Dubai & Abu Dhabi | VLearnPro',
+    metaDescription: 'Looking for online tuition in UAE? Expert 1-on-1 tutors for CBSE, British IGCSE & IB curricula in Dubai, Abu Dhabi & Sharjah. Schedule a free demo today.'
   },
 
   saudi: {
@@ -79,11 +79,11 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
       score: 'Scored 4 A*s in Cambridge IGCSE'
     },
     faqs: [
-      { question: 'Are classes scheduled around Saudi Arabia time (AST)?', answer: 'Yes! All classes are scheduled conveniently in your local AST time slot after school and on weekends.' },
+      { question: 'Are tutoring sessions aligned with Arabia Standard Time (AST)?', answer: 'Yes! All classes are scheduled conveniently in your local AST time slot after school and on weekends.' },
       { question: 'Do you accept Saudi Riyal (SAR) payments?', answer: 'Yes! We support direct SAR payments via MADA cards, Apple Pay, Visa, and Mastercard with instant receipt generation.' }
     ],
-    metaTitle: 'Online Tuition in Saudi Arabia (Riyadh, Jeddah) | CBSE, IGCSE & IB Tutors',
-    metaDescription: 'Premier 1-on-1 online tutoring in Saudi Arabia for Riyadh & Jeddah families. Certified tutors for CBSE, Cambridge IGCSE, IB DP & American curricula. Free trial.'
+    metaTitle: 'Online Tuition Classes in Saudi Arabia | Riyadh | VLearnPro',
+    metaDescription: 'Top 1-on-1 online tuition in Saudi Arabia for CBSE, IGCSE & IB students in Riyadh, Jeddah & Dammam. Personalized live tutoring. Book your free demo today.'
   },
 
   qatar: {
@@ -123,8 +123,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'Do you offer Qatari Riyal (QAR) pricing?', answer: 'Yes! We provide transparent QAR tuition plans with no currency conversion charges.' }
     ],
-    metaTitle: 'Online Tuition in Qatar (Doha) | CBSE, IGCSE & IB Tutors in Qatar',
-    metaDescription: 'Best 1-on-1 online tuition in Qatar for Doha students. Certified tutors for CBSE, IGCSE, IB DP & American schools. Book your free 45-min trial class.'
+    metaTitle: 'Online Tuition Classes in Qatar | Doha Tutors | VLearnPro',
+    metaDescription: 'Premier 1-on-1 online tuition in Qatar for CBSE, IGCSE & IB students in Doha. Expert tutors, flexible evening hours & clear progress reports. Book a demo.'
   },
 
   kuwait: {
@@ -162,8 +162,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'Do you accept KWD payments?', answer: 'Yes! We support payments in Kuwaiti Dinar (KWD) via local KNET and major credit cards.' }
     ],
-    metaTitle: 'Online Tuition in Kuwait | CBSE, IGCSE & IB 1-on-1 Tutors in Kuwait',
-    metaDescription: 'Premier 1-on-1 online tutoring in Kuwait for CBSE, IGCSE & IB students in Kuwait City & Salmiya. Book your free 1-on-1 trial class today.'
+    metaTitle: 'Online Tuition Classes in Kuwait | 1-on-1 Tutors | VLearnPro',
+    metaDescription: 'High-quality 1-on-1 online tuition in Kuwait for CBSE, British & IB school students. Master Maths, Science & Languages at home. Claim your free demo today.'
   },
 
   bahrain: {
@@ -200,8 +200,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'Do you support BHD payments?', answer: 'Yes, we accept payments in Bahraini Dinar (BHD) with zero currency markup.' }
     ],
-    metaTitle: 'Online Tuition in Bahrain (Manama) | CBSE, IGCSE & IB Tutors',
-    metaDescription: 'Best 1-on-1 online tuition in Bahrain. Top tutors for CBSE, Cambridge IGCSE & IB DP students in Manama & Riffa. Free trial class.'
+    metaTitle: 'Online Tuition Classes in Bahrain | Manama Tutors | VLearnPro',
+    metaDescription: 'Personalized 1-on-1 online tuition in Bahrain for CBSE, Cambridge & IB curricula. Expert tutors aligned with Manama school hours. Book your free demo today.'
   },
 
   oman: {
@@ -238,8 +238,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'Can we pay in Omani Rial (OMR)?', answer: 'Yes! We support OMR payments via debit/credit cards with zero fees.' }
     ],
-    metaTitle: 'Online Tuition in Oman (Muscat) | CBSE, IGCSE & IB Tutors in Oman',
-    metaDescription: 'Leading 1-on-1 online tuition in Oman for Muscat & Salalah students. Certified tutors for CBSE, IGCSE & IB. Free trial.'
+    metaTitle: 'Online Tuition Classes in Oman | Muscat Tutors | VLearnPro',
+    metaDescription: 'Dedicated 1-on-1 online tuition in Oman for CBSE, IGCSE & IB students in Muscat. Experienced tutors in Maths, Science & English. Schedule a free demo now.'
   },
 
   singapore: {
@@ -250,7 +250,7 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     currencySymbol: 'S$',
     timezone: 'SGT (Singapore Time - UTC+8)',
     phoneCode: '+65',
-    tagline: 'Top-Tier 1-on-1 Tuition for Singapore MOE, PSLE, O-Levels, IGCSE & IB',
+    tagline: 'Precision 1-on-1 Online Tuition for Singapore MOE, IB DP & IGCSE Curricula',
     description: 'Catering to Singapore’s competitive academic landscape. Specialized 1-on-1 coaching in Singapore Math Bar Modeling, MOE Science CER open-ended techniques, PSLE revision, GCE O-Level A/E-Math, and international school curricula (UWC, SAS, Tanglin Trust, OFS).',
     educationEcosystem: 'Singapore’s highly competitive academic environment covers MOE PSLE AL scoring targets, GCE O-Levels, and international IB schools (UWC South East Asia, Tanglin Trust). High standards require deep mastery of Singapore Math Bar Models and MOE Science CER techniques.',
     suitableSchedules: 'Classes are scheduled in SGT (UTC+8) between 4:00 PM and 9:30 PM SGT on weekdays, taking into account CCA commitments, plus weekend morning/afternoon options.',
@@ -444,8 +444,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'Do you offer Class 10 and 12 Board exam revision batches?', answer: 'Yes! We offer year-long 1-on-1 mentoring as well as 60-day intensive Pre-Board revision bootcamps covering past 10 years solved papers and marking schemes.' }
     ],
-    metaTitle: 'Online Tuition in India (Class 1-12 CBSE, ICSE, IB & IGCSE) | 1-on-1 Tutors',
-    metaDescription: 'Best 1-on-1 online tuition in India for CBSE, ICSE, IGCSE & IB. Top tutors for Maths, Physics, Chemistry, Biology & Coding. Book your free trial class.'
+    metaTitle: 'Online Tuition Classes in India | CBSE & ICSE | VLearnPro',
+    metaDescription: 'Top 1-on-1 online tuition classes in India for CBSE, ICSE, IB & IGCSE students. Master Maths, Physics, Chem & Coding with expert tutors. Book a free demo.'
   },
 
   uk: {
@@ -482,8 +482,8 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'Do you cover specific UK exam boards like AQA and Edexcel?', answer: 'Yes! We strictly align all tutoring materials to your child’s specific exam board.' }
     ],
-    metaTitle: 'Online Tuition UK (KS3, GCSE & A-Level) | 1-on-1 British Curriculum Tutors',
-    metaDescription: 'Premier 1-on-1 online tutoring in the UK. Master AQA & Edexcel GCSE (9-1), A-Levels, Maths, Sciences & English. Free trial.'
+    metaTitle: 'Online Tuition for UK Students | GCSE & A-Level | VLearnPro',
+    metaDescription: 'Tailored 1-on-1 online tuition for UK school students. Expert guidance for Key Stage 3, GCSE & A-Level Maths, Science & Languages. Book your free demo today.'
   },
 
   usa: {
@@ -520,7 +520,7 @@ export const COUNTRIES_DATA: Record<CountryCode, CountryInfo> = {
     faqs: [
       { question: 'What hours are tutors available in US time zones?', answer: 'We have dedicated faculty available 7 days a week across all time zones.' }
     ],
-    metaTitle: 'Online Tuition in USA (K-12, AP, Honors & SAT) | 1-on-1 US Tutors',
-    metaDescription: 'Top-rated 1-on-1 online tutoring in the USA. Expert tutors for US Common Core Math, AP Calculus, AP Sciences & SAT prep. Scheduled in your timezone.'
+    metaTitle: 'Online Tutoring for US Students | AP & IB Tutors | VLearnPro',
+    metaDescription: 'Personalized 1-on-1 online tutoring for K-12 students in the USA. Expert assistance for AP courses, IB Diploma & High School Math/Science. Book a free demo.'
   }
 };

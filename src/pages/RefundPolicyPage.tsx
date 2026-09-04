@@ -7,8 +7,8 @@ export const RefundPolicyPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Refund & Cancellation Policy | VLearnPro Education"
-        description="Official Refund & Guarantee Policy for VLearnPro Education. Read our 100% money-back guarantee, tutor swap rules, and rescheduling policies."
+        title="VLearnPro Refund Policy | Transparent Terms | VLearnPro"
+        description="Understand VLearnPro's fair and transparent refund policy for online tuition class packages. Clear guidelines for cancellations & refunds. Read full policy."
         primaryKeyword="VLearnPro Refund Policy"
         canonicalUrl="https://vlearnproeducation.com/refund-policy"
         breadcrumbName="Refund Policy"

@@ -56,8 +56,8 @@ export const ExamPrepPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Board Exam Preparation & Revision Classes | CBSE, ICSE, IGCSE, IB & AP"
-        description="High-yield 1-on-1 Board Exam revision bootcamps. Master past 10 years solved papers, examiner marking keys, and mock exams for CBSE, ICSE, IGCSE, IB DP & AP."
+        title="Board Exam Revision Classes | CBSE, ICSE & IB | VLearnPro"
+        description="Boost your board exam scores with 1-on-1 online revision bootcamps for CBSE, ICSE & IB. Solved past papers & timed mock tests. Book a free demo class."
         primaryKeyword="Board Exam Preparation"
         canonicalUrl="https://vlearnproeducation.com/exam-prep"
         breadcrumbName="Board Exam Preparation"

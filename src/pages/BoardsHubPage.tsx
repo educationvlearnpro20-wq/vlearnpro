@@ -23,9 +23,9 @@ export const BoardsHubPage: React.FC = () => {
 
   return (
     <main>
-      <SEOHead
-        title="International School Curricula & Boards Directory | VLearnPro Education"
-        description="Comprehensive 1-on-1 online tuition across 9 international curricula: CBSE, ICSE, IGCSE, IB DP, Cambridge, GCSE, A-Level, Singapore MOE & American Curriculum."
+        <SEOHead
+        title="International School Board Online Tuition | VLearnPro"
+        description="Personalized 1-on-1 online tuition for CBSE, ICSE, IGCSE, IB DP & Cambridge school boards. Master core subjects with verified tutors. Book a free demo today."
         primaryKeyword="Online Tuition Boards"
         canonicalUrl="https://vlearnproeducation.com/boards"
       />

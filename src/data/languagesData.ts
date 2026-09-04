@@ -30,8 +30,8 @@ export const LANGUAGES_DATA: Record<LanguageId, LanguageInfo> = {
       { question: 'Do you teach both European (Castilian) Spanish and Latin American Spanish?', answer: 'Yes! Our tutors customize pronunciation and vocabulary usage based on your family’s target preference or school syllabus specifications.' },
       { question: 'Can you help with IB Spanish Ab Initio and Spanish B HL/SL?', answer: 'Yes, we have specialized IB Spanish examiners who guide students through the IB thematic units, oral assessments (Individual Oral), and Paper 1 & 2 exam formats.' }
     ],
-    metaTitle: 'Online Spanish Classes for Kids & School Students | 1-on-1 Tutors',
-    metaDescription: 'World-class 1-on-1 online Spanish classes for kids and teens. Master conversational Spanish, DELE, IGCSE & IB Spanish B with certified native educators.',
+    metaTitle: 'Online Spanish Classes for Kids & Teens | VLearnPro',
+    metaDescription: 'Master conversational Spanish, DELE Escolar, IGCSE & IB Spanish B with 1-on-1 expert online tutors. Flexible schedules for kids. Book a free trial today.',
     primaryKeyword: 'Spanish Online Classes'
   },
 
@@ -63,8 +63,8 @@ export const LANGUAGES_DATA: Record<LanguageId, LanguageInfo> = {
     faqs: [
       { question: 'German grammar has a reputation for being difficult. How do you make it simple for kids?', answer: 'We use color-coded visual charts for gender articles (der/die/das) and systematic sentence-building blocks that make word order and case declensions intuitive and fun.' }
     ],
-    metaTitle: 'Online German Classes for Kids & Teens | Goethe & IGCSE Tutors',
-    metaDescription: 'Premier 1-on-1 online German classes for school students. Master German grammar, Goethe Fit in Deutsch, IGCSE German & IB German B with certified mentors.',
+    metaTitle: 'Online German Classes for Kids & Teens | VLearnPro',
+    metaDescription: 'Learn German grammar, Goethe Fit in Deutsch, IGCSE & IB German with certified 1-on-1 online mentors. Interactive live lessons. Book your free demo today.',
     primaryKeyword: 'German Online Classes'
   },
 
@@ -96,8 +96,8 @@ export const LANGUAGES_DATA: Record<LanguageId, LanguageInfo> = {
     faqs: [
       { question: 'Do you support Canadian French immersion students (Ontario, BC, Quebec)?', answer: 'Yes! We have tutors experienced in Canadian French provincial curricula and Core/Immersion French standards.' }
     ],
-    metaTitle: 'Online French Classes for School Students | DELF & IGCSE French Tutors',
-    metaDescription: 'World-class 1-on-1 online French classes for kids. Master French grammar, DELF Prim & Junior, IGCSE French 0520 & IB French B with expert educators.',
+    metaTitle: 'Online French Classes for Kids & Teens | VLearnPro',
+    metaDescription: 'Master French grammar, DELF Prim, DELF Junior & IGCSE French with 1-on-1 online expert tutors. Tailored for school students. Schedule a free demo today.',
     primaryKeyword: 'French Online Classes'
   },
 
@@ -129,8 +129,8 @@ export const LANGUAGES_DATA: Record<LanguageId, LanguageInfo> = {
     faqs: [
       { question: 'Is Mandarin Chinese too difficult for young children to learn online?', answer: 'Not at all! Children are exceptional phonetic mimics. By using visual radicals, animated character stories, and engaging 1-on-1 dialogue, our students learn rapidly and joyfully.' }
     ],
-    metaTitle: 'Online Mandarin Chinese Classes for Kids | YCT, HSK & IGCSE Chinese Tutors',
-    metaDescription: 'Premier 1-on-1 online Mandarin Chinese classes for kids and teens. Master Pinyin, Hanzi characters, YCT, HSK & IGCSE Chinese with certified native teachers.',
+    metaTitle: 'Online Mandarin Chinese Classes for Kids | VLearnPro',
+    metaDescription: 'Learn Mandarin Pinyin, Hanzi stroke writing & YCT/HSK exams with certified 1-on-1 online Chinese tutors. Gamified live learning. Book a free demo today.',
     primaryKeyword: 'Chinese Online Classes'
   },
 
@@ -163,8 +163,8 @@ export const LANGUAGES_DATA: Record<LanguageId, LanguageInfo> = {
       { question: 'My child was born in the West and speaks only English. Can they learn to read and write Urdu from scratch?', answer: 'Yes! Our tutors specialize in teaching overseas diaspora children using bilingual English-Urdu explanations, interactive digital workbooks, and gentle encouragement.' },
       { question: 'Do you prepare students for Cambridge O-Level Urdu (3248) and IGCSE?', answer: 'Yes! We provide comprehensive past paper training, essay format coaching, translation practice, and vocabulary glossaries specifically for Cambridge 3248.' }
     ],
-    metaTitle: 'Online Urdu Classes for Kids & Teens | Reading, Writing & O-Level Urdu Tutors',
-    metaDescription: 'Best 1-on-1 online Urdu classes for overseas children. Learn Nastaliq script, conversational fluency, Talaffuz & Cambridge O-Level Urdu (3248). Book trial.',
+    metaTitle: 'Online Urdu Language Classes for Overseas Kids | VLearnPro',
+    metaDescription: 'Learn Urdu Nastaliq reading, writing & Cambridge O-Level 3248 with patient 1-on-1 online tutors. Designed for diaspora children. Book your free demo.',
     primaryKeyword: 'Urdu Online Classes'
   }
 };

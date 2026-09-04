@@ -7,8 +7,8 @@ export const TermsPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Terms of Service & User Agreement | VLearnPro Education"
-        description="Official Terms of Service for VLearnPro Education. Read our user agreement, 1-on-1 tutoring policies, payment terms, and platform rules."
+        title="VLearnPro Terms of Service | User Agreement | VLearnPro"
+        description="Review VLearnPro's terms of service and user agreement governing 1-on-1 online tuition classes, account usage, and platform policies. Read details."
         primaryKeyword="VLearnPro Terms of Service"
         canonicalUrl="https://vlearnproeducation.com/terms-of-service"
         breadcrumbName="Terms of Service"

@@ -7,8 +7,8 @@ export const PrivacyPolicyPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="Privacy Policy & Data Protection | VLearnPro Education"
-        description="Official Privacy Policy for VLearnPro Education. Learn how we collect, protect, and handle lead data, form submissions, and child privacy under COPPA and GDPR-K."
+        title="VLearnPro Privacy Policy | Student Data Security | VLearnPro"
+        description="Read VLearnPro's privacy policy to understand how we protect student data, ensure online safety, and maintain strict data privacy standards. Learn more."
         primaryKeyword="VLearnPro Privacy Policy"
         canonicalUrl="https://vlearnproeducation.com/privacy-policy"
         breadcrumbName="Privacy Policy"

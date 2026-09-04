@@ -39,16 +39,16 @@ export const SUBJECTS_DATA: Record<SubjectId, SubjectInfo> = {
       { question: 'My child struggles with word problems. How do you address this?', answer: 'We apply the proven Singapore Bar Modeling method, teaching students how to draw visual representations of word problem relations before converting them to algebraic equations.' },
       { question: 'Do you prepare students for AMC 8/10, Math Kangaroo, and IMO Olympiads?', answer: 'Yes! We have specialized Olympiad trainers who conduct advanced problem-solving workshops focused on non-routine mathematical reasoning.' }
     ],
-    metaTitle: 'Online Maths Classes (Grades 1-12) | 1-on-1 Expert Math Tutors',
-    metaDescription: 'Best 1-on-1 online maths classes for Grades 1-12. Specialized tutors for CBSE, ICSE, IGCSE, IB Maths AA/AI, Singapore Math & AP Calculus. Book free trial!',
+    metaTitle: 'Online Maths Tuition Classes | 1-on-1 Tutors | VLearnPro',
+    metaDescription: 'Build strong mathematical confidence with personalized 1-on-1 online tuition. Step-by-step problem solving for CBSE, ICSE, IB & IGCSE. Book a free demo.',
     primaryKeyword: 'Online Maths Classes'
   },
 
   science: {
     id: 'science',
-    name: 'Online Science Classes',
-    iconName: 'Atom',
-    tagline: 'Igniting Scientific Curiosity, Hands-On Reasoning & Inquiry (Grades 1-8)',
+    name: 'Online Science Classes for Kids',
+    iconName: 'Sparkles',
+    tagline: 'Fostering Scientific Curiosity, Hands-On Reasoning & Inquiry (Grades 1-8)',
     grades: 'Grade 1 - 8',
     category: 'science',
     description: 'Nurture your child’s innate scientific curiosity through inquiry-led science tutoring. Engaging digital simulations, real-world experiments, and conceptual mastery spanning physical, life, and earth sciences.',
@@ -79,8 +79,8 @@ export const SUBJECTS_DATA: Record<SubjectId, SubjectInfo> = {
     faqs: [
       { question: 'Do you conduct practical lab experiments online?', answer: 'We utilize state-of-the-art interactive digital science lab simulators (PhET, Gizmos) where students manipulate variables, measure data, and test hypotheses safely in real-time.' }
     ],
-    metaTitle: 'Online Science Classes for Kids (Grades 1-8) | 1-on-1 Science Tutors',
-    metaDescription: 'Interactive 1-on-1 online science classes for Grades 1-8. Master Physics, Chemistry & Biology fundamentals with PhET simulations & CER answering. Book free trial.',
+    metaTitle: 'Online Science Tuition Classes | Physics & Chem | VLearnPro',
+    metaDescription: 'Master Physics, Chemistry & Biology with dedicated 1-on-1 online Science tutors. Clear concepts, numerical practice & board exam prep. Book your free demo.',
     primaryKeyword: 'Online Science Classes'
   },
 
@@ -277,8 +277,8 @@ export const SUBJECTS_DATA: Record<SubjectId, SubjectInfo> = {
       { question: 'Does my child need prior coding experience to start?', answer: 'No prior coding experience is required! We tailor the starting module to your child’s exact age and experience level, from Scratch to advanced Python.' },
       { question: 'Do students get to build their own portfolio of software projects?', answer: 'Yes! Every student graduates each course with a live GitHub portfolio of 8-12 custom games, web applications, or software tools they can showcase.' }
     ],
-    metaTitle: 'Coding Classes for School Students (Grades 1-12) | Python, Scratch, Java & AP CS',
-    metaDescription: 'Premium 1-on-1 coding classes for kids and teens. Learn Python, Scratch, Web Development, Java & AP Computer Science A with expert software mentors.',
+    metaTitle: 'Online Coding Classes for Kids & Teens | VLearnPro',
+    metaDescription: 'Interactive 1-on-1 online coding classes for kids. Learn Python, Java, Web Development & AI logic with expert software mentors. Schedule a free demo today.',
     primaryKeyword: 'Coding Classes for School Students'
   },
 

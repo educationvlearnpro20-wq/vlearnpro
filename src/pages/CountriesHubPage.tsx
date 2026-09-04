@@ -23,8 +23,8 @@ export const CountriesHubPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="GCC & International Online Tuition Hubs | VLearnPro Education"
-        description="Genuinely localized 1-on-1 online tuition across UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman, India, UK, USA, Singapore, Canada, Australia & Europe. Scheduled in your local timezone."
+        title="Global Online Tuition Services for Students | VLearnPro"
+        description="Discover personalized 1-on-1 online tuition for students across UAE, Saudi, Qatar, India, USA & UK. Aligned with local school hours. Book a free demo today."
         primaryKeyword="GCC Online Tuition Hubs"
         canonicalUrl="https://vlearnproeducation.com/countries"
       />

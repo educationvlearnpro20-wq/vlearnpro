@@ -31,8 +31,8 @@ export const AboutPage: React.FC = () => {
   return (
     <main>
       <SEOHead
-        title="About VLearnPro Education | Global 1-on-1 Online Education Institute"
-        description="Learn about VLearnPro Education's mission, top 1.8% tutor vetting standards, pedagogical philosophy, and global student impact across 8 countries."
+        title="About VLearnPro Education | Expert 1-on-1 Tutors | VLearnPro"
+        description="Learn about VLearnPro's mission to provide high-quality 1-on-1 online tutoring for international curricula. Connect with expert tutors. Book a free trial today."
         primaryKeyword="About VLearnPro Education"
         canonicalUrl="https://vlearnproeducation.com/about"
       />

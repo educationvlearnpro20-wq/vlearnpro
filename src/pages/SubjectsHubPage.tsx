@@ -25,9 +25,9 @@ export const SubjectsHubPage: React.FC = () => {
 
   return (
     <main>
-      <SEOHead
-        title="1-on-1 Online Tuition Subjects Directory | VLearnPro Education"
-        description="Explore 11 specialized subject tracks: Online Maths, Science, Physics, Chemistry, Biology, English, Coding, Spoken English, Communication, Public Speaking & Board Prep."
+        <SEOHead
+        title="Online Subject Tuition for School Students | VLearnPro"
+        description="Find expert 1-on-1 online tutors for Mathematics, Physics, Chemistry, Biology & Coding. Tailored lessons for all international boards. Book your free demo."
         primaryKeyword="Online Tuition Subjects"
         canonicalUrl="https://vlearnproeducation.com/subjects"
       />
