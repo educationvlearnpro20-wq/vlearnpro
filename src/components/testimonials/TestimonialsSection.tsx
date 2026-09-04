@@ -146,7 +146,7 @@ export const TestimonialsSection: React.FC = () => {
 
                   <div style={{ textAlign: 'right' }}>
                     <div style={{ fontSize: '1.25rem' }}>{t.countryFlag}</div>
-                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem', color: '#10B981', fontSize: '0.7rem', fontWeight: 600 }}>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem', color: '#047857', fontSize: '0.725rem', fontWeight: 700 }}>
                       <CheckCircle2 size={12} />
                       <span>Verified Parent</span>
                     </div>

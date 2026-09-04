@@ -376,20 +376,20 @@ svg {
 
 .badge-indigo {
   background: var(--brand-primary-light);
-  color: var(--color-link);
-  border: 1px solid var(--border-subtle);
+  color: #1D4ED8;
+  border: 1px solid var(--border-medium);
 }
 
 .badge-emerald {
   background: var(--brand-emerald-light);
-  color: var(--color-success);
-  border: 1px solid var(--border-subtle);
+  color: #15803D;
+  border: 1px solid rgba(21, 128, 61, 0.25);
 }
 
 .badge-amber {
   background: var(--brand-amber-light);
-  color: var(--color-warning);
-  border: 1px solid var(--border-subtle);
+  color: #92400E;
+  border: 1px solid rgba(146, 64, 14, 0.25);
 }
 
 /* Display Toggles */

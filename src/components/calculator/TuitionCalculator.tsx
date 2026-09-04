@@ -171,7 +171,7 @@ export const TuitionCalculator: React.FC = () => {
                 <label style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-primary)' }}>
                   2. Live 1-on-1 Sessions Per Week
                 </label>
-                <span style={{ fontSize: '0.875rem', fontWeight: 700, color: '#818CF8' }}>
+                <span style={{ fontSize: '0.875rem', fontWeight: 800, color: '#3730A3' }}>
                   {sessionsPerWeek} hrs / week (~{hoursPerMonth} hrs/mo)
                 </span>
               </div>
@@ -240,7 +240,7 @@ export const TuitionCalculator: React.FC = () => {
                     SAVE 10%
                   </span>
                   <div style={{ fontWeight: 600, fontSize: '0.875rem' }}>Quarterly (3 Months)</div>
-                  <div style={{ fontSize: '0.72rem', color: '#6EE7B7' }}>Guaranteed Improvement</div>
+                  <div style={{ fontSize: '0.72rem', color: billingCycle === 'quarterly' ? '#047857' : 'var(--text-muted)', fontWeight: 600 }}>Guaranteed Improvement</div>
                 </button>
               </div>
             </div>

@@ -75,16 +75,22 @@ export const Navbar: React.FC = () => {
             }}
             aria-label="VLearnPro Education Home"
           >
-            <img
-              src="/vlearnpro-logo.jpg"
-              alt="VLearnPro Education Logo"
-              style={{
-                height: '52px',
-                width: 'auto',
-                objectFit: 'contain',
-                borderRadius: 'var(--radius-sm)'
-              }}
-            />
+            <picture>
+              <source srcSet="/vlearnpro-logo.webp" type="image/webp" />
+              <img
+                src="/vlearnpro-logo.jpg"
+                alt="VLearnPro Education Logo"
+                width="180"
+                height="52"
+                decoding="async"
+                style={{
+                  height: '52px',
+                  width: 'auto',
+                  objectFit: 'contain',
+                  borderRadius: 'var(--radius-sm)'
+                }}
+              />
+            </picture>
           </button>
 
           {/* Streamlined Desktop Navigation Links */}

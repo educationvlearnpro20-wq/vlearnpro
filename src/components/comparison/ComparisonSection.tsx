@@ -88,10 +88,10 @@ export const ComparisonSection: React.FC = () => {
                     <span>VLearnPro 1-on-1</span>
                   </div>
                 </th>
-                <th style={{ padding: '1.25rem 1.5rem', fontSize: '0.9rem', color: 'var(--text-muted)', fontWeight: 600, width: '20%' }}>
+                <th style={{ padding: '1.25rem 1.5rem', fontSize: '0.9rem', color: 'var(--text-primary)', fontWeight: 700, width: '20%' }}>
                   Physical In-Person Centers
                 </th>
-                <th style={{ padding: '1.25rem 1.5rem', fontSize: '0.9rem', color: 'var(--text-muted)', fontWeight: 600, width: '20%' }}>
+                <th style={{ padding: '1.25rem 1.5rem', fontSize: '0.9rem', color: 'var(--text-primary)', fontWeight: 700, width: '20%' }}>
                   Generic Group EdTech Apps
                 </th>
               </tr>
@@ -111,11 +111,11 @@ export const ComparisonSection: React.FC = () => {
                   <td style={{
                     padding: '1.25rem 1.5rem',
                     fontSize: '0.875rem',
-                    color: '#059669',
+                    color: '#047857',
                     background: 'rgba(37, 99, 235, 0.04)',
                     borderLeft: '2px solid #2563EB',
                     borderRight: '2px solid #2563EB',
-                    fontWeight: 600
+                    fontWeight: 700
                   }}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
                       <Check size={16} style={{ color: '#10B981', flexShrink: 0, marginTop: '2px' }} />

@@ -77,7 +77,7 @@ export const HowItWorksSection: React.FC = () => {
                     fontSize: '0.85rem',
                     fontWeight: 800,
                     fontFamily: 'var(--font-heading)',
-                    color: '#2563EB',
+                    color: '#1D4ED8',
                     background: 'rgba(37, 99, 235, 0.12)',
                     border: '1px solid rgba(37, 99, 235, 0.3)',
                     padding: '0.25rem 0.75rem',
@@ -113,7 +113,7 @@ export const HowItWorksSection: React.FC = () => {
                 </p>
               </div>
 
-              <div style={{ marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-subtle)', display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#10B981', fontSize: '0.8rem', fontWeight: 600 }}>
+              <div style={{ marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-subtle)', display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#047857', fontSize: '0.8rem', fontWeight: 700 }}>
                 <CheckCircle2 size={14} />
                 <span>Parent Verified Milestone</span>
               </div>

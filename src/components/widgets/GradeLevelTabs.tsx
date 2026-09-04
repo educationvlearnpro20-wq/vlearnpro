@@ -169,7 +169,7 @@ export const GradeLevelTabs: React.FC = () => {
                   border: '1px solid rgba(255, 255, 255, 0.15)'
                 }}
               />
-              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-heading-secondary)', marginBottom: '1rem' }}>
+              <h4 style={{ fontSize: '1rem', fontWeight: 700, color: '#F8FAFC', marginBottom: '1rem' }}>
                 Featured Subjects in this Stage
               </h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>

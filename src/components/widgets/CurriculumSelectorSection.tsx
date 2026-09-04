@@ -78,7 +78,7 @@ export const CurriculumSelectorSection: React.FC = () => {
                     <span className="badge badge-indigo">
                       {b.grades}
                     </span>
-                    <span style={{ fontSize: '0.75rem', color: '#10B981', fontWeight: 600 }}>
+                    <span style={{ fontSize: '0.75rem', color: '#047857', fontWeight: 700 }}>
                       {b.badge}
                     </span>
                   </div>
